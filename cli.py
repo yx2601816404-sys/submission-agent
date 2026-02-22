@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-投稿代理 CLI — 智能竞赛匹配工具 v2.0
+投稿代理 CLI — 智能竞赛匹配工具 v2.1
 用法:
   交互模式:    python3 cli.py
   命令行匹配:  python3 cli.py match --type flash_fiction --words 300
@@ -407,7 +407,7 @@ def onboarding():
 def interactive_mode():
     print("")
     print(bold("╔══════════════════════════════════════════╗"))
-    print(bold("║   📝 投稿代理 — 智能竞赛匹配工具 v2.0    ║"))
+    print(bold("║   📝 投稿代理 — 智能竞赛匹配工具 v2.1    ║"))
     print(bold("╚══════════════════════════════════════════╝"))
     total, active, _, updated = db_stats()
     print(dim(f"  帮助中国创作者找到最合适的国际文学竞赛"))
@@ -489,7 +489,7 @@ def _post_match(results, work):
 def main():
     parser = argparse.ArgumentParser(
         prog="submission-agent",
-        description="投稿代理 — 智能竞赛匹配工具 v2.0\n帮助中国创作者找到最合适的国际文学竞赛",
+        description="投稿代理 — 智能竞赛匹配工具 v2.1\n帮助中国创作者找到最合适的国际文学竞赛",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog=(
             "子命令:\n"
@@ -498,15 +498,19 @@ def main():
             "  profile   管理作品档案\n"
             "  track     投稿追踪\n"
             "  stats     数据库统计\n"
+            "  calendar  截止日期日历\n"
+            "  show      查看竞赛详情\n"
             "\n示例:\n"
             "  python3 cli.py                                    # 交互模式\n"
             "  python3 cli.py match -t flash_fiction -w 300       # 命令行匹配\n"
             "  python3 cli.py match --profile 1                  # 用档案匹配\n"
+            "  python3 cli.py match --export csv                 # 导出为 CSV\n"
+            "  python3 cli.py calendar -m 2 --free               # 未来2月免费竞赛\n"
+            "  python3 cli.py show 1                             # 查看竞赛 #1\n"
+            "  python3 cli.py show -s poetry                     # 搜索竞赛\n"
             "  python3 cli.py refresh                            # 刷新数据库\n"
-            "  python3 cli.py refresh --dry-run                  # 预览刷新\n"
             "  python3 cli.py profile list                       # 列出档案\n"
             "  python3 cli.py track list                         # 查看投稿\n"
-            "  python3 cli.py track remind                       # 截止提醒\n"
             "  python3 cli.py stats                              # 数据库统计"
         ),
     )
