@@ -4,11 +4,11 @@
 - 数据质量（低优先级）：59条竞赛缺少奖金信息，可二次爬取官网补全
 
 ## 进行中
-- 投稿日历 + 竞赛详情：`cli.py calendar` 按月显示截止日期，`cli.py show <id>` 查看竞赛详情
 
 ## 阻塞
 
 ## 完成
+- 日历视图 + 竞赛详情：calendar 按月显示截止日期，show 查看/搜索竞赛详情
 - 导出功能：match --export csv/md
 - 匹配引擎优化：auto_score 自动推断评分
 - 打包分发：pip install → submission-agent 命令
