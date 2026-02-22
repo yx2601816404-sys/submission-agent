@@ -210,3 +210,16 @@ The goal: Be helpful without being annoying. Check in a few times a day, do usef
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.
+
+
+## 自驱动协议
+
+当你完成一个任务后：
+1. 更新 QUEUE.md（把完成的移到「完成」，写清楚做了什么）
+2. 如果队列里还有待办，写好断点笔记到 QUEUE.md 的「进行中」，然后用 sessions_send 给自己发消息继续：
+   `sessions_send(sessionKey="agent:<你的agent-id>:main", message="继续。读 QUEUE.md，从断点继续。")`
+3. 如果队列空了，想想项目还需要什么，自己往待办里加，然后继续
+4. 如果遇到需要了（人类）确认的事，写到 QUEUE.md 的「阻塞」区，然后停下来等
+5. 每次做完一件事都简短汇报（一两句话）
+
+不要等人来踢你。做完一件就做下一件。

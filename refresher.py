@@ -356,16 +356,103 @@ def crawl_reedsy():
     return results
 
 
+# ── NewPages 爬取 ─────────────────────────────────────────
+
+def crawl_newpages():
+    """从 NewPages Big List of Writing Contests 爬取"""
+    print(f"\n{_bold('🔍 爬取 NewPages ...')}")
+    results = []
+
+    html = fetch_url("https://www.newpages.com/guide-submission-opportunities/big-list-of-writing-contests/")
+    if not html:
+        return results
+
+    # NewPages 结构: 每个竞赛在 <p> 标签内
+    # <p><a href="URL">Publisher</a><br />Contest Name<br />Genre<br />Fee info<br />Deadline</p>
+    year = date.today().year
+
+    # 提取所有 <p> 块中包含外部链接的条目
+    pattern = re.compile(
+        r'<p[^>]*>'
+        r'\s*(?:<strong>)?'
+        r'<a[^>]*href="(https?://(?!www\.newpages)[^"]+)"[^>]*>([^<]+)</a>'
+        r'\s*<br\s*/?>\s*'
+        r'([^<]+?)<br\s*/?>\s*'   # contest name
+        r'([^<]+?)<br\s*/?>\s*'   # genre
+        r'([^<]*?)'               # fee info
+        r'(?:<br\s*/?>)?\s*'
+        r'(?:(?:Opens\s+\d{2}/\d{2}\s*\|\s*)?Closes\s+)?'
+        r'(\d{2}/\d{2})',         # deadline MM/DD
+        re.S
+    )
+
+    for m in pattern.finditer(html):
+        try:
+            url = m.group(1).strip()
+            publisher = m.group(2).strip()
+            contest_name = m.group(3).strip()
+            genre = m.group(4).strip()
+            fee_info = m.group(5).strip()
+            deadline_mmdd = m.group(6).strip()
+
+            # 清理 HTML 实体
+            contest_name = contest_name.replace("&#8217;", "'").replace("&amp;", "&").replace("&#8211;", "–")
+            publisher = publisher.replace("&#8217;", "'").replace("&amp;", "&")
+
+            # 跳过太短的名字
+            if len(contest_name) < 3:
+                continue
+
+            name = contest_name
+
+            # 解析截止日期 (MM/DD -> YYYY-MM-DD)
+            month, day = deadline_mmdd.split("/")
+            month, day = int(month), int(day)
+            deadline_date = date(year, month, day)
+            if deadline_date < date.today():
+                deadline_date = date(year + 1, month, day)
+            deadline = str(deadline_date)
+
+            # 解析费用
+            is_free = "free" in fee_info.lower()
+            fee_amount = 0 if is_free else 0  # 金额未知时设为0
+
+            subfield = guess_subfield(contest_name + " " + genre)
+
+            results.append({
+                "name": name,
+                "url": url,
+                "prize_first": 0,
+                "prize_details": "",
+                "fee_amount": fee_amount,
+                "fee_currency": "USD",
+                "deadline": deadline,
+                "subfield": subfield,
+                "description": f"{genre} | {publisher}",
+            })
+        except Exception:
+            continue
+
+    print(f"  {_green('✓')} 解析到 {len(results)} 个竞赛")
+    return results
+
+
 # ── 合并逻辑 ──────────────────────────────────────────────
 
-def merge_results(crawled, data, dry_run=False):
+def merge_results(crawled, data, dry_run=False, max_add=50):
     """将爬取结果合并到数据库，返回新增数量"""
     names = existing_names(data)
     nid = next_id(data)
     added = 0
     today = date.today()
+    # 只接受未来6个月内截止的竞赛
+    from datetime import timedelta
+    cutoff = today + timedelta(days=180)
 
     for item in crawled:
+        if added >= max_add:
+            break
+
         name = item["name"]
         if name.lower().strip() in names:
             continue
@@ -377,6 +464,8 @@ def merge_results(crawled, data, dry_run=False):
                 dl_date = datetime.strptime(dl, "%Y-%m-%d").date()
                 if dl_date < today:
                     continue
+                if dl_date > cutoff:
+                    continue  # 太远的也跳过
             except ValueError:
                 pass
 
@@ -430,6 +519,7 @@ def refresh(dry_run=False, sources=None):
     available_sources = {
         "pworg": ("pw.org (Poets & Writers)", crawl_pworg),
         "reedsy": ("Reedsy", crawl_reedsy),
+        "newpages": ("NewPages", crawl_newpages),
     }
 
     if sources:
