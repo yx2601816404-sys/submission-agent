@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+*.egg
+profiles.json
+submissions.json
+match-results-*
+.DS_Store
