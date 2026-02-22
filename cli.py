@@ -25,6 +25,23 @@ from tracker import (list_submissions, interactive_add, interactive_update,
                      show_reminders, submission_stats, add_submission, update_status)
 from refresher import refresh as do_refresh
 
+# ── 子类别中文名 ──────────────────────────────────────────
+SUBFIELD_CN = {
+    "flash_fiction": "闪小说",
+    "short_story": "短篇小说",
+    "poetry": "诗歌",
+    "novel": "长篇小说",
+    "science_fiction_fantasy": "科幻/奇幻",
+    "essay_academic": "学术散文",
+    "memoir": "回忆录",
+    "nonfiction": "非虚构",
+    "screenplay": "编剧/剧本",
+    "novella": "中篇小说",
+    "children": "儿童文学",
+    "multiple": "多类别",
+    "poetry_collection": "诗集",
+}
+
 # ── 类型映射 ──────────────────────────────────────────────
 TYPE_CHOICES = {
     "1": ("flash_fiction",     "闪小说 (Flash Fiction)"),
@@ -169,7 +186,7 @@ def format_results_color(results, work):
     lines.append(bold("=" * 60))
     lines.append(bold("📝 投稿匹配报告"))
     lines.append(bold("=" * 60))
-    lines.append(f"作品类型: {cyan(work.get('type', 'N/A'))}")
+    lines.append(f"作品类型: {cyan(SUBFIELD_CN.get(work.get('type', ''), work.get('type', 'N/A')))}")
     if work.get("word_count"):
         lines.append(f"字数: {cyan(str(work['word_count']))}")
     if work.get("style_tags"):
@@ -453,7 +470,8 @@ def cmd_stats():
     print(f"  更新日期: {updated}")
     print(f"\n  {bold('类别分布:')}")
     for k, v in sorted(sf.items(), key=lambda x: -x[1]):
-        print(f"    {k:<25} {v}")
+        label = SUBFIELD_CN.get(k, k)
+        print(f"    {label:<15} {v}")
     print()
 
 

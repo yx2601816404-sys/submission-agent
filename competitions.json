@@ -6142,7 +6142,7 @@
     {
       "id": 121,
       "name": "Caine Prize for African Writing",
-      "name_cn": "",
+      "name_cn": "Caine 奖 African 写作",
       "field": "literature",
       "subfield": "multiple",
       "url": "https://www.pw.org/writing_contests/caine_prize_for_african_writing",
@@ -6201,7 +6201,7 @@
     {
       "id": 122,
       "name": "Imagine Little Tokyo Short Story Contest",
-      "name_cn": "",
+      "name_cn": "Imagine Little Tokyo 短篇小说 竞赛",
       "field": "literature",
       "subfield": "short_story",
       "url": "https://www.pw.org/writing_contests/imagine_little_tokyo_short_story_contest",
@@ -6260,7 +6260,7 @@
     {
       "id": 123,
       "name": "Award Series",
-      "name_cn": "",
+      "name_cn": "奖 Series",
       "field": "literature",
       "subfield": "poetry",
       "url": "https://www.pw.org/writing_contests/award_series",
@@ -6319,7 +6319,7 @@
     {
       "id": 124,
       "name": "Snowbound Chapbook Award",
-      "name_cn": "",
+      "name_cn": "Snowbound 小册子 奖",
       "field": "literature",
       "subfield": "poetry",
       "url": "https://www.pw.org/writing_contests/snowbound_chapbook_award",
@@ -6378,7 +6378,7 @@
     {
       "id": 125,
       "name": "Pinch Literary Award in Fiction",
-      "name_cn": "",
+      "name_cn": "Pinch 文学 奖 小说",
       "field": "literature",
       "subfield": "short_story",
       "url": "https://www.pw.org/writing_contests/pinch_literary_award_in_fiction",
@@ -6437,7 +6437,7 @@
     {
       "id": 126,
       "name": "Fiction Prize",
-      "name_cn": "",
+      "name_cn": "小说 奖",
       "field": "literature",
       "subfield": "short_story",
       "url": "https://www.pw.org/writing_contests/fiction_prize_1",
@@ -6496,7 +6496,7 @@
     {
       "id": 127,
       "name": "Flash Fiction Prize",
-      "name_cn": "",
+      "name_cn": "闪小说 奖",
       "field": "literature",
       "subfield": "flash_fiction",
       "url": "https://www.pw.org/writing_contests/flash_fiction_prize",
@@ -6555,7 +6555,7 @@
     {
       "id": 128,
       "name": "Cardinal Poetry Prize",
-      "name_cn": "",
+      "name_cn": "Cardinal 诗歌 奖",
       "field": "literature",
       "subfield": "poetry",
       "url": "https://www.pw.org/writing_contests/cardinal_poetry_prize",
@@ -6614,7 +6614,7 @@
     {
       "id": 129,
       "name": "Fiction &amp; Poetry Contest",
-      "name_cn": "",
+      "name_cn": "小说 诗歌 竞赛",
       "field": "literature",
       "subfield": "poetry",
       "url": "https://www.pw.org/writing_contests/fiction_poetry_contest",
@@ -6673,7 +6673,7 @@
     {
       "id": 130,
       "name": "Literary Artist Fellowships",
-      "name_cn": "",
+      "name_cn": "文学 Artist 奖学金",
       "field": "literature",
       "subfield": "nonfiction",
       "url": "https://www.pw.org/writing_contests/literary_artist_fellowships",
@@ -6732,7 +6732,7 @@
     {
       "id": 131,
       "name": "Hazel Rowley Prize",
-      "name_cn": "",
+      "name_cn": "Hazel Rowley 奖",
       "field": "literature",
       "subfield": "screenplay",
       "url": "https://www.pw.org/writing_contests/hazel_rowley_prize_0",
@@ -6791,7 +6791,7 @@
     {
       "id": 132,
       "name": "Maureen Egen Writers Exchange Award",
-      "name_cn": "",
+      "name_cn": "Maureen Egen Writers Exchange 奖",
       "field": "literature",
       "subfield": "short_story",
       "url": "https://www.pw.org/writing_contests/maureen_egen_writers_exchange_award_0",
@@ -6850,7 +6850,7 @@
     {
       "id": 133,
       "name": "Ruth Lilly and Dorothy Sargent Rosenberg Poetry Fellowships",
-      "name_cn": "",
+      "name_cn": "Ruth Lilly Dorothy Sargent Rosenberg 诗歌 奖学金",
       "field": "literature",
       "subfield": "poetry",
       "url": "https://www.pw.org/writing_contests/ruth_lilly_and_dorothy_sargent_rosenberg_poetry_fellowships",
@@ -6909,7 +6909,7 @@
     {
       "id": 134,
       "name": "Literary Awards",
-      "name_cn": "",
+      "name_cn": "文学 奖",
       "field": "literature",
       "subfield": "nonfiction",
       "url": "https://www.pw.org/writing_contests/literary_awards_0",
@@ -6968,7 +6968,7 @@
     {
       "id": 135,
       "name": "First Novel Prize",
-      "name_cn": "",
+      "name_cn": "首部 长篇小说 奖",
       "field": "literature",
       "subfield": "novel",
       "url": "https://www.pw.org/writing_contests/first_novel_prize_0",
@@ -7027,7 +7027,7 @@
     {
       "id": 136,
       "name": "Poetry Prize",
-      "name_cn": "",
+      "name_cn": "诗歌 奖",
       "field": "literature",
       "subfield": "poetry",
       "url": "https://www.pw.org/writing_contests/poetry_prize_6",
@@ -7086,7 +7086,7 @@
     {
       "id": 137,
       "name": "Tomaž Šalamun Prize",
-      "name_cn": "",
+      "name_cn": "Tomaž Šalamun 奖",
       "field": "literature",
       "subfield": "poetry",
       "url": "https://www.pw.org/writing_contests/tomaz_salamun_prize_0",
@@ -7145,7 +7145,7 @@
     {
       "id": 138,
       "name": "Raz-Shumaker Book Prizes",
-      "name_cn": "",
+      "name_cn": "Raz-Shumaker 图书 Prizes",
       "field": "literature",
       "subfield": "poetry",
       "url": "https://www.pw.org/writing_contests/razshumaker_book_prizes",
@@ -7204,7 +7204,7 @@
     {
       "id": 139,
       "name": "The Reedsy Prompts Contest",
-      "name_cn": "",
+      "name_cn": "Reedsy Prompts 竞赛",
       "field": "literature",
       "subfield": "short_story",
       "url": "https://blog.reedsy.com/creative-writing-prompts?utm_source=blog&utm_medium=contests&utm_campaign=writingcontests",
@@ -7263,7 +7263,7 @@
     {
       "id": 140,
       "name": "Inciting Incident Writing Contest",
-      "name_cn": "",
+      "name_cn": "Inciting Incident 写作 竞赛",
       "field": "literature",
       "subfield": "screenplay",
       "url": "https://filmfreeway.com/IncitingIncident-1/",
@@ -7322,7 +7322,7 @@
     {
       "id": 141,
       "name": "The Clay Reynolds Novella Prize",
-      "name_cn": "",
+      "name_cn": "Clay Reynolds 中篇小说 奖",
       "field": "literature",
       "subfield": "novel",
       "url": "https://texasreviewpress.org/submissions/clay-reynolds-novella-prize",
@@ -7381,7 +7381,7 @@
     {
       "id": 142,
       "name": "WOW! Winter 2026 Flash Fiction Contest",
-      "name_cn": "",
+      "name_cn": "WOW! 冬季 2026 闪小说 竞赛",
       "field": "literature",
       "subfield": "flash_fiction",
       "url": "https://www.wow-womenonwriting.com/contest.php",
@@ -7440,7 +7440,7 @@
     {
       "id": 143,
       "name": "Personal Essay Competition 2026",
-      "name_cn": "",
+      "name_cn": "Personal 散文 竞赛 2026",
       "field": "literature",
       "subfield": "nonfiction",
       "url": "https://writetheworld.org/competition-page/5323",
@@ -7499,7 +7499,7 @@
     {
       "id": 144,
       "name": "Ann Press Poetry Award",
-      "name_cn": "",
+      "name_cn": "Ann Press 诗歌 奖",
       "field": "literature",
       "subfield": "poetry",
       "url": "https://redhen.org/awards/",
@@ -7558,7 +7558,7 @@
     {
       "id": 145,
       "name": "International Poetry Book Awards",
-      "name_cn": "",
+      "name_cn": "国际 诗歌 图书 奖",
       "field": "literature",
       "subfield": "poetry",
       "url": "http://www.poetrybookawards.co.uk/enter/",
@@ -7617,7 +7617,7 @@
     {
       "id": 146,
       "name": "WOW! Creative Nonfiction Essay Contest",
-      "name_cn": "",
+      "name_cn": "WOW! 创意非虚构 散文 竞赛",
       "field": "literature",
       "subfield": "nonfiction",
       "url": "https://www.wow-womenonwriting.com/",
@@ -7676,7 +7676,7 @@
     {
       "id": 147,
       "name": "Lexi Rudnitsky Editor’s Choice Award",
-      "name_cn": "",
+      "name_cn": "Lexi Rudnitsky Editor’s Choice 奖",
       "field": "literature",
       "subfield": "poetry",
       "url": "https://www.pw.org/writing_contests/lexi_rudnitsky_editors_choice_award_0",
@@ -7735,7 +7735,7 @@
     {
       "id": 148,
       "name": "First Novel Fellowship",
-      "name_cn": "",
+      "name_cn": "首部 长篇小说 奖学金",
       "field": "literature",
       "subfield": "novel",
       "url": "https://www.pw.org/writing_contests/first_novel_fellowship",
@@ -7794,7 +7794,7 @@
     {
       "id": 149,
       "name": "HoneyBee Prize",
-      "name_cn": "",
+      "name_cn": "HoneyBee 奖",
       "field": "literature",
       "subfield": "poetry",
       "url": "https://thegoodlifereview.com/honeybee-prize/",
@@ -7853,7 +7853,7 @@
     {
       "id": 150,
       "name": "Flash Fiction Competition",
-      "name_cn": "",
+      "name_cn": "闪小说 竞赛",
       "field": "literature",
       "subfield": "flash_fiction",
       "url": "https://freeflashfiction.com/current-competition/",
@@ -7912,7 +7912,7 @@
     {
       "id": 151,
       "name": "Poetry Book Award",
-      "name_cn": "",
+      "name_cn": "诗歌 图书 奖",
       "field": "literature",
       "subfield": "poetry",
       "url": "https://3mileharborpress.submittable.com/submit",
@@ -7971,7 +7971,7 @@
     {
       "id": 152,
       "name": "American Buffalo Books Fiction Prize",
-      "name_cn": "",
+      "name_cn": "American Buffalo Books 小说 奖",
       "field": "literature",
       "subfield": "screenplay",
       "url": "https://buffalobooks.submittable.com/submit",
@@ -8030,7 +8030,7 @@
     {
       "id": 153,
       "name": "Balcones Literary Prizes",
-      "name_cn": "",
+      "name_cn": "Balcones 文学 Prizes",
       "field": "literature",
       "subfield": "poetry",
       "url": "http://sites.austincc.edu/crw/balcones-prizes/",
@@ -8089,7 +8089,7 @@
     {
       "id": 154,
       "name": "Autumn House Fiction Prize",
-      "name_cn": "",
+      "name_cn": "秋季 House 小说 奖",
       "field": "literature",
       "subfield": "short_story",
       "url": "https://www.autumnhouse.org/submissions/fiction/",
@@ -8148,7 +8148,7 @@
     {
       "id": 155,
       "name": "Self-Publishing Literary Awards",
-      "name_cn": "",
+      "name_cn": "Self-Publishing 文学 奖",
       "field": "literature",
       "subfield": "poetry",
       "url": "https://bcala.librariesshare.com/bcala-ebook-contest/",
@@ -8207,7 +8207,7 @@
     {
       "id": 156,
       "name": "Invent a Word",
-      "name_cn": "",
+      "name_cn": "造词竞赛",
       "field": "literature",
       "subfield": "multiple",
       "url": "https://www.writingclasses.com/contests",
@@ -8266,7 +8266,7 @@
     {
       "id": 157,
       "name": "Poetry & Fiction Contest",
-      "name_cn": "",
+      "name_cn": "诗歌 小说 竞赛",
       "field": "literature",
       "subfield": "poetry",
       "url": "https://haydensferryreview.com/haydens-ferry-review-contest",
@@ -8325,7 +8325,7 @@
     {
       "id": 158,
       "name": "We Love Short Shorts Contest",
-      "name_cn": "",
+      "name_cn": "We Love 短篇 Shorts 竞赛",
       "field": "literature",
       "subfield": "flash_fiction",
       "url": "https://www.hippocampusmagazine.com/contests/",
@@ -8384,7 +8384,7 @@
     {
       "id": 159,
       "name": "Bill Hickok Humor Award",
-      "name_cn": "",
+      "name_cn": "Bill Hickok 幽默 奖",
       "field": "literature",
       "subfield": "poetry",
       "url": "http://i70review.fieldinfoserv.com/bill-hickok-humor-award-for-poetry.html",
@@ -8443,7 +8443,7 @@
     {
       "id": 160,
       "name": "Indie Gold Awards",
-      "name_cn": "",
+      "name_cn": "Indie Gold 奖",
       "field": "literature",
       "subfield": "short_story",
       "url": "https://indiegoldawards.com/",
@@ -8502,7 +8502,7 @@
     {
       "id": 161,
       "name": "Best Self-Published Novel Contest",
-      "name_cn": "",
+      "name_cn": "Best Self-Published 长篇小说 竞赛",
       "field": "literature",
       "subfield": "novel",
       "url": "https://jamesriverwriters.org/writing-contests-awards/best-self-published-novel-contest/",
@@ -8561,7 +8561,7 @@
     {
       "id": 162,
       "name": "Shann Palmer Poetry Contest",
-      "name_cn": "",
+      "name_cn": "Shann Palmer 诗歌 竞赛",
       "field": "literature",
       "subfield": "poetry",
       "url": "https://jamesriverwriters.org/writing-contests-awards/shann-palmer-poetry-contest/",
@@ -8620,7 +8620,7 @@
     {
       "id": 163,
       "name": "Prize for Short Fiction, Prize for Nonfiction, Prize for Poetry, Prize for Unpublished Books",
-      "name_cn": "",
+      "name_cn": "奖 短篇小说 奖 非虚构 奖 诗歌 奖 Unpublished Books",
       "field": "literature",
       "subfield": "poetry",
       "url": "https://letterreview.com/information/",
@@ -8679,7 +8679,7 @@
     {
       "id": 164,
       "name": "The Memoir Prize for Books",
-      "name_cn": "",
+      "name_cn": "回忆录 奖 Books",
       "field": "literature",
       "subfield": "memoir",
       "url": "https://memoirmag.com/literature/the-memoir-prize-for-books/",
@@ -8738,7 +8738,7 @@
     {
       "id": 165,
       "name": "New England Readers Choice Award",
-      "name_cn": "",
+      "name_cn": "新 England Readers Choice 奖",
       "field": "literature",
       "subfield": "short_story",
       "url": "https://www.nerw.org/contest-opening-2025/",
@@ -8797,7 +8797,7 @@
     {
       "id": 166,
       "name": "Nick Blatchford Occasional Verse Contest",
-      "name_cn": "",
+      "name_cn": "Nick Blatchford Occasional Verse 竞赛",
       "field": "literature",
       "subfield": "poetry",
       "url": "https://tnq.ca/nick-blatchford-contest/",
@@ -8856,7 +8856,7 @@
     {
       "id": 167,
       "name": "International Writing Contest",
-      "name_cn": "",
+      "name_cn": "国际 写作 竞赛",
       "field": "literature",
       "subfield": "poetry",
       "url": "https://www.nowwwriters.ca/",
@@ -8915,7 +8915,7 @@
     {
       "id": 168,
       "name": "Edinburgh Short Story Award",
-      "name_cn": "",
+      "name_cn": "Edinburgh 短篇小说 奖",
       "field": "literature",
       "subfield": "short_story",
       "url": "https://www.scottishartstrust.org/short-story",
@@ -8974,7 +8974,7 @@
     {
       "id": 169,
       "name": "Sejong Sijo Competition (USA & Canada)",
-      "name_cn": "",
+      "name_cn": "Sejong Sijo 竞赛 (USA Canada)",
       "field": "literature",
       "subfield": "poetry",
       "url": "https://www.sejongculturalsociety.org/writing/current/",
@@ -9033,7 +9033,7 @@
     {
       "id": 170,
       "name": "Rigel Contest",
-      "name_cn": "",
+      "name_cn": "Rigel 竞赛",
       "field": "literature",
       "subfield": "poetry",
       "url": "https://sunspotlit.com/contests",
@@ -9092,7 +9092,7 @@
     {
       "id": 171,
       "name": "Poetry Contest",
-      "name_cn": "",
+      "name_cn": "诗歌 竞赛",
       "field": "literature",
       "subfield": "poetry",
       "url": "https://thirdwednesdaymagazine.org/contests/annual-poetry-contest/",
@@ -9151,7 +9151,7 @@
     {
       "id": 172,
       "name": "The Cardinal Poetry Prize",
-      "name_cn": "",
+      "name_cn": "Cardinal 诗歌 奖",
       "field": "literature",
       "subfield": "poetry",
       "url": "https://www.weslpress.org/the-cardinal-poetry-prize/",
@@ -9210,7 +9210,7 @@
     {
       "id": 173,
       "name": "Flash Fiction Contest",
-      "name_cn": "",
+      "name_cn": "闪小说 竞赛",
       "field": "literature",
       "subfield": "flash_fiction",
       "url": "http://www.wow-womenonwriting.com/contest.php",
@@ -9269,7 +9269,7 @@
     {
       "id": 174,
       "name": "CBC Nonfiction Prize",
-      "name_cn": "",
+      "name_cn": "CBC 非虚构 奖",
       "field": "literature",
       "subfield": "nonfiction",
       "url": "https://www.cbc.ca/books/literaryprizes",
@@ -9328,7 +9328,7 @@
     {
       "id": 175,
       "name": "Short Short Story Contest",
-      "name_cn": "",
+      "name_cn": "短篇 短篇小说 竞赛",
       "field": "literature",
       "subfield": "flash_fiction",
       "url": "https://www.ethosliteracy.org/storycontest",
@@ -9387,7 +9387,7 @@
     {
       "id": 176,
       "name": "Strength in Stories Contest",
-      "name_cn": "",
+      "name_cn": "Strength Stories 竞赛",
       "field": "literature",
       "subfield": "poetry",
       "url": "https://flare-magazine.com/contests/",
@@ -9446,7 +9446,7 @@
     {
       "id": 177,
       "name": "Alex Albright Creative Nonfiction Prize",
-      "name_cn": "",
+      "name_cn": "Alex Albright 创意非虚构 奖",
       "field": "literature",
       "subfield": "nonfiction",
       "url": "https://nclr.ecu.edu/submissions/albright-guidelines/",
@@ -9505,7 +9505,7 @@
     {
       "id": 178,
       "name": "Randall Jarrell Poetry Competition",
-      "name_cn": "",
+      "name_cn": "Randall Jarrell 诗歌 竞赛",
       "field": "literature",
       "subfield": "poetry",
       "url": "https://www.ncwriters.org/programs/competitions/randall-jarrell-poetry-competition/",
@@ -9564,7 +9564,7 @@
     {
       "id": 179,
       "name": "Book Awards",
-      "name_cn": "",
+      "name_cn": "图书 奖",
       "field": "literature",
       "subfield": "poetry",
       "url": "http://poetrybytheseaconference.org/poetry-by-the-sea-book-awards/",
@@ -9623,7 +9623,7 @@
     {
       "id": 180,
       "name": "First 5 Pages Prize",
-      "name_cn": "",
+      "name_cn": "首部 5 Pages 奖",
       "field": "literature",
       "subfield": "short_story",
       "url": "https://swf-first5pagesprize.submittable.com/submit",
@@ -9682,7 +9682,7 @@
     {
       "id": 181,
       "name": "Tennessee Williams Writing Contests",
-      "name_cn": "",
+      "name_cn": "Tennessee Williams 写作 Contests",
       "field": "literature",
       "subfield": "poetry",
       "url": "https://www.twfest.org/contests",
@@ -9741,7 +9741,7 @@
     {
       "id": 182,
       "name": "Hurt & Healing Prize",
-      "name_cn": "",
+      "name_cn": "Hurt Healing 奖",
       "field": "literature",
       "subfield": "poetry",
       "url": "https://www.frontierpoetry.com/calendar/",
@@ -9800,7 +9800,7 @@
     {
       "id": 183,
       "name": "The Rumpus Prize",
-      "name_cn": "",
+      "name_cn": "Rumpus 奖",
       "field": "literature",
       "subfield": "poetry",
       "url": "https://therumpus.submittable.com/submit",
@@ -9859,7 +9859,7 @@
     {
       "id": 184,
       "name": "Fiction Contest",
-      "name_cn": "",
+      "name_cn": "小说 竞赛",
       "field": "literature",
       "subfield": "short_story",
       "url": "https://storyquarterly.submittable.com/submit",
@@ -9918,7 +9918,7 @@
     {
       "id": 185,
       "name": "Flash Memoir Contest",
-      "name_cn": "",
+      "name_cn": "闪 回忆录 竞赛",
       "field": "literature",
       "subfield": "flash_fiction",
       "url": "https://writeradvice.com/latest-contest-information/",
@@ -9977,7 +9977,7 @@
     {
       "id": 186,
       "name": "Chapter One Prize for Novelists",
-      "name_cn": "",
+      "name_cn": "Chapter One 奖 Novelists",
       "field": "literature",
       "subfield": "novel",
       "url": "https://gutsygreatnovelist.com/chapter-one-prize/",
@@ -10036,7 +10036,7 @@
     {
       "id": 187,
       "name": "Flash 405",
-      "name_cn": "",
+      "name_cn": "闪 405",
       "field": "literature",
       "subfield": "flash_fiction",
       "url": "https://expositionreview.com/flash-405/",
@@ -10095,7 +10095,7 @@
     {
       "id": 188,
       "name": "Spring Contest",
-      "name_cn": "",
+      "name_cn": "春季 竞赛",
       "field": "literature",
       "subfield": "poetry",
       "url": "https://bluemesareview.submittable.com/submit",
@@ -10154,7 +10154,7 @@
     {
       "id": 189,
       "name": "Stella Kupferberg Memorial Short Story Prize",
-      "name_cn": "",
+      "name_cn": "Stella Kupferberg Memorial 短篇小说 奖",
       "field": "literature",
       "subfield": "short_story",
       "url": "https://www.writingclasses.com/contests",
@@ -10213,7 +10213,7 @@
     {
       "id": 190,
       "name": "Cinematic Short Story Contest",
-      "name_cn": "",
+      "name_cn": "Cinematic 短篇小说 竞赛",
       "field": "literature",
       "subfield": "short_story",
       "url": "https://www.unchartedmag.com/contests/",
@@ -10272,7 +10272,7 @@
     {
       "id": 191,
       "name": "The Subnivean Awards",
-      "name_cn": "",
+      "name_cn": "Subnivean 奖",
       "field": "literature",
       "subfield": "poetry",
       "url": "https://www.subnivean.org/submissions",
@@ -10331,7 +10331,7 @@
     {
       "id": 192,
       "name": "Robert Spiess Memorial Award Haiku Competition",
-      "name_cn": "",
+      "name_cn": "Robert Spiess Memorial 奖 Haiku 竞赛",
       "field": "literature",
       "subfield": "poetry",
       "url": "http://www.modernhaiku.org/index.html",
@@ -10390,7 +10390,7 @@
     {
       "id": 193,
       "name": "Tor House Prize for Poetry",
-      "name_cn": "",
+      "name_cn": "Tor House 奖 诗歌",
       "field": "literature",
       "subfield": "poetry",
       "url": "https://www.torhouse.org/prize/",
@@ -10449,7 +10449,7 @@
     {
       "id": 194,
       "name": "49th Parallel Award for Poetry",
-      "name_cn": "",
+      "name_cn": "49th Parallel 奖 诗歌",
       "field": "literature",
       "subfield": "poetry",
       "url": "https://bhreview.submittable.com/submit",
@@ -10508,7 +10508,7 @@
     {
       "id": 195,
       "name": "Annie Dillard Award for Creative Nonfiction",
-      "name_cn": "",
+      "name_cn": "Annie Dillard 奖 创意非虚构",
       "field": "literature",
       "subfield": "nonfiction",
       "url": "https://bhreview.submittable.com/submit",
@@ -10567,7 +10567,7 @@
     {
       "id": 196,
       "name": "Tobias Wolff Award for Fiction",
-      "name_cn": "",
+      "name_cn": "Tobias Wolff 奖 小说",
       "field": "literature",
       "subfield": "short_story",
       "url": "https://bhreview.submittable.com/submit",

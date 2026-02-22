@@ -12,6 +12,7 @@ from datetime import datetime, date
 from urllib.request import urlopen, Request
 from urllib.error import URLError, HTTPError
 from html.parser import HTMLParser
+from translator import auto_translate_name
 
 DB_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "competitions.json")
 
@@ -484,7 +485,7 @@ def merge_results(crawled, data, dry_run=False, max_add=50):
             print(f"  {_yellow('+')} {name} | {item.get('deadline', '?')} | ${item.get('fee_amount', 0)} | ${item.get('prize_first', 0)}")
         else:
             comp = make_entry(
-                id=nid, name=name, name_cn="",
+                id=nid, name=name, name_cn=auto_translate_name(name),
                 subfield=item.get("subfield", "multiple"),
                 url=item.get("url", ""),
                 deadline=item.get("deadline"),
