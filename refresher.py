@@ -14,6 +14,92 @@ from urllib.error import URLError, HTTPError
 from html.parser import HTMLParser
 from translator import auto_translate_name
 
+
+def auto_score(name, fee_amount, prize_first, subfield, description=""):
+    """
+    基于竞赛特征自动推断 prestige/win_prob/fit_score
+    返回 (prestige, win_prob, fit_score, fit_advantages)
+    """
+    prestige = 3  # 基础分
+    win_prob = 5  # 基础分
+    fit_score = 3  # 基础分
+    fit_advantages = []
+    name_lower = name.lower()
+    desc_lower = description.lower()
+
+    # ── Prestige 推断 ──
+    # 奖金越高声望越高
+    if prize_first >= 10000:
+        prestige = 9
+    elif prize_first >= 5000:
+        prestige = 8
+    elif prize_first >= 2000:
+        prestige = 7
+    elif prize_first >= 1000:
+        prestige = 6
+    elif prize_first >= 500:
+        prestige = 5
+    elif prize_first >= 100:
+        prestige = 4
+    else:
+        prestige = 3
+
+    # 知名机构加分
+    prestigious_names = [
+        "kenyon", "iowa", "tin house", "narrative", "ploughshares",
+        "paris review", "granta", "new yorker", "atlantic",
+        "prairie schooner", "bellingham", "one story", "zoetrope",
+        "pushcart", "o. henry", "best american",
+    ]
+    for pn in prestigious_names:
+        if pn in name_lower:
+            prestige = min(10, prestige + 2)
+            break
+
+    # 大学/出版社背景加分
+    if any(kw in name_lower or kw in desc_lower for kw in
+           ["university", "press", "review", "quarterly"]):
+        prestige = min(10, prestige + 1)
+
+    # ── Win Probability 推断 ──
+    # 免费竞赛投稿量大，获奖概率低
+    if fee_amount == 0:
+        win_prob = max(3, win_prob - 1)
+        if prize_first >= 2000:
+            win_prob = max(2, win_prob - 1)  # 免费+高奖金 = 超多人投
+    else:
+        win_prob = min(8, win_prob + 1)  # 付费门槛减少投稿量
+
+    # 高声望竞赛竞争更激烈
+    if prestige >= 8:
+        win_prob = max(2, win_prob - 2)
+    elif prestige >= 6:
+        win_prob = max(3, win_prob - 1)
+
+    # 小众类型竞争较小
+    if subfield in ("novella", "screenplay", "children", "memoir"):
+        win_prob = min(8, win_prob + 1)
+
+    # ── Chinese Creator Fit 推断 ──
+    # 默认3分（中性）
+    # 国际性竞赛加分
+    if any(kw in name_lower for kw in ["international", "global", "world"]):
+        fit_score = min(5, fit_score + 1)
+        fit_advantages.append("国际性竞赛")
+
+    # 免费竞赛对预算有限的创作者友好
+    if fee_amount == 0:
+        fit_advantages.append("免费投稿")
+
+    # 主题与中国文化相关
+    if any(kw in name_lower or kw in desc_lower for kw in
+           ["fairy tale", "folk", "myth", "translation", "immigrant",
+            "diaspora", "multicultural", "diverse", "asian"]):
+        fit_score = min(5, fit_score + 1)
+        fit_advantages.append("主题可能与中国文化相关")
+
+    return prestige, win_prob, fit_score, fit_advantages
+
 DB_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "competitions.json")
 
 # ── 颜色 ──────────────────────────────────────────────────
@@ -484,6 +570,10 @@ def merge_results(crawled, data, dry_run=False, max_add=50):
         if dry_run:
             print(f"  {_yellow('+')} {name} | {item.get('deadline', '?')} | ${item.get('fee_amount', 0)} | ${item.get('prize_first', 0)}")
         else:
+            prestige, win_prob, fit_score, fit_adv = auto_score(
+                name, item.get("fee_amount", 0), item.get("prize_first", 0),
+                item.get("subfield", "multiple"), item.get("description", "")
+            )
             comp = make_entry(
                 id=nid, name=name, name_cn=auto_translate_name(name),
                 subfield=item.get("subfield", "multiple"),
@@ -493,7 +583,8 @@ def merge_results(crawled, data, dry_run=False, max_add=50):
                 fee_currency=item.get("fee_currency", "USD"),
                 prize_details=item.get("prize_details", ""),
                 prize_first=item.get("prize_first", 0),
-                prestige=5, win_prob=5, fit_score=3,
+                prestige=prestige, win_prob=win_prob, fit_score=fit_score,
+                fit_advantages=fit_adv,
             )
             data["competitions"].append(comp)
             print(f"  {_green('+')} #{nid} {name}")

@@ -1,9 +1,11 @@
 # 任务队列
 
 ## 待办
-（队列清空 🎉）
+- 数据质量：部分 NewPages 爬取的竞赛缺少奖金信息（prize_first=0），可以二次爬取竞赛官网补全
+- 导出功能：支持导出匹配结果为 CSV/Markdown，方便分享和打印
 
 ## 进行中
+- 匹配引擎优化：为新爬取的竞赛自动推断 prestige_score/win_probability/chinese_creator_fit
 
 ## 阻塞
 

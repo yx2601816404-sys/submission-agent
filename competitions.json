@@ -6174,7 +6174,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 9,
       "style_profile": {
         "style_tags": [
           "open",
@@ -6189,11 +6189,13 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 2
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -6248,11 +6250,13 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -6292,7 +6296,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 8,
       "style_profile": {
         "style_tags": [
           "open",
@@ -6307,7 +6311,7 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
@@ -6351,7 +6355,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 6,
       "style_profile": {
         "style_tags": [
           "open",
@@ -6410,7 +6414,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 7,
       "style_profile": {
         "style_tags": [
           "open",
@@ -6469,7 +6473,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 6,
       "style_profile": {
         "style_tags": [
           "open",
@@ -6528,7 +6532,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 6,
       "style_profile": {
         "style_tags": [
           "open",
@@ -6587,7 +6591,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 6,
       "style_profile": {
         "style_tags": [
           "open",
@@ -6646,7 +6650,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 6,
       "style_profile": {
         "style_tags": [
           "open",
@@ -6705,7 +6709,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 8,
       "style_profile": {
         "style_tags": [
           "open",
@@ -6720,11 +6724,13 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 2
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -6764,7 +6770,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 8,
       "style_profile": {
         "style_tags": [
           "open",
@@ -6838,11 +6844,13 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -6882,7 +6890,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 9,
       "style_profile": {
         "style_tags": [
           "open",
@@ -6897,11 +6905,13 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 2
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -6941,7 +6951,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 9,
       "style_profile": {
         "style_tags": [
           "open",
@@ -6956,7 +6966,7 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
@@ -7000,7 +7010,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 9,
       "style_profile": {
         "style_tags": [
           "open",
@@ -7015,7 +7025,7 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
@@ -7059,7 +7069,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 6,
       "style_profile": {
         "style_tags": [
           "open",
@@ -7118,7 +7128,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 6,
       "style_profile": {
         "style_tags": [
           "open",
@@ -7177,7 +7187,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 7,
       "style_profile": {
         "style_tags": [
           "open",
@@ -7236,7 +7246,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 4,
       "style_profile": {
         "style_tags": [
           "open",
@@ -7251,7 +7261,7 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 6
       },
       "chinese_creator_fit": {
         "score": 3,
@@ -7295,7 +7305,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 4,
       "style_profile": {
         "style_tags": [
           "open",
@@ -7310,7 +7320,7 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 7
       },
       "chinese_creator_fit": {
         "score": 3,
@@ -7354,7 +7364,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 6,
       "style_profile": {
         "style_tags": [
           "open",
@@ -7413,7 +7423,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 4,
       "style_profile": {
         "style_tags": [
           "open",
@@ -7428,7 +7438,7 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 6
       },
       "chinese_creator_fit": {
         "score": 3,
@@ -7472,7 +7482,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 4,
       "style_profile": {
         "style_tags": [
           "open",
@@ -7487,11 +7497,13 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -7531,7 +7543,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 8,
       "style_profile": {
         "style_tags": [
           "open",
@@ -7546,7 +7558,7 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
@@ -7590,7 +7602,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 4,
       "style_profile": {
         "style_tags": [
           "open",
@@ -7605,11 +7617,13 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 6
       },
       "chinese_creator_fit": {
-        "score": 3,
-        "advantages": [],
+        "score": 4,
+        "advantages": [
+          "国际性竞赛"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -7664,7 +7678,7 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 6
       },
       "chinese_creator_fit": {
         "score": 3,
@@ -7708,7 +7722,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 7,
       "style_profile": {
         "style_tags": [
           "open",
@@ -7767,7 +7781,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 9,
       "style_profile": {
         "style_tags": [
           "open",
@@ -7782,7 +7796,7 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
@@ -7826,7 +7840,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 3,
       "style_profile": {
         "style_tags": [
           "open",
@@ -7841,11 +7855,13 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -7885,7 +7901,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 3,
       "style_profile": {
         "style_tags": [
           "open",
@@ -7900,11 +7916,13 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -7944,7 +7962,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 3,
       "style_profile": {
         "style_tags": [
           "open",
@@ -7959,11 +7977,13 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -8003,7 +8023,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 3,
       "style_profile": {
         "style_tags": [
           "open",
@@ -8022,7 +8042,9 @@
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -8062,7 +8084,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 3,
       "style_profile": {
         "style_tags": [
           "open",
@@ -8077,11 +8099,13 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -8121,7 +8145,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 3,
       "style_profile": {
         "style_tags": [
           "open",
@@ -8136,11 +8160,13 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -8180,7 +8206,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 3,
       "style_profile": {
         "style_tags": [
           "open",
@@ -8195,11 +8221,13 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -8239,7 +8267,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 3,
       "style_profile": {
         "style_tags": [
           "open",
@@ -8254,11 +8282,13 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -8298,7 +8328,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 3,
       "style_profile": {
         "style_tags": [
           "open",
@@ -8313,11 +8343,13 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -8357,7 +8389,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 3,
       "style_profile": {
         "style_tags": [
           "open",
@@ -8372,11 +8404,13 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -8416,7 +8450,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 3,
       "style_profile": {
         "style_tags": [
           "open",
@@ -8431,11 +8465,13 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -8475,7 +8511,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 3,
       "style_profile": {
         "style_tags": [
           "open",
@@ -8490,11 +8526,13 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -8534,7 +8572,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 3,
       "style_profile": {
         "style_tags": [
           "open",
@@ -8549,11 +8587,13 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -8593,7 +8633,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 3,
       "style_profile": {
         "style_tags": [
           "open",
@@ -8608,11 +8648,13 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -8652,7 +8694,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 3,
       "style_profile": {
         "style_tags": [
           "open",
@@ -8667,11 +8709,13 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -8711,7 +8755,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 3,
       "style_profile": {
         "style_tags": [
           "open",
@@ -8730,7 +8774,9 @@
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -8770,7 +8816,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 3,
       "style_profile": {
         "style_tags": [
           "open",
@@ -8785,11 +8831,13 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -8829,7 +8877,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 3,
       "style_profile": {
         "style_tags": [
           "open",
@@ -8844,11 +8892,13 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -8888,7 +8938,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 3,
       "style_profile": {
         "style_tags": [
           "open",
@@ -8903,11 +8953,14 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
-        "score": 3,
-        "advantages": [],
+        "score": 4,
+        "advantages": [
+          "国际性竞赛",
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -8947,7 +9000,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 3,
       "style_profile": {
         "style_tags": [
           "open",
@@ -8962,11 +9015,13 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -9006,7 +9061,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 3,
       "style_profile": {
         "style_tags": [
           "open",
@@ -9021,11 +9076,13 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -9065,7 +9122,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 3,
       "style_profile": {
         "style_tags": [
           "open",
@@ -9080,11 +9137,13 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -9124,7 +9183,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 3,
       "style_profile": {
         "style_tags": [
           "open",
@@ -9139,11 +9198,13 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -9183,7 +9244,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 3,
       "style_profile": {
         "style_tags": [
           "open",
@@ -9198,11 +9259,13 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -9242,7 +9305,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 3,
       "style_profile": {
         "style_tags": [
           "open",
@@ -9257,11 +9320,13 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -9301,7 +9366,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 3,
       "style_profile": {
         "style_tags": [
           "open",
@@ -9316,11 +9381,13 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -9360,7 +9427,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 3,
       "style_profile": {
         "style_tags": [
           "open",
@@ -9375,11 +9442,13 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -9419,7 +9488,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 3,
       "style_profile": {
         "style_tags": [
           "open",
@@ -9434,11 +9503,13 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -9478,7 +9549,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 3,
       "style_profile": {
         "style_tags": [
           "open",
@@ -9493,11 +9564,13 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -9537,7 +9610,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 3,
       "style_profile": {
         "style_tags": [
           "open",
@@ -9552,11 +9625,13 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -9596,7 +9671,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 3,
       "style_profile": {
         "style_tags": [
           "open",
@@ -9611,11 +9686,13 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -9655,7 +9732,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 3,
       "style_profile": {
         "style_tags": [
           "open",
@@ -9670,11 +9747,13 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -9714,7 +9793,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 3,
       "style_profile": {
         "style_tags": [
           "open",
@@ -9729,11 +9808,13 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -9773,7 +9854,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 3,
       "style_profile": {
         "style_tags": [
           "open",
@@ -9788,11 +9869,13 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -9832,7 +9915,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 3,
       "style_profile": {
         "style_tags": [
           "open",
@@ -9847,11 +9930,13 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -9891,7 +9976,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 3,
       "style_profile": {
         "style_tags": [
           "open",
@@ -9906,11 +9991,13 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -9950,7 +10037,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 3,
       "style_profile": {
         "style_tags": [
           "open",
@@ -9965,11 +10052,13 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -10009,7 +10098,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 3,
       "style_profile": {
         "style_tags": [
           "open",
@@ -10024,11 +10113,13 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -10068,7 +10159,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 3,
       "style_profile": {
         "style_tags": [
           "open",
@@ -10083,11 +10174,13 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -10127,7 +10220,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 3,
       "style_profile": {
         "style_tags": [
           "open",
@@ -10142,11 +10235,13 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -10186,7 +10281,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 3,
       "style_profile": {
         "style_tags": [
           "open",
@@ -10201,11 +10296,13 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -10245,7 +10342,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 3,
       "style_profile": {
         "style_tags": [
           "open",
@@ -10260,11 +10357,13 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -10304,7 +10403,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 3,
       "style_profile": {
         "style_tags": [
           "open",
@@ -10319,11 +10418,13 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -10363,7 +10464,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 3,
       "style_profile": {
         "style_tags": [
           "open",
@@ -10378,11 +10479,13 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -10422,7 +10525,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 3,
       "style_profile": {
         "style_tags": [
           "open",
@@ -10437,11 +10540,13 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -10481,7 +10586,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 3,
       "style_profile": {
         "style_tags": [
           "open",
@@ -10496,11 +10601,13 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -10540,7 +10647,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 3,
       "style_profile": {
         "style_tags": [
           "open",
@@ -10555,11 +10662,13 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
@@ -10599,7 +10708,7 @@
       "submission_method": "online",
       "submission_platform": "submittable",
       "judge": null,
-      "prestige_score": 5,
+      "prestige_score": 3,
       "style_profile": {
         "style_tags": [
           "open",
@@ -10614,11 +10723,13 @@
         "competitor_quality": 5,
         "estimated_submissions": null,
         "shortlist_rate": null,
-        "overall_score": 5
+        "overall_score": 4
       },
       "chinese_creator_fit": {
         "score": 3,
-        "advantages": [],
+        "advantages": [
+          "免费投稿"
+        ],
         "disadvantages": [],
         "recommendation": ""
       }
