@@ -244,6 +244,81 @@ def format_results_color(results, work):
     lines.append("")
     return "\n".join(lines)
 
+# ── 导出功能 ──────────────────────────────────────────────
+def export_csv(results, work, filepath=None):
+    """导出匹配结果为 CSV"""
+    import csv
+    import io
+
+    output = io.StringIO()
+    writer = csv.writer(output)
+    writer.writerow(["排名", "竞赛名(中)", "竞赛名(英)", "分数", "截止日期",
+                      "奖金", "费用", "声望", "获奖概率", "链接", "推荐理由"])
+
+    for i, r in enumerate(results, 1):
+        name_cn = r.get("name_cn") or ""
+        fee = r.get("fee", {})
+        fee_str = f"{fee.get('currency','')} {fee.get('amount','')}" if fee.get("amount") else "免费"
+        reasons = " | ".join(r.get("reasons", [])[:3])
+        writer.writerow([
+            i, name_cn, r["name"], r["score"], r.get("deadline", ""),
+            r.get("prize", ""), fee_str, r.get("prestige", ""),
+            r.get("win_prob", ""), r.get("url", ""), reasons
+        ])
+
+    content = output.getvalue()
+    if filepath:
+        with open(filepath, "w", encoding="utf-8-sig") as f:
+            f.write(content)
+        print(f"{green('✓')} 已导出到 {filepath}")
+    else:
+        fp = f"match-results-{date.today()}.csv"
+        with open(fp, "w", encoding="utf-8-sig") as f:
+            f.write(content)
+        print(f"{green('✓')} 已导出到 {fp}")
+    return content
+
+
+def export_markdown(results, work, filepath=None):
+    """导出匹配结果为 Markdown"""
+    lines = []
+    type_cn = SUBFIELD_CN.get(work.get("type", ""), work.get("type", ""))
+    lines.append(f"# 投稿匹配报告")
+    lines.append(f"")
+    lines.append(f"- 作品类型: {type_cn}")
+    if work.get("word_count"):
+        lines.append(f"- 字数: {work['word_count']}")
+    lines.append(f"- 预算: ${work.get('max_fee_usd', 50)}")
+    lines.append(f"- 生成日期: {date.today()}")
+    lines.append(f"")
+    lines.append(f"| # | 竞赛 | 分数 | 截止 | 奖金 | 费用 | 链接 |")
+    lines.append(f"|---|------|------|------|------|------|------|")
+
+    for i, r in enumerate(results, 1):
+        name = r.get("name_cn") or r["name"]
+        fee = r.get("fee", {})
+        fee_str = f"{fee.get('currency','')} {fee.get('amount','')}" if fee.get("amount") else "免费"
+        dl = r.get("deadline", "")
+        lines.append(f"| {i} | {name} | {r['score']} | {dl} | {r.get('prize','')} | {fee_str} | [链接]({r.get('url','')}) |")
+
+    lines.append(f"")
+    lines.append(f"---")
+    total, active, _, updated = db_stats()
+    lines.append(f"数据库: {total} 条 (活跃 {active}) | 更新: {updated}")
+
+    content = "\n".join(lines)
+    if filepath:
+        with open(filepath, "w", encoding="utf-8") as f:
+            f.write(content)
+        print(f"{green('✓')} 已导出到 {filepath}")
+    else:
+        fp = f"match-results-{date.today()}.md"
+        with open(fp, "w", encoding="utf-8") as f:
+            f.write(content)
+        print(f"{green('✓')} 已导出到 {fp}")
+    return content
+
+
 # ── 新手引导 ──────────────────────────────────────────────
 def is_first_run():
     """检查是否第一次运行"""
@@ -448,6 +523,7 @@ def main():
     p_match.add_argument("-n", "--top", type=int, default=5, help="推荐数量")
     p_match.add_argument("--profile", type=int, help="使用已保存的档案编号")
     p_match.add_argument("--json", action="store_true", help="JSON 输出")
+    p_match.add_argument("--export", choices=["csv", "md", "markdown"], help="导出格式 (csv/md)")
 
     # ── refresh ──
     p_refresh = sub.add_parser("refresh", help="刷新竞赛数据库")
@@ -586,6 +662,14 @@ def cmd_match(args):
     results = recommend(work, top_n=args.top)
     if args.json:
         print(json.dumps(results, ensure_ascii=False, indent=2))
+    elif getattr(args, "export", None):
+        fmt = args.export
+        if fmt == "csv":
+            export_csv(results, work)
+        elif fmt in ("md", "markdown"):
+            export_markdown(results, work)
+        # 同时也打印到终端
+        print(format_results_color(results, work))
     else:
         print(format_results_color(results, work))
 
