@@ -398,9 +398,9 @@
         "note": "见官网"
       },
       "prize": {
-        "first": null,
+        "first": 1200,
         "currency": "GBP",
-        "details": "多个奖项 | 本地奖£50书券"
+        "details": "£1200 first, £300 second, £100 third"
       },
       "publication": "入围作品收入年度选集",
       "word_limit": {
@@ -1001,8 +1001,8 @@
         "currency": "USD"
       },
       "prize": {
-        "first": null,
-        "details": "各学科1-3名 + 总冠军"
+        "first": 10000,
+        "details": "$10,000 scholarship (Junior Fellowship)"
       },
       "categories": [
         "经济学",
@@ -1115,6 +1115,10 @@
       },
       "win_probability": {
         "overall_score": 4
+      },
+      "prize": {
+        "first": 0,
+        "details": "Gold/Silver/Bronze medals + publication in HIR"
       }
     },
     {
