@@ -1,14 +1,15 @@
 # 任务队列
 
 ## 待办
-- 数据质量（低优先级）：59条竞赛缺少奖金信息，可二次爬取官网补全
-- README 优化：加 GIF 演示或截图，让 GitHub 页面更吸引人
+- 数据质量（低优先级）：59条竞赛缺少奖金信息
 
 ## 进行中
 
 ## 阻塞
 
 ## 完成
+- 翻译质量修正：17条机械拼接中文名手动修正
+- README 重写：完整功能文档 + 安装说明
 - GitHub 上架：https://github.com/yx2601816404-sys/submission-agent ✅
 - 日历视图 + 竞赛详情：calendar / show 子命令
 - 导出功能：match --export csv/md
