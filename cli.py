@@ -549,6 +549,17 @@ def main():
     # ── stats ──
     sub.add_parser("stats", help="数据库统计")
 
+    # ── calendar ──
+    p_cal = sub.add_parser("calendar", help="截止日期日历")
+    p_cal.add_argument("-m", "--months", type=int, default=3, help="显示未来几个月 (默认3)")
+    p_cal.add_argument("-t", "--type", dest="cal_type", help="按类型筛选")
+    p_cal.add_argument("--free", action="store_true", help="只显示免费竞赛")
+
+    # ── show ──
+    p_show = sub.add_parser("show", help="查看竞赛详情")
+    p_show.add_argument("contest_id", nargs="?", type=int, help="竞赛编号")
+    p_show.add_argument("-s", "--search", help="按名称搜索")
+
     # ── 兼容旧参数 ──
     parser.add_argument("-t", "--type", choices=[v[0] for v in TYPE_CHOICES.values()], help="作品类型 (兼容旧版)")
     parser.add_argument("-w", "--words", type=int, default=0, help=argparse.SUPPRESS)
@@ -595,6 +606,12 @@ def main():
 
     elif cmd == "match":
         cmd_match(args)
+
+    elif cmd == "calendar":
+        cmd_calendar(args)
+
+    elif cmd == "show":
+        cmd_show(args)
 
     elif args.type:
         # 兼容旧版: python3 cli.py -t flash_fiction -w 300
@@ -723,6 +740,230 @@ def cmd_track(args):
         show_reminders()
     elif action == "stats":
         submission_stats()
+
+
+def cmd_calendar(args):
+    """截止日期日历视图"""
+    from datetime import timedelta
+    comps = load_db()
+    today = date.today()
+    months = args.months
+    cutoff = today + timedelta(days=months * 30)
+
+    # 收集活跃竞赛
+    entries = []
+    for c in comps:
+        dl = c.get("deadline", "")
+        if not dl or dl in ("weekly", "quarterly", "rolling"):
+            continue
+        if c.get("status") in ("closed", "expired"):
+            continue
+        try:
+            dl_date = datetime.strptime(dl, "%Y-%m-%d").date()
+        except ValueError:
+            continue
+        if dl_date < today or dl_date > cutoff:
+            continue
+
+        # 类型筛选
+        if args.cal_type:
+            sf = c.get("subfield", "")
+            if args.cal_type not in sf and args.cal_type not in c.get("field", ""):
+                continue
+
+        # 免费筛选
+        if args.free:
+            fee = c.get("entry_fee", {}).get("amount") or 0
+            if fee > 0:
+                continue
+
+        entries.append((dl_date, c))
+
+    entries.sort(key=lambda x: x[0])
+
+    if not entries:
+        print(f"\n{yellow('未来 {months} 个月内没有匹配的竞赛。')}")
+        return
+
+    print(f"\n{bold('📅 竞赛截止日期日历')}")
+    print(f"{dim(f'{today} → {cutoff} ({months}个月)')}")
+    print()
+
+    current_month = None
+    for dl_date, c in entries:
+        month_key = dl_date.strftime("%Y年%m月")
+        if month_key != current_month:
+            current_month = month_key
+            print(f"  {bold(month_key)}")
+            print(f"  {'─' * 50}")
+
+        days = (dl_date - today).days
+        name = c.get("name_cn") or c["name"]
+        fee = c.get("entry_fee", {}).get("amount") or 0
+        prize = c.get("prize", {}).get("first", 0) or 0
+        sf = SUBFIELD_CN.get(c.get("subfield", ""), c.get("subfield", ""))
+
+        # 日期颜色
+        if days <= 7:
+            date_str = red(f"{dl_date.strftime('%m/%d')} 🔥")
+        elif days <= 14:
+            date_str = yellow(f"{dl_date.strftime('%m/%d')} ⏰")
+        else:
+            date_str = dl_date.strftime("%m/%d")
+
+        # 费用标记
+        fee_tag = green("免费") if fee == 0 else f"${fee}"
+
+        line = f"    {date_str}  {name[:30]:<30}  {dim(sf):<8}  {fee_tag}"
+        if prize:
+            line += f"  {dim(f'奖${prize:,}')}"
+        print(line)
+
+    print(f"\n{dim(f'共 {len(entries)} 个竞赛')}")
+    print()
+
+
+def cmd_show(args):
+    """查看竞赛详情"""
+    comps = load_db()
+
+    comp = None
+    if args.contest_id:
+        for c in comps:
+            if c["id"] == args.contest_id:
+                comp = c
+                break
+        if not comp:
+            print(red(f"未找到竞赛 #{args.contest_id}"))
+            sys.exit(1)
+    elif getattr(args, "search", None):
+        query = args.search.lower()
+        matches = []
+        for c in comps:
+            if query in c["name"].lower() or query in (c.get("name_cn") or "").lower():
+                matches.append(c)
+        if not matches:
+            print(red(f"未找到包含 \"{args.search}\" 的竞赛"))
+            sys.exit(1)
+        if len(matches) == 1:
+            comp = matches[0]
+        else:
+            print(f"\n找到 {len(matches)} 个匹配:")
+            for c in matches[:10]:
+                name = c.get("name_cn") or c["name"]
+                cid = c["id"]
+                print(f"  {cyan(f'#{cid}')} {name}")
+            print(f"\n{dim('用 show <编号> 查看详情')}")
+            return
+    else:
+        print(red("请指定竞赛编号或搜索关键词"))
+        print(dim("  用法: cli.py show 1  或  cli.py show -s poetry"))
+        sys.exit(1)
+
+    # 显示详情
+    name_cn = comp.get("name_cn") or ""
+    name_en = comp["name"]
+    today = date.today()
+
+    print(f"\n{bold('═' * 55)}")
+    if name_cn:
+        print(f"  {bold(name_cn)}")
+    print(f"  {bold(name_en)}")
+    cid = comp["id"]
+    print(f"  {dim(f'#{cid}')}")
+    print(f"{bold('═' * 55)}")
+
+    # 基本信息
+    sf = SUBFIELD_CN.get(comp.get("subfield", ""), comp.get("subfield", ""))
+    print(f"\n  📚 类别: {sf}")
+
+    # 截止日期
+    dl = comp.get("deadline", "")
+    if dl and dl not in ("weekly", "quarterly", "rolling"):
+        try:
+            dl_date = datetime.strptime(dl, "%Y-%m-%d").date()
+            days = (dl_date - today).days
+            if days < 0:
+                dl_str = red(f"{dl} (已过期 {-days} 天)")
+            elif days <= 7:
+                dl_str = red(f"{dl} 🔥 仅剩 {days} 天!")
+            elif days <= 14:
+                dl_str = yellow(f"{dl} ⏰ 剩 {days} 天")
+            else:
+                dl_str = f"{dl} ({days} 天)"
+        except ValueError:
+            dl_str = dl
+    else:
+        dl_str = dl or "见官网"
+    print(f"  📅 截止: {dl_str}")
+
+    # 奖金
+    prize = comp.get("prize", {})
+    if prize.get("details"):
+        print(f"  🏆 奖金: {prize['details']}")
+    elif prize.get("first"):
+        print(f"  🏆 奖金: ${prize['first']:,}")
+
+    # 费用
+    fee = comp.get("entry_fee", {})
+    fee_amount = fee.get("amount") or 0
+    if fee_amount:
+        fee_str = f"{fee.get('currency', 'USD')} {fee_amount}"
+        if fee.get("note"):
+            fee_str += f" ({fee['note']})"
+    else:
+        fee_str = green("免费")
+    print(f"  💰 费用: {fee_str}")
+
+    # 字数限制
+    wl = comp.get("word_limit")
+    if wl and wl.get("max"):
+        wl_str = f"最多 {wl['max']} {wl.get('unit', 'words')}"
+        if wl.get("min"):
+            wl_str = f"{wl['min']}-{wl['max']} {wl.get('unit', 'words')}"
+        if wl.get("note"):
+            wl_str += f" ({wl['note']})"
+        print(f"  📏 字数: {wl_str}")
+
+    # 评分
+    prestige = comp.get("prestige_score", 0)
+    win_prob = comp.get("win_probability", {}).get("overall_score", 0)
+    print(f"  ⭐ 声望: {prestige}/10 | 获奖概率: {win_prob}/10")
+
+    # 中国创作者适配
+    fit = comp.get("chinese_creator_fit", {})
+    if fit:
+        fit_score = fit.get("score", 3)
+        print(f"  🇨🇳 适配度: {fit_score}/5")
+        if fit.get("advantages"):
+            print(f"     优势: {', '.join(fit['advantages'])}")
+        if fit.get("recommendation"):
+            print(f"     建议: {fit['recommendation']}")
+
+    # 链接
+    print(f"\n  🔗 官网: {comp.get('url', '')}")
+    if comp.get("submission_url") and comp["submission_url"] != comp.get("url"):
+        print(f"  📤 投稿: {comp['submission_url']}")
+
+    # 其他信息
+    extras = []
+    if comp.get("judge"):
+        extras.append(f"评委: {comp['judge']}")
+    if comp.get("publication"):
+        extras.append(f"发表: {comp['publication']}")
+    if comp.get("theme"):
+        extras.append(f"主题: {comp['theme']}")
+    if comp.get("anonymous_review"):
+        extras.append("匿名评审")
+    if comp.get("previously_published_ok"):
+        extras.append("接受已发表作品")
+    if comp.get("simultaneous_ok"):
+        extras.append("允许同时投稿")
+
+    if extras:
+        print(f"\n  {dim(' | '.join(extras))}")
+
+    print()
 
 
 if __name__ == "__main__":
