@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+cli.py
+competitions.json
+matcher.py
+profiles.py
+refresher.py
+setup.py
+tracker.py
+translator.py
+submission_agent.egg-info/PKG-INFO
+submission_agent.egg-info/SOURCES.txt
+submission_agent.egg-info/dependency_links.txt
+submission_agent.egg-info/entry_points.txt
+submission_agent.egg-info/top_level.txt

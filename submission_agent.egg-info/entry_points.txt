@@ -1,0 +1,2 @@
+[console_scripts]
+submission-agent = cli:main
