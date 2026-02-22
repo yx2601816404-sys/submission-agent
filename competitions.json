@@ -1,0 +1,6143 @@
+{
+  "version": "2.0",
+  "updated": "2026-02-22",
+  "schema_note": "每条竞赛的完整结构化数据，用于智能匹配和精准推荐",
+  "competitions": [
+    {
+      "id": 1,
+      "name": "Fish Flash Fiction Prize",
+      "name_cn": "Fish 闪小说奖",
+      "field": "literature",
+      "subfield": "flash_fiction",
+      "url": "https://fishpublishing.com/competition/flash-fiction-contest/",
+      "submission_url": "https://fish.skor.ie",
+      "status": "open",
+      "deadline": "2026-02-28",
+      "result_date": "2026-04-18",
+      "frequency": "annual",
+      "entry_fee": {
+        "amount": 16,
+        "currency": "EUR",
+        "note": "首篇€16，后续€11，含点评€61"
+      },
+      "prize": {
+        "first": 1000,
+        "currency": "EUR",
+        "details": "第一名€1,000 | 第二名€300+写作课程 | 第三名€300"
+      },
+      "publication": "前10名收入 Fish Anthology 2026",
+      "word_limit": {
+        "min": null,
+        "max": 300,
+        "unit": "words",
+        "note": "标题不计"
+      },
+      "language": "en",
+      "nationality_restriction": null,
+      "age_restriction": null,
+      "experience_restriction": null,
+      "theme": null,
+      "simultaneous_ok": null,
+      "previously_published_ok": false,
+      "anonymous_review": true,
+      "ai_policy": null,
+      "submission_method": "online_or_mail",
+      "submission_platform": "custom",
+      "judge": "Tania Hershman",
+      "prestige_score": 7,
+      "style_profile": {
+        "style_tags": [
+          "open",
+          "experimental",
+          "innovative"
+        ],
+        "judge_preferences": "Tania Hershman — 闪小说领域权威，偏好实验性和创新形式",
+        "keywords": [
+          "创新",
+          "压缩",
+          "每个词都有分量"
+        ],
+        "past_winner_traits": null
+      },
+      "chinese_creator_fit": {
+        "score": 4,
+        "advantages": [
+          "300字限制降低翻译难度",
+          "无国籍限制"
+        ],
+        "disadvantages": [
+          "需要英语写作",
+          "评委偏好实验性"
+        ],
+        "recommendation": "闪小说是中国创作者进入国际竞赛的最佳切入点之一"
+      },
+      "win_probability": {
+        "competition_density": 6,
+        "competitor_quality": 5,
+        "estimated_entries": "500-1000",
+        "shortlist_spots": 10,
+        "estimated_shortlist_rate": "1-2%",
+        "overall_score": 5,
+        "notes": "中等难度，闪小说领域知名度高"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Fish Short Story Prize",
+      "name_cn": "Fish 短篇小说奖",
+      "field": "literature",
+      "subfield": "short_story",
+      "url": "https://fishpublishing.com/competition/short-story-contest/",
+      "submission_url": "https://fish.skor.ie",
+      "status": "closed",
+      "deadline": "2025-12-10",
+      "result_date": "2026-03-17",
+      "frequency": "annual",
+      "entry_fee": {
+        "amount": 24,
+        "currency": "EUR",
+        "note": "首篇€24，后续€16，含点评€89"
+      },
+      "prize": {
+        "first": 3000,
+        "currency": "EUR",
+        "details": "第一名€3,000 + West Cork文学节工作坊 | 第二名€300+课程 | 第三名€300 | 7个荣誉提名各€200"
+      },
+      "publication": "前10名收入 Fish Anthology 2026",
+      "word_limit": {
+        "min": null,
+        "max": 5000,
+        "unit": "words"
+      },
+      "language": "en",
+      "nationality_restriction": null,
+      "age_restriction": null,
+      "experience_restriction": null,
+      "theme": null,
+      "simultaneous_ok": null,
+      "previously_published_ok": false,
+      "anonymous_review": true,
+      "ai_policy": null,
+      "submission_method": "online_or_mail",
+      "submission_platform": "custom",
+      "judge": "Sean Lusk",
+      "prestige_score": 7,
+      "style_profile": {
+        "style_tags": [
+          "open",
+          "literary"
+        ],
+        "judge_preferences": null,
+        "keywords": null,
+        "past_winner_traits": null
+      },
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "无国籍限制",
+          "奖金丰厚"
+        ],
+        "disadvantages": [
+          "5000字翻译量大",
+          "需要高水平英语文学性"
+        ],
+        "recommendation": "适合有英语写作经验的作者"
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 6,
+        "estimated_entries": "800-1500",
+        "shortlist_spots": 10,
+        "estimated_shortlist_rate": "0.7-1.3%",
+        "overall_score": 4,
+        "notes": "竞争较激烈，短篇小说对语言要求高"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Fish Poetry Prize",
+      "name_cn": "Fish 诗歌奖",
+      "field": "literature",
+      "subfield": "poetry",
+      "url": "https://fishpublishing.com/competition/poetry-contest/",
+      "submission_url": "https://fish.skor.ie",
+      "status": "open",
+      "deadline": "2026-03-31",
+      "result_date": "2026-05-15",
+      "frequency": "annual",
+      "entry_fee": {
+        "amount": 16,
+        "currency": "EUR",
+        "note": "首篇€16，后续€11，含点评€61"
+      },
+      "prize": {
+        "first": 1000,
+        "currency": "EUR",
+        "details": "第一名€1,000 | 第二名€300+写作课程 | 第三名€300"
+      },
+      "publication": "前10名收入 Fish Anthology 2026",
+      "word_limit": {
+        "min": null,
+        "max": 60,
+        "unit": "lines",
+        "note": "标题不计"
+      },
+      "language": "en",
+      "nationality_restriction": null,
+      "age_restriction": null,
+      "experience_restriction": null,
+      "theme": null,
+      "simultaneous_ok": null,
+      "previously_published_ok": false,
+      "anonymous_review": true,
+      "ai_policy": null,
+      "submission_method": "online_or_mail",
+      "submission_platform": "custom",
+      "judge": "Billy Collins（美国前桂冠诗人）",
+      "prestige_score": 8,
+      "style_profile": {
+        "style_tags": [
+          "open",
+          "accessible",
+          "everyday_poetics"
+        ],
+        "judge_preferences": "Billy Collins — 风格平易近人、幽默、日常观察",
+        "keywords": [
+          "可及性",
+          "日常诗意",
+          "清晰表达"
+        ],
+        "past_winner_traits": "往届评委: Brian Turner, Ruth Padel, Nick Laird, Jo Shapcott"
+      },
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "Collins偏好平实风格降低门槛",
+          "无国籍限制"
+        ],
+        "disadvantages": [
+          "诗歌翻译难度最高",
+          "韵律和音乐性难以跨语言保留"
+        ],
+        "recommendation": "避免过于晦涩的意象；日常生活中的诗意更受青睐"
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 6,
+        "estimated_entries": "500-1000",
+        "shortlist_spots": 10,
+        "estimated_shortlist_rate": "1-2%",
+        "overall_score": 4,
+        "notes": "诗歌翻译是最大挑战"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Fish Short Memoir Prize",
+      "name_cn": "Fish 短篇回忆录奖",
+      "field": "literature",
+      "subfield": "memoir",
+      "url": "https://fishpublishing.com/competition/short-memoir-contest/",
+      "status": "closed",
+      "deadline": "2026-01-31",
+      "result_date": "2026-04-01",
+      "frequency": "annual",
+      "entry_fee": {
+        "amount": 22,
+        "currency": "EUR",
+        "note": "首篇€22，后续€15"
+      },
+      "prize": {
+        "first": 1000,
+        "currency": "EUR",
+        "details": "第一名€1,000 | 第二/三名各€300+课程"
+      },
+      "publication": "前10名收入 Fish Anthology 2026",
+      "word_limit": {
+        "min": null,
+        "max": 4000,
+        "unit": "words"
+      },
+      "language": "en",
+      "nationality_restriction": null,
+      "judge": "Elspeth Beard",
+      "prestige_score": 6,
+      "style_profile": {
+        "style_tags": [
+          "open",
+          "personal",
+          "narrative"
+        ],
+        "judge_preferences": null
+      },
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "回忆录体裁适合跨文化叙事"
+        ],
+        "disadvantages": [
+          "4000字翻译量中等"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 6,
+        "competitor_quality": 5,
+        "estimated_entries": "300-600",
+        "shortlist_spots": 10,
+        "overall_score": 5
+      }
+    },
+    {
+      "id": 5,
+      "name": "Desperate Literature Short Fiction Prize",
+      "name_cn": "绝望文学短篇小说奖",
+      "field": "literature",
+      "subfield": "short_story",
+      "url": "https://desperateliterature.com/prize/",
+      "submission_url": "https://desperateliterature.com/product/prize-submission/",
+      "status": "open",
+      "deadline": "2026-04-19",
+      "result_date": "2026-07-14",
+      "frequency": "annual",
+      "entry_fee": {
+        "amount": 20,
+        "currency": "EUR",
+        "note": "首篇€20，后续€10，最多5篇"
+      },
+      "prize": {
+        "first": 2000,
+        "currency": "EUR",
+        "details": "第一名€2,000 + Civitella Ranieri驻留 | 两个亚军各€1,000"
+      },
+      "publication": "入围者在16家合作期刊发表，含西班牙语翻译；限量版合集出版",
+      "word_limit": {
+        "min": null,
+        "max": 2000,
+        "unit": "words"
+      },
+      "language": "en",
+      "nationality_restriction": null,
+      "theme": null,
+      "simultaneous_ok": null,
+      "previously_published_ok": false,
+      "anonymous_review": null,
+      "ai_policy": null,
+      "submission_platform": "custom",
+      "judge": "往届: Ottessa Moshfegh(2025), Megan McDowell(2024), Tiffany Tsao(2023)",
+      "prestige_score": 8,
+      "style_profile": {
+        "style_tags": [
+          "literary",
+          "experimental",
+          "international",
+          "emotional_tension"
+        ],
+        "judge_preferences": "Ottessa Moshfegh: 'tender and haunting'; Megan McDowell: 'economy, timing, suspense'; Tiffany Tsao: 'energy, pulse'",
+        "keywords": [
+          "叙事声音",
+          "节奏感",
+          "情感张力",
+          "简洁有力"
+        ],
+        "past_winner_traits": "MFA毕业生居多，有期刊发表经历。2025冠军Shastri Akella(印度裔)入选Best American Short Stories 2024"
+      },
+      "partner_journals": [
+        "The London Magazine",
+        "Bennington Review",
+        "Kill Your Darlings",
+        "Minor Literature[s]",
+        "Helter Skelter",
+        "Souvenir Magazine",
+        "Tenement",
+        "Folly Journal",
+        "Pajaro Azul",
+        "Monitor Books"
+      ],
+      "residency": [
+        "Civitella Ranieri Foundation(意大利)",
+        "Desperate Literature Residency(马德里10天)"
+      ],
+      "sponsored_entries": 40,
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "国际视角是加分项",
+          "合作期刊多曝光机会大",
+          "有赞助名额(40个免费)"
+        ],
+        "disadvantages": [
+          "需要较强英语写作能力",
+          "翻译作品可能不够'原生'",
+          "评委偏好当代文学小说"
+        ],
+        "recommendation": "适合有英语创作经验的文学作者；翻译作品需要极高质量"
+      },
+      "win_probability": {
+        "competition_density": 4,
+        "competitor_quality": 7,
+        "estimated_entries": "1500-3000",
+        "shortlist_spots": 10,
+        "estimated_shortlist_rate": "0.3-0.7%",
+        "overall_score": 3,
+        "notes": "竞争激烈，但入围后曝光价值极高"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Bath Short Story Award",
+      "name_cn": "巴斯短篇小说奖",
+      "field": "literature",
+      "subfield": "short_story",
+      "url": "https://www.bathshortstoryaward.org/",
+      "status": "open",
+      "deadline": "2026-04-27",
+      "frequency": "annual",
+      "entry_fee": {
+        "amount": null,
+        "currency": "GBP",
+        "note": "见官网"
+      },
+      "prize": {
+        "first": null,
+        "currency": "GBP",
+        "details": "多个奖项 | 本地奖£50书券"
+      },
+      "publication": "入围作品收入年度选集",
+      "word_limit": {
+        "min": null,
+        "max": 2200,
+        "unit": "words"
+      },
+      "language": "en",
+      "nationality_restriction": null,
+      "judge": "Gordon Wise（Curtis Brown文学经纪人）",
+      "prestige_score": 7,
+      "style_profile": {
+        "style_tags": [
+          "literary",
+          "open"
+        ],
+        "judge_preferences": "Gordon Wise是Curtis Brown的文学经纪人，偏好有出版潜力的作品",
+        "keywords": [
+          "出版潜力",
+          "叙事技巧"
+        ]
+      },
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "2200字适中",
+          "评委是经纪人，入围可能带来出版机会"
+        ],
+        "disadvantages": [
+          "英语文学性要求高"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 6,
+        "estimated_entries": "500-1500",
+        "shortlist_spots": 20,
+        "overall_score": 4
+      }
+    },
+    {
+      "id": 7,
+      "name": "Bath Flash Fiction Award",
+      "name_cn": "巴斯闪小说奖",
+      "field": "literature",
+      "subfield": "flash_fiction",
+      "url": "https://www.bathflashfictionaward.com/",
+      "status": "between_rounds",
+      "deadline": "2026-02-01",
+      "next_round": "2026年3-6月轮次即将开放",
+      "frequency": "3_per_year",
+      "entry_fee": {
+        "amount": null,
+        "currency": "GBP"
+      },
+      "prize": {
+        "first": 1000,
+        "currency": "GBP",
+        "details": "第一名£1,000 | 第二名£300 | 第三名£100 | 两个表彰各£30"
+      },
+      "publication": "50名长名单入选年度选集",
+      "word_limit": {
+        "min": null,
+        "max": 300,
+        "unit": "words"
+      },
+      "language": "en",
+      "nationality_restriction": null,
+      "judge": "John Brantingham",
+      "prestige_score": 7,
+      "style_profile": {
+        "style_tags": [
+          "open",
+          "flash"
+        ],
+        "judge_preferences": null
+      },
+      "chinese_creator_fit": {
+        "score": 4,
+        "advantages": [
+          "300字降低翻译难度",
+          "每年3轮机会多",
+          "50名长名单入围率高"
+        ],
+        "disadvantages": [
+          "需要英语写作"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 5,
+        "estimated_entries": "500-1000",
+        "shortlist_spots": 50,
+        "estimated_shortlist_rate": "5-10%",
+        "overall_score": 6,
+        "notes": "长名单50人，入围率相对高"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Brilliant Flash Fiction Contest",
+      "name_cn": "Brilliant 闪小说竞赛",
+      "field": "literature",
+      "subfield": "flash_fiction",
+      "url": "https://brilliantflashfiction.com/2026/01/19/2026-writing-contest/",
+      "status": "open",
+      "deadline": "2026-03-15",
+      "frequency": "annual",
+      "entry_fee": {
+        "amount": 0,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 200,
+        "currency": "USD",
+        "details": "第一名$200 | 第二名$50 | 第三名$50 | 7个入围各$20+网站发表"
+      },
+      "word_limit": {
+        "min": null,
+        "max": 350,
+        "unit": "words",
+        "note": "不含标题"
+      },
+      "language": "en",
+      "nationality_restriction": null,
+      "age_restriction": null,
+      "ai_policy": "禁止AI生成内容",
+      "submission_method": "email",
+      "submission_email": "bffwritingcontest@gmail.com",
+      "format_requirements": "双倍行距，12pt Times New Roman，Word附件+邮件正文",
+      "prestige_score": 4,
+      "style_profile": {
+        "style_tags": [
+          "open",
+          "accessible"
+        ]
+      },
+      "chinese_creator_fit": {
+        "score": 5,
+        "advantages": [
+          "免费",
+          "350字极短翻译容易",
+          "全球开放无年龄限制",
+          "10个获奖/入围名额"
+        ],
+        "disadvantages": [
+          "奖金低",
+          "声望一般"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 7,
+        "competitor_quality": 3,
+        "estimated_entries": "100-300",
+        "shortlist_spots": 10,
+        "estimated_shortlist_rate": "3-10%",
+        "overall_score": 7,
+        "notes": "免费+低声望=投稿量小，获奖概率高"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Lascaux Review Prizes",
+      "name_cn": "拉斯科评论奖",
+      "field": "literature",
+      "subfield": "multiple",
+      "url": "https://lascauxreview.com/contests/",
+      "status": "open",
+      "deadline": "2026-03-31",
+      "deadline_details": "诗歌3/31 | 闪小说6/30 | 非虚构9/30 | 短篇12/31",
+      "frequency": "annual_rolling",
+      "entry_fee": {
+        "amount": 15,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 1000,
+        "currency": "USD",
+        "details": "各类别第一名$1,000 + 铜质奖章 + 发表"
+      },
+      "word_limit": {
+        "min": null,
+        "max": 10000,
+        "unit": "words",
+        "note": "闪小说1000字 | 非虚构/短篇10000字 | 诗歌无限制"
+      },
+      "language": "en",
+      "nationality_restriction": null,
+      "simultaneous_ok": true,
+      "previously_published_ok": true,
+      "prestige_score": 6,
+      "style_profile": {
+        "style_tags": [
+          "open",
+          "inclusive",
+          "diverse"
+        ]
+      },
+      "chinese_creator_fit": {
+        "score": 5,
+        "advantages": [
+          "接受已发表作品",
+          "接受同时投稿",
+          "低风险",
+          "四个类别全年滚动"
+        ],
+        "disadvantages": [
+          "声望中等"
+        ],
+        "recommendation": "最适合'试水'的第一个竞赛"
+      },
+      "win_probability": {
+        "competition_density": 6,
+        "competitor_quality": 4,
+        "estimated_entries": "200-500",
+        "shortlist_spots": null,
+        "overall_score": 6,
+        "notes": "接受已发表+同时投稿，低风险高性价比"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Writers of the Future",
+      "name_cn": "未来作家奖",
+      "field": "literature",
+      "subfield": "science_fiction_fantasy",
+      "url": "https://writersofthefuture.com/enter-writer-contest/",
+      "status": "open",
+      "deadline": "quarterly",
+      "deadline_details": "每季度截止: 1/1, 4/1, 7/1, 10/1",
+      "frequency": "quarterly",
+      "entry_fee": {
+        "amount": 0,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 1000,
+        "currency": "USD",
+        "details": "季度: 第一名$1,000 | 第二名$750 | 第三名$500 | 年度大奖$5,000"
+      },
+      "publication": "获奖作品收入年度选集",
+      "word_limit": {
+        "min": null,
+        "max": 17000,
+        "unit": "words"
+      },
+      "language": "en",
+      "nationality_restriction": null,
+      "experience_restriction": "未出版过科幻/奇幻长篇或3个以上短篇的新人",
+      "prestige_score": 8,
+      "style_profile": {
+        "style_tags": [
+          "science_fiction",
+          "fantasy",
+          "traditional_narrative"
+        ],
+        "keywords": [
+          "世界构建",
+          "角色驱动",
+          "想象力",
+          "故事性"
+        ]
+      },
+      "chinese_creator_fit": {
+        "score": 4,
+        "advantages": [
+          "免费",
+          "季度赛分散竞争",
+          "新人专属",
+          "中国科幻国际声誉高(刘慈欣效应)"
+        ],
+        "disadvantages": [
+          "17000字翻译量大",
+          "需要英语写作"
+        ],
+        "recommendation": "中国科幻作者的最佳入门竞赛；可以利用'中国科幻'的国际热度"
+      },
+      "win_probability": {
+        "competition_density": 4,
+        "competitor_quality": 5,
+        "estimated_entries": "1000-2000/季度",
+        "shortlist_spots": 3,
+        "estimated_shortlist_rate": "0.15-0.3%",
+        "overall_score": 4,
+        "notes": "投稿量大但新人专属降低了竞争者质量"
+      }
+    },
+    {
+      "id": 11,
+      "name": "American Short(er) Fiction Prize",
+      "name_cn": "美国极短篇小说奖",
+      "field": "literature",
+      "subfield": "flash_fiction",
+      "url": "https://americanshortfiction.org/the-2026-american-shorter-fiction-prize/",
+      "status": "closed",
+      "deadline": "2026-02-01",
+      "entry_fee": {
+        "amount": 18,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 1000,
+        "currency": "USD",
+        "details": "第一名$1,000 + 发表"
+      },
+      "word_limit": {
+        "min": null,
+        "max": 1500,
+        "unit": "words",
+        "note": "2026年起从1000字提高"
+      },
+      "language": "en",
+      "submission_platform": "submittable",
+      "judge": "Bret Anthony Johnston",
+      "prestige_score": 8,
+      "style_profile": {
+        "style_tags": [
+          "literary",
+          "contemporary"
+        ]
+      },
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "1500字适中"
+        ],
+        "disadvantages": [
+          "顶级文学期刊水准"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 4,
+        "competitor_quality": 7,
+        "estimated_entries": "1000-2000",
+        "overall_score": 3
+      }
+    },
+    {
+      "id": 12,
+      "name": "WOW! Flash Fiction Contest",
+      "name_cn": "WOW! 闪小说竞赛",
+      "field": "literature",
+      "subfield": "flash_fiction",
+      "url": "https://www.wow-womenonwriting.com/contest.php",
+      "status": "open",
+      "deadline": "2026-02-28",
+      "frequency": "quarterly",
+      "entry_fee": {
+        "amount": 10,
+        "currency": "USD",
+        "note": "含点评$20"
+      },
+      "prize": {
+        "first": 400,
+        "currency": "USD",
+        "details": "第一名$400+$25亚马逊礼卡 | 第二名$300 | 第三名$200 | 7个亚军各$25礼卡 | 10个荣誉提名各$20礼卡"
+      },
+      "word_limit": {
+        "min": 250,
+        "max": 750,
+        "unit": "words"
+      },
+      "language": "en",
+      "entry_cap": 300,
+      "prestige_score": 5,
+      "style_profile": {
+        "style_tags": [
+          "open",
+          "accessible"
+        ]
+      },
+      "chinese_creator_fit": {
+        "score": 4,
+        "advantages": [
+          "季度赛机会多",
+          "限额300篇竞争可控",
+          "20个获奖名额"
+        ],
+        "disadvantages": [
+          "声望中等"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 7,
+        "competitor_quality": 4,
+        "estimated_entries": 300,
+        "shortlist_spots": 20,
+        "estimated_shortlist_rate": "6.7%",
+        "overall_score": 7,
+        "notes": "限额300篇+20个名额=6.7%入围率，非常高"
+      }
+    },
+    {
+      "id": 13,
+      "name": "New Writers Flash Fiction Competition",
+      "name_cn": "新作家闪小说竞赛",
+      "field": "literature",
+      "subfield": "flash_fiction",
+      "url": "https://newwriters.org.uk/flash-fiction-competition/",
+      "status": "closed",
+      "deadline": "2026-01-31",
+      "entry_fee": {
+        "amount": 10,
+        "currency": "GBP",
+        "note": "1篇£10 / 2篇£19 / 3篇£27"
+      },
+      "prize": {
+        "first": 1100,
+        "currency": "GBP",
+        "details": "第一名£1,100 | 第二名£300 | 第三名£200"
+      },
+      "word_limit": {
+        "min": null,
+        "max": 300,
+        "unit": "words",
+        "note": "不含标题"
+      },
+      "language": "en",
+      "low_income_free": true,
+      "prestige_score": 5,
+      "chinese_creator_fit": {
+        "score": 4,
+        "advantages": [
+          "300字短",
+          "有低收入免费名额"
+        ],
+        "disadvantages": [
+          "已关闭"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 6,
+        "competitor_quality": 4,
+        "estimated_entries": "200-500",
+        "overall_score": 6
+      }
+    },
+    {
+      "id": 14,
+      "name": "National Poetry Series",
+      "name_cn": "美国国家诗歌系列",
+      "field": "literature",
+      "subfield": "poetry_collection",
+      "url": "https://nationalpoetryseries.org/apply/",
+      "status": "open",
+      "deadline": "2026-03-21",
+      "entry_fee": {
+        "amount": 35,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 10000,
+        "currency": "USD",
+        "details": "5位获奖者各$10,000 + 出版合同"
+      },
+      "word_limit": {
+        "min": 48,
+        "max": 64,
+        "unit": "pages",
+        "note": "书稿长度诗集"
+      },
+      "language": "en",
+      "nationality_restriction": "仅限美国公民/居民",
+      "anonymous_review": true,
+      "submission_platform": "submittable",
+      "prestige_score": 9,
+      "chinese_creator_fit": {
+        "score": 1,
+        "advantages": [],
+        "disadvantages": [
+          "仅限美国公民/居民",
+          "需要完整诗集书稿"
+        ]
+      },
+      "win_probability": {
+        "overall_score": 1,
+        "notes": "国籍限制，中国创作者不可参加"
+      }
+    },
+    {
+      "id": 15,
+      "name": "Reedsy Weekly Contest",
+      "name_cn": "Reedsy 每周写作竞赛",
+      "field": "literature",
+      "subfield": "short_story",
+      "url": "https://reedsy.com/creative-writing-prompts/contests/",
+      "status": "open",
+      "deadline": "weekly",
+      "frequency": "weekly",
+      "entry_fee": {
+        "amount": 5,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 250,
+        "currency": "USD"
+      },
+      "language": "en",
+      "prestige_score": 3,
+      "style_profile": {
+        "style_tags": [
+          "open",
+          "prompt_based"
+        ]
+      },
+      "chinese_creator_fit": {
+        "score": 4,
+        "advantages": [
+          "每周一期练手机会多",
+          "低费用"
+        ],
+        "disadvantages": [
+          "声望低",
+          "练习性质"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 3,
+        "overall_score": 6,
+        "notes": "练手性质，适合积累经验"
+      }
+    },
+    {
+      "id": 16,
+      "name": "Bridport Prize",
+      "name_cn": "布里奇波特奖",
+      "field": "literature",
+      "subfield": "multiple",
+      "url": "https://bridportprize.org.uk/",
+      "submission_url": "https://thebridportprize.submittable.com/submit",
+      "status": "open",
+      "deadline": "2026-05-31",
+      "frequency": "annual",
+      "entry_fee": {
+        "amount": null,
+        "currency": "GBP",
+        "note": "闪小说£12 | 诗歌£13 | 短篇£15 | 长篇£26"
+      },
+      "prize": {
+        "first": 5000,
+        "currency": "GBP",
+        "details": "诗歌/短篇各£5,000 | 闪小说£1,000 | 长篇£1,500"
+      },
+      "publication": "获奖作品收入 Bridport Prize Anthology",
+      "word_limit": {
+        "min": null,
+        "max": null,
+        "unit": "varies",
+        "note": "闪小说250字 | 诗歌42行 | 短篇5000字"
+      },
+      "language": "en",
+      "nationality_restriction": null,
+      "age_restriction": "16+",
+      "submission_platform": "submittable",
+      "prestige_score": 9,
+      "style_profile": {
+        "style_tags": [
+          "literary",
+          "british_tradition",
+          "international"
+        ],
+        "past_winner_traits": "校友包括Kate Atkinson MBE, Gail Honeyman, Kit de Waal"
+      },
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "四个类别可选",
+          "闪小说250字门槛低",
+          "英国最负盛名文学奖之一"
+        ],
+        "disadvantages": [
+          "4300+投稿竞争激烈",
+          "英语文学性要求极高"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 2,
+        "competitor_quality": 8,
+        "estimated_entries": "4300+",
+        "shortlist_spots": 50,
+        "estimated_shortlist_rate": "1.2%",
+        "overall_score": 2,
+        "notes": "顶级竞赛，但闪小说类别相对容易切入"
+      }
+    },
+    {
+      "id": 17,
+      "name": "John Locke Institute Global Essay Prize",
+      "name_cn": "约翰·洛克学院全球论文奖",
+      "field": "literature",
+      "subfield": "essay_academic",
+      "url": "https://www.johnlockeinstitute.com/essay-competition",
+      "status": "open",
+      "deadline": "2026-06-30",
+      "entry_fee": {
+        "amount": 0,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": null,
+        "details": "各学科1-3名 + 总冠军"
+      },
+      "categories": [
+        "经济学",
+        "历史",
+        "国际关系",
+        "法律",
+        "哲学",
+        "政治",
+        "心理学",
+        "公共政策",
+        "科技",
+        "神学"
+      ],
+      "language": "en",
+      "experience_restriction": "学生（有Junior组）",
+      "judge": "牛津、剑桥、哈佛、普林斯顿、斯坦福教授",
+      "prestige_score": 8,
+      "chinese_creator_fit": {
+        "score": 4,
+        "advantages": [
+          "免费",
+          "10个学科类别选择多",
+          "中国学生学术能力强"
+        ],
+        "disadvantages": [
+          "仅限学生",
+          "学术英语要求高"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 3,
+        "competitor_quality": 7,
+        "estimated_entries": "5000-10000",
+        "overall_score": 3,
+        "notes": "全球学生竞赛，投稿量大但10个类别分散竞争"
+      }
+    },
+    {
+      "id": 18,
+      "name": "St. Gallen Symposium Global Essay Competition",
+      "name_cn": "圣加仑论坛全球论文竞赛",
+      "field": "literature",
+      "subfield": "essay_academic",
+      "url": "https://symposium.org/initiatives/global-essay-competition/",
+      "status": "closed",
+      "deadline": "2026-02-01",
+      "entry_fee": {
+        "amount": 0,
+        "currency": "CHF"
+      },
+      "prize": {
+        "first": null,
+        "currency": "CHF",
+        "details": "CHF 20,000（三位获奖者分享）+ 参加圣加仑论坛"
+      },
+      "word_limit": {
+        "min": null,
+        "max": 2100,
+        "unit": "words",
+        "note": "不含摘要、参考文献"
+      },
+      "language": "en",
+      "age_restriction": "1996年后出生",
+      "experience_restriction": "研究生/博士生",
+      "ai_policy": "允许使用但须注明，重度依赖AI将被扣分",
+      "prestige_score": 9,
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "免费",
+          "2100字适中"
+        ],
+        "disadvantages": [
+          "已关闭",
+          "仅限研究生/博士生"
+        ]
+      },
+      "win_probability": {
+        "overall_score": 3
+      }
+    },
+    {
+      "id": 19,
+      "name": "Harvard International Review Writing Contest",
+      "name_cn": "哈佛国际评论写作竞赛",
+      "field": "literature",
+      "subfield": "essay_academic",
+      "url": "https://hir.harvard.edu/contest/",
+      "status": "open",
+      "entry_fee": {
+        "amount": null
+      },
+      "word_limit": {
+        "min": 800,
+        "max": 1200,
+        "unit": "words"
+      },
+      "language": "en",
+      "experience_restriction": "中学生（7-12年级）",
+      "ai_policy": "严格禁止AI",
+      "prestige_score": 7,
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "哈佛品牌背书"
+        ],
+        "disadvantages": [
+          "仅限中学生"
+        ]
+      },
+      "win_probability": {
+        "overall_score": 4
+      }
+    },
+    {
+      "id": 20,
+      "name": "Bridport Prize - Flash Fiction",
+      "name_cn": "布里奇波特奖 - 闪小说",
+      "field": "literature",
+      "subfield": "flash_fiction",
+      "url": "https://bridportprize.org.uk/the-competition/flash-fiction/",
+      "status": "open",
+      "deadline": "2026-05-31",
+      "entry_fee": {
+        "amount": 12,
+        "currency": "GBP"
+      },
+      "prize": {
+        "first": 1000,
+        "currency": "GBP",
+        "details": "第一名£1,000 + 颁奖典礼 + 收入选集"
+      },
+      "word_limit": {
+        "min": null,
+        "max": 250,
+        "unit": "words"
+      },
+      "language": "en",
+      "prestige_score": 9,
+      "parent_competition": "Bridport Prize",
+      "chinese_creator_fit": {
+        "score": 4,
+        "advantages": [
+          "250字极短翻译容易",
+          "Bridport品牌声望极高",
+          "费用低£12"
+        ],
+        "disadvantages": [
+          "竞争激烈"
+        ],
+        "recommendation": "中国创作者冲击Bridport的最佳切入点"
+      },
+      "win_probability": {
+        "competition_density": 3,
+        "competitor_quality": 7,
+        "estimated_entries": "1000-2000",
+        "shortlist_spots": 10,
+        "overall_score": 3,
+        "notes": "闪小说类别比短篇/诗歌竞争稍小"
+      }
+    },
+    {
+      "id": 21,
+      "name": "Wergle Flomp Humor Poetry Contest",
+      "name_cn": "Wergle Flomp 幽默诗歌竞赛",
+      "field": "literature",
+      "subfield": "poetry",
+      "url": "https://winningwriters.com/our-contests/wergle-flomp-humor-poetry-contest-free",
+      "status": "open",
+      "deadline": "2026-04-01",
+      "frequency": "annual",
+      "entry_fee": {
+        "amount": 0,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 2000,
+        "currency": "USD",
+        "details": "第一名$2,000 + Duotrope两年 + Chill Subs五年 | 第二名$500 | 第三名$250 | 10个荣誉提名各$100"
+      },
+      "word_limit": {
+        "min": null,
+        "max": 250,
+        "unit": "lines"
+      },
+      "language": "en",
+      "theme": "幽默诗歌",
+      "prestige_score": 6,
+      "chinese_creator_fit": {
+        "score": 4,
+        "advantages": [
+          "免费",
+          "幽默诗歌竞争者少"
+        ],
+        "disadvantages": [
+          "幽默跨文化翻译难"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 4,
+        "overall_score": 6
+      }
+    },
+    {
+      "id": 22,
+      "name": "AWP Award Series",
+      "name_cn": "AWP 文学奖系列",
+      "field": "literature",
+      "subfield": "multiple",
+      "url": "https://www.awpwriter.org/contests/awp_award_series_overview",
+      "status": "closed",
+      "deadline": "2026-02-28",
+      "entry_fee": {
+        "amount": 30,
+        "currency": "USD",
+        "note": "会员$20"
+      },
+      "prize": {
+        "first": 5500,
+        "currency": "USD",
+        "details": "诗歌/短篇/长篇各$5,500 | 非虚构$2,500"
+      },
+      "language": "en",
+      "prestige_score": 9,
+      "categories": [
+        "Donald Hall Prize for Poetry",
+        "Grace Paley Prize for Short Fiction",
+        "Sue William Silverman Prize for Creative Nonfiction",
+        "James Alan McPherson Prize for the Novel"
+      ],
+      "chinese_creator_fit": {
+        "score": 2,
+        "advantages": [
+          "四个类别"
+        ],
+        "disadvantages": [
+          "顶级文学奖竞争极激烈",
+          "已关闭"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 2,
+        "competitor_quality": 9,
+        "overall_score": 2
+      }
+    },
+    {
+      "id": 23,
+      "name": "HG Wells Short Story Competition",
+      "name_cn": "HG·威尔斯短篇小说竞赛",
+      "field": "literature",
+      "subfield": "short_story",
+      "url": "https://hgwellscompetition.com/",
+      "status": "open",
+      "deadline": "2026-07-07",
+      "entry_fee": {
+        "amount": 10,
+        "currency": "GBP",
+        "note": "21岁以下免费，学生£5"
+      },
+      "prize": {
+        "first": 500,
+        "currency": "GBP",
+        "details": "成人组£500 | 青年组£1,000"
+      },
+      "word_limit": {
+        "min": 1500,
+        "max": 5000,
+        "unit": "words"
+      },
+      "language": "en",
+      "theme": "The Cheat",
+      "prestige_score": 6,
+      "chinese_creator_fit": {
+        "score": 4,
+        "advantages": [
+          "青年组免费且奖金更高",
+          "有主题限定减少竞争"
+        ],
+        "disadvantages": [
+          "需要围绕主题创作"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 6,
+        "competitor_quality": 4,
+        "estimated_entries": "300-800",
+        "overall_score": 5
+      }
+    },
+    {
+      "id": 24,
+      "name": "Yeovil Literary Prize",
+      "name_cn": "约维尔文学奖",
+      "field": "literature",
+      "subfield": "multiple",
+      "url": "https://yeovillitprize.com/",
+      "status": "open",
+      "deadline": "2026-05-31",
+      "entry_fee": {
+        "amount": null,
+        "currency": "GBP",
+        "note": "£8-£18.50"
+      },
+      "prize": {
+        "first": 1350,
+        "currency": "GBP",
+        "details": "长篇£1,350 | 短篇/诗歌/儿童各£625 | 自由写作£275"
+      },
+      "categories": [
+        "长篇",
+        "短篇",
+        "诗歌",
+        "儿童文学",
+        "自由写作"
+      ],
+      "language": "en",
+      "prestige_score": 5,
+      "chinese_creator_fit": {
+        "score": 4,
+        "advantages": [
+          "五个类别选择多",
+          "费用低"
+        ],
+        "disadvantages": [
+          "声望中等"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 6,
+        "competitor_quality": 4,
+        "estimated_entries": "200-500",
+        "overall_score": 6
+      }
+    },
+    {
+      "id": 25,
+      "name": "Tom Howard/John H. Reid Fiction & Essay Contest",
+      "name_cn": "Tom Howard 小说与散文竞赛",
+      "field": "literature",
+      "subfield": "short_story",
+      "url": "https://winningwriters.com/our-contests/tom-howard-john-h-reid-fiction-essay-contest",
+      "status": "open",
+      "deadline": "2026-05-01",
+      "entry_fee": {
+        "amount": 25,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 3500,
+        "currency": "USD",
+        "details": "最佳小说/最佳散文各$3,500 | 10个荣誉提名各$500"
+      },
+      "word_limit": {
+        "min": null,
+        "max": 6000,
+        "unit": "words"
+      },
+      "language": "en",
+      "prestige_score": 6,
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "12个获奖名额奖金丰厚"
+        ],
+        "disadvantages": [
+          "$25费用中等",
+          "6000字翻译量大"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 5,
+        "estimated_entries": "500-1500",
+        "shortlist_spots": 12,
+        "overall_score": 4
+      }
+    },
+    {
+      "id": 26,
+      "name": "Lorian Hemingway Short Story Competition",
+      "name_cn": "洛里安·海明威短篇小说竞赛",
+      "field": "literature",
+      "subfield": "short_story",
+      "url": "https://shortstorycompetition.com/",
+      "status": "upcoming",
+      "deadline": "2026-05-15",
+      "entry_fee": {
+        "amount": 15,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 1500,
+        "currency": "USD",
+        "details": "第一名$1,500 | 第二/三名各$500"
+      },
+      "word_limit": {
+        "min": null,
+        "max": 3500,
+        "unit": "words"
+      },
+      "language": "en",
+      "prestige_score": 7,
+      "style_profile": {
+        "style_tags": [
+          "literary",
+          "hemingway_tradition"
+        ],
+        "keywords": [
+          "简洁",
+          "力量",
+          "真实"
+        ]
+      },
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "3500字适中",
+          "海明威风格偏简洁适合翻译"
+        ],
+        "disadvantages": [
+          "43年历史竞争激烈"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 4,
+        "competitor_quality": 6,
+        "estimated_entries": "800-2000",
+        "overall_score": 4
+      }
+    },
+    {
+      "id": 27,
+      "name": "Alpine Fellowship Writing Prize",
+      "name_cn": "阿尔卑斯奖学金写作奖",
+      "field": "literature",
+      "subfield": "short_story",
+      "url": "https://alpinefellowship.com/writing-prize",
+      "status": "open",
+      "deadline": "2026-05-01",
+      "entry_fee": {
+        "amount": 10,
+        "currency": "GBP"
+      },
+      "prize": {
+        "first": 3000,
+        "currency": "GBP"
+      },
+      "word_limit": {
+        "min": null,
+        "max": 1250,
+        "unit": "words"
+      },
+      "language": "en",
+      "theme": "JOY",
+      "prestige_score": 6,
+      "chinese_creator_fit": {
+        "score": 4,
+        "advantages": [
+          "1250字短翻译容易",
+          "£10低费用",
+          "主题'JOY'跨文化通用"
+        ],
+        "disadvantages": [
+          "需围绕主题创作"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 6,
+        "competitor_quality": 5,
+        "estimated_entries": "300-800",
+        "overall_score": 5
+      }
+    },
+    {
+      "id": 28,
+      "name": "Caterpillar Poetry Prize",
+      "name_cn": "毛毛虫儿童诗歌奖",
+      "field": "literature",
+      "subfield": "poetry",
+      "url": "https://thecaterpillarmagazine.com/the-caterpillar-poetry-prize/",
+      "status": "open",
+      "deadline": "2026-03-31",
+      "entry_fee": {
+        "amount": 16,
+        "currency": "EUR"
+      },
+      "prize": {
+        "first": 1000,
+        "currency": "EUR",
+        "details": "第一名€1,000 | 第二名€500 | 第三名€250"
+      },
+      "language": "en",
+      "theme": "成人写给7-11岁儿童的诗歌",
+      "prestige_score": 5,
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "儿童诗歌竞争者相对少"
+        ],
+        "disadvantages": [
+          "需要理解英语儿童文学传统"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 7,
+        "competitor_quality": 4,
+        "estimated_entries": "200-500",
+        "overall_score": 6
+      }
+    },
+    {
+      "id": 29,
+      "name": "Edinburgh Short Story Awards",
+      "name_cn": "爱丁堡短篇小说奖",
+      "field": "literature",
+      "subfield": "short_story",
+      "url": "https://www.scottishartstrust.org/short-story",
+      "status": "open",
+      "deadline": "2026-02-26",
+      "entry_fee": {
+        "amount": 11,
+        "currency": "GBP"
+      },
+      "prize": {
+        "first": 3000,
+        "currency": "GBP",
+        "details": "第一名£3,000 | 第二名£500 | 第三名£250 | 5个表彰各£100 | First Write Award £300 | Write Mango Award £300 | Isobel Lodge Award £750"
+      },
+      "word_limit": {
+        "min": null,
+        "max": 2000,
+        "unit": "words"
+      },
+      "language": "en",
+      "prestige_score": 7,
+      "style_profile": {
+        "style_tags": [
+          "literary",
+          "diverse",
+          "humorous"
+        ],
+        "keywords": [
+          "unexpected",
+          "bemused",
+          "amazed",
+          "laughing out loud"
+        ]
+      },
+      "chinese_creator_fit": {
+        "score": 4,
+        "advantages": [
+          "2000字适中",
+          "多个奖项增加获奖机会",
+          "Write Mango奖偏好有趣/奇特的故事"
+        ],
+        "disadvantages": [
+          "即将截止"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 5,
+        "estimated_entries": "500-1500",
+        "shortlist_spots": 15,
+        "overall_score": 5,
+        "notes": "多个子奖项(8个)大幅提高获奖概率"
+      }
+    },
+    {
+      "id": 30,
+      "name": "Montreal International Poetry Prize",
+      "name_cn": "蒙特利尔国际诗歌奖",
+      "field": "literature",
+      "subfield": "poetry",
+      "url": "https://www.montrealpoetryprize.com/",
+      "status": "open",
+      "deadline": "2026-05-15",
+      "entry_fee": {
+        "amount": 25,
+        "currency": "CAD",
+        "note": "5月1日后$28"
+      },
+      "prize": {
+        "first": 20000,
+        "currency": "CAD",
+        "details": "CAD $20,000（约€12,400）+ 入选选集"
+      },
+      "word_limit": {
+        "min": null,
+        "max": 40,
+        "unit": "lines"
+      },
+      "language": "en",
+      "prestige_score": 9,
+      "chinese_creator_fit": {
+        "score": 2,
+        "advantages": [
+          "单首诗奖金极高"
+        ],
+        "disadvantages": [
+          "诗歌翻译极难",
+          "顶级竞赛竞争激烈"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 3,
+        "competitor_quality": 8,
+        "overall_score": 2
+      }
+    },
+    {
+      "id": 31,
+      "name": "Adrienne Rich Award for Poetry",
+      "name_cn": "阿德里安·里奇诗歌奖",
+      "field": "literature",
+      "subfield": "poetry",
+      "url": "https://www.bpj.org/submit/rich-award-guidelines",
+      "status": "open",
+      "deadline": "2026-04-30",
+      "entry_fee": {
+        "amount": 15,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 1500,
+        "currency": "USD",
+        "details": "$1,500 + 发表于 Beloit Poetry Journal"
+      },
+      "word_limit": {
+        "min": null,
+        "max": 10,
+        "unit": "pages",
+        "note": "最多3首诗"
+      },
+      "language": "en",
+      "prestige_score": 8,
+      "chinese_creator_fit": {
+        "score": 2,
+        "advantages": [
+          "所有投稿都有发表机会"
+        ],
+        "disadvantages": [
+          "诗歌翻译难",
+          "顶级诗歌期刊水准"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 4,
+        "competitor_quality": 7,
+        "overall_score": 3
+      }
+    },
+    {
+      "id": 32,
+      "name": "Reginald Gibbons Editor's Prize",
+      "name_cn": "Reginald Gibbons 编辑奖",
+      "field": "literature",
+      "subfield": "short_story",
+      "url": "https://www.triquarterly.org/submit",
+      "status": "open",
+      "deadline": "2026-03-31",
+      "entry_fee": {
+        "amount": 12,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 1000,
+        "currency": "USD",
+        "details": "$1,000 + 发表于 TriQuarterly"
+      },
+      "word_limit": {
+        "min": null,
+        "max": 5000,
+        "unit": "words"
+      },
+      "language": "en",
+      "prestige_score": 7,
+      "style_profile": {
+        "style_tags": [
+          "literary",
+          "contemporary"
+        ],
+        "keywords": [
+          "TriQuarterly是顶级文学期刊"
+        ]
+      },
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "$12低费用",
+          "TriQuarterly发表价值高"
+        ],
+        "disadvantages": [
+          "5000字翻译量大"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 6,
+        "overall_score": 4
+      }
+    },
+    {
+      "id": 33,
+      "name": "Parsec Short Story Contest",
+      "name_cn": "Parsec 短篇小说竞赛",
+      "field": "literature",
+      "subfield": "science_fiction_fantasy",
+      "url": "https://parsec-sff.org/short-story-contest/",
+      "status": "open",
+      "deadline": "2026-03-31",
+      "entry_fee": {
+        "amount": 0,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 200,
+        "currency": "USD",
+        "details": "$200 + 出版"
+      },
+      "word_limit": {
+        "min": null,
+        "max": 3500,
+        "unit": "words"
+      },
+      "language": "en",
+      "theme": "METAMORPHOSIS",
+      "experience_restriction": "非专业作家（未达SFWA会员资格）",
+      "prestige_score": 4,
+      "chinese_creator_fit": {
+        "score": 5,
+        "advantages": [
+          "免费",
+          "新人专属",
+          "科幻主题中国作者有优势",
+          "3500字适中"
+        ],
+        "disadvantages": [
+          "奖金低",
+          "声望一般"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 7,
+        "competitor_quality": 3,
+        "estimated_entries": "100-300",
+        "overall_score": 7,
+        "notes": "免费+新人专属+主题限定=投稿量小"
+      }
+    },
+    {
+      "id": 34,
+      "name": "Ploughshares Emerging Writers' Contest",
+      "name_cn": "Ploughshares 新锐作家竞赛",
+      "field": "literature",
+      "subfield": "multiple",
+      "url": "https://www.pshares.org/submit/emerging-writers-contest",
+      "status": "open",
+      "deadline": "2026-03-31",
+      "entry_fee": {
+        "amount": null,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 2000,
+        "currency": "USD",
+        "details": "$2,000 + 发表于Ploughshares + Aevitas Creative Management经纪人对话"
+      },
+      "categories": [
+        "fiction",
+        "nonfiction",
+        "poetry"
+      ],
+      "language": "en",
+      "prestige_score": 9,
+      "style_profile": {
+        "style_tags": [
+          "literary",
+          "contemporary",
+          "emerging_voices"
+        ]
+      },
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "Ploughshares是美国顶级文学期刊",
+          "经纪人对话机会珍贵"
+        ],
+        "disadvantages": [
+          "竞争极激烈"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 2,
+        "competitor_quality": 8,
+        "overall_score": 2,
+        "notes": "Ploughshares声望极高，吸引大量MFA毕业生"
+      }
+    },
+    {
+      "id": 35,
+      "name": "BBC Short Story Award",
+      "name_cn": "BBC 短篇小说奖",
+      "field": "literature",
+      "subfield": "short_story",
+      "url": "https://www.bbc.co.uk/send/u223748296",
+      "status": "open",
+      "deadline": "2026-03-16",
+      "entry_fee": {
+        "amount": 0,
+        "currency": "GBP"
+      },
+      "prize": {
+        "first": 15000,
+        "currency": "GBP"
+      },
+      "word_limit": {
+        "min": null,
+        "max": 8000,
+        "unit": "words"
+      },
+      "language": "en",
+      "nationality_restriction": "英国公民/居民",
+      "experience_restriction": "已出版作者",
+      "prestige_score": 10,
+      "chinese_creator_fit": {
+        "score": 1,
+        "advantages": [],
+        "disadvantages": [
+          "仅限英国公民/居民",
+          "仅限已出版作者"
+        ]
+      },
+      "win_probability": {
+        "overall_score": 1,
+        "notes": "国籍+经验双重限制"
+      }
+    },
+    {
+      "id": 36,
+      "name": "Black Fox Prize",
+      "name_cn": "黑狐文学奖",
+      "field": "literature",
+      "subfield": "multiple",
+      "url": "https://blackfoxlitmag.com/contests/",
+      "status": "open",
+      "deadline": "2026-03-31",
+      "entry_fee": {
+        "amount": 10,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 325,
+        "currency": "USD",
+        "details": "$325 + 出版于Black Fox Literary Magazine"
+      },
+      "word_limit": {
+        "min": null,
+        "max": 5000,
+        "unit": "words",
+        "note": "最多3首诗/2篇闪小说/1篇短篇"
+      },
+      "language": "en",
+      "theme": "FAIRY TALE REMIX",
+      "prestige_score": 4,
+      "chinese_creator_fit": {
+        "score": 4,
+        "advantages": [
+          "$10低费用",
+          "童话改编主题中国素材丰富"
+        ],
+        "disadvantages": [
+          "奖金低"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 7,
+        "competitor_quality": 3,
+        "estimated_entries": "100-300",
+        "overall_score": 6,
+        "notes": "主题限定减少竞争，中国童话素材是差异化优势"
+      }
+    },
+    {
+      "id": 37,
+      "name": "Prime Number Magazine Awards",
+      "name_cn": "素数杂志文学奖",
+      "field": "literature",
+      "subfield": "multiple",
+      "url": "https://www.press53.com/prime-number-magazine-awards/",
+      "status": "open",
+      "deadline": "2026-03-31",
+      "entry_fee": {
+        "amount": 15,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 1000,
+        "currency": "USD",
+        "details": "诗歌/短篇各$1,000 + 亚军各$250 + 发表"
+      },
+      "word_limit": {
+        "min": null,
+        "max": 5300,
+        "unit": "words",
+        "note": "诗歌3页以内"
+      },
+      "language": "en",
+      "prestige_score": 5,
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "两个类别"
+        ],
+        "disadvantages": [
+          "声望中等"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 6,
+        "competitor_quality": 4,
+        "overall_score": 5
+      }
+    },
+    {
+      "id": 38,
+      "name": "Rialto Nature & Place Poetry Competition",
+      "name_cn": "Rialto 自然与地方诗歌竞赛",
+      "field": "literature",
+      "subfield": "poetry",
+      "url": "https://www.therialto.co.uk/pages/nature-poetry-competition/",
+      "status": "open",
+      "deadline": "2026-04-01",
+      "entry_fee": {
+        "amount": 7,
+        "currency": "GBP",
+        "note": "首首£7，后续各£4"
+      },
+      "prize": {
+        "first": 1000,
+        "currency": "GBP"
+      },
+      "word_limit": {
+        "min": null,
+        "max": 40,
+        "unit": "lines",
+        "note": "最多6首"
+      },
+      "language": "en",
+      "theme": "自然与地方",
+      "prestige_score": 7,
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "自然主题跨文化通用",
+          "£7低费用"
+        ],
+        "disadvantages": [
+          "诗歌翻译难"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 6,
+        "overall_score": 4
+      }
+    },
+    {
+      "id": 39,
+      "name": "London Independent Story Prize",
+      "name_cn": "伦敦独立故事奖",
+      "field": "literature",
+      "subfield": "multiple",
+      "url": "https://www.londonindependentstoryprize.co.uk/",
+      "status": "open",
+      "deadline": "2026-05-25",
+      "entry_fee": {
+        "amount": null,
+        "currency": "GBP",
+        "note": "£13.50-£20.50"
+      },
+      "prize": {
+        "first": 500,
+        "currency": "GBP",
+        "details": "各类别£500 + 出版"
+      },
+      "categories": [
+        "诗歌(长诗40行/3首短诗)",
+        "闪小说(300字)",
+        "短篇(3000字)"
+      ],
+      "language": "en",
+      "prestige_score": 6,
+      "chinese_creator_fit": {
+        "score": 4,
+        "advantages": [
+          "三个类别",
+          "闪小说300字门槛低"
+        ],
+        "disadvantages": [
+          "声望中等"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 6,
+        "competitor_quality": 4,
+        "overall_score": 5
+      }
+    },
+    {
+      "id": 40,
+      "name": "Inkspot Flash Fiction Competition",
+      "name_cn": "Inkspot 闪小说竞赛",
+      "field": "literature",
+      "subfield": "flash_fiction",
+      "url": "https://inkspotpublishing.com/competition/500-for-500-flash-fiction-2026/",
+      "status": "open",
+      "deadline": "2026-05-17",
+      "entry_fee": {
+        "amount": 10,
+        "currency": "GBP",
+        "note": "含反馈£20"
+      },
+      "prize": {
+        "first": 500,
+        "currency": "GBP",
+        "details": "£500 + 出版"
+      },
+      "word_limit": {
+        "min": null,
+        "max": 500,
+        "unit": "words"
+      },
+      "language": "en",
+      "prestige_score": 4,
+      "chinese_creator_fit": {
+        "score": 4,
+        "advantages": [
+          "500字短",
+          "£10低费用",
+          "可选反馈"
+        ],
+        "disadvantages": [
+          "声望低"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 7,
+        "competitor_quality": 3,
+        "estimated_entries": "100-300",
+        "overall_score": 7
+      }
+    },
+    {
+      "id": 41,
+      "name": "Matthew Power Literary Reporting Award",
+      "name_cn": "Matthew Power 文学报道奖",
+      "field": "literature",
+      "subfield": "nonfiction",
+      "url": "https://nyujournalism.submittable.com/submit/341429/2026-matthew-power-literary-reporting-award",
+      "status": "closed",
+      "deadline": "2026-02-22",
+      "entry_fee": {
+        "amount": 0,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 15000,
+        "currency": "USD",
+        "details": "$7,500发放两次"
+      },
+      "language": "en",
+      "prestige_score": 8,
+      "chinese_creator_fit": {
+        "score": 2,
+        "advantages": [
+          "免费",
+          "奖金极高"
+        ],
+        "disadvantages": [
+          "文学报道类",
+          "NYU关联者不可参加"
+        ]
+      },
+      "win_probability": {
+        "overall_score": 3
+      }
+    },
+    {
+      "id": 42,
+      "name": "Gutsy Great Novelist Chapter One Prize",
+      "name_cn": "Gutsy 长篇小说第一章奖",
+      "field": "literature",
+      "subfield": "novel",
+      "url": "https://gutsygreatnovelist.com/chapter-one-prize/",
+      "status": "open",
+      "deadline": "2026-03-03",
+      "entry_fee": {
+        "amount": 20,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 1000,
+        "currency": "USD",
+        "details": "第一名$1,000 | 第二名$500 | 第三名$250"
+      },
+      "language": "en",
+      "prestige_score": 5,
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "只需第一章",
+          "所有类型小说"
+        ],
+        "disadvantages": [
+          "$20费用"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 6,
+        "competitor_quality": 4,
+        "estimated_entries": "200-500",
+        "overall_score": 5
+      }
+    },
+    {
+      "id": 43,
+      "name": "Brick Lane Bookshop Short Story Prize",
+      "name_cn": "砖巷书店短篇小说奖",
+      "field": "literature",
+      "subfield": "short_story",
+      "url": "https://bricklanebookshop.org/2026-short-story-prize/",
+      "status": "open",
+      "deadline": "2026-03-02",
+      "entry_fee": {
+        "amount": 10,
+        "currency": "GBP"
+      },
+      "prize": {
+        "first": 1000,
+        "currency": "GBP",
+        "details": "第一名£1,000 | 第二名£500 | 第三名£250 | 12篇入选选集"
+      },
+      "word_limit": {
+        "min": 1000,
+        "max": 3500,
+        "unit": "words"
+      },
+      "language": "en",
+      "nationality_restriction": "英国和爱尔兰",
+      "low_income_free": true,
+      "prestige_score": 6,
+      "chinese_creator_fit": {
+        "score": 1,
+        "advantages": [],
+        "disadvantages": [
+          "仅限英国和爱尔兰作者"
+        ]
+      },
+      "win_probability": {
+        "overall_score": 1,
+        "notes": "国籍限制"
+      }
+    },
+    {
+      "id": 44,
+      "name": "SFWP Literary Awards",
+      "name_cn": "SFWP 文学奖",
+      "field": "literature",
+      "subfield": "multiple",
+      "url": "https://sfwp.com/literary-awards/",
+      "status": "open",
+      "deadline": "2026-04-16",
+      "entry_fee": {
+        "amount": 30,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 1500,
+        "currency": "USD",
+        "details": "$1,500 + 两个亚军各$500"
+      },
+      "language": "en",
+      "prestige_score": 6,
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "多类别"
+        ],
+        "disadvantages": [
+          "$30费用较高"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 5,
+        "overall_score": 4
+      }
+    },
+    {
+      "id": 45,
+      "name": "Penn Review Prizes",
+      "name_cn": "宾大评论文学奖",
+      "field": "literature",
+      "subfield": "multiple",
+      "url": "https://www.pennreview.org/prizes",
+      "status": "open",
+      "deadline": "2026-03-25",
+      "entry_fee": {
+        "amount": 10,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 500,
+        "currency": "USD",
+        "details": "各类别$500 + 出版（所有投稿均有发表机会）"
+      },
+      "word_limit": {
+        "min": null,
+        "max": 5000,
+        "unit": "words",
+        "note": "诗歌最多5首"
+      },
+      "language": "en",
+      "prestige_score": 6,
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "$10低费用",
+          "所有投稿有发表机会"
+        ],
+        "disadvantages": [
+          "宾大期刊竞争不低"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 5,
+        "overall_score": 5
+      }
+    },
+    {
+      "id": 46,
+      "name": "Able Muse Write Prize",
+      "name_cn": "Able Muse 写作奖",
+      "field": "literature",
+      "subfield": "multiple",
+      "url": "https://www.ablemusepress.com/",
+      "status": "open",
+      "deadline": "2026-03-15",
+      "entry_fee": {
+        "amount": 15,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 500,
+        "currency": "USD",
+        "details": "诗歌/小说各$500 + 发表"
+      },
+      "language": "en",
+      "prestige_score": 6,
+      "chinese_creator_fit": {
+        "score": 3
+      },
+      "win_probability": {
+        "competition_density": 6,
+        "competitor_quality": 5,
+        "overall_score": 5
+      }
+    },
+    {
+      "id": 47,
+      "name": "Cloudbank Poetry/Flash Fiction Contest",
+      "name_cn": "Cloudbank 诗歌/闪小说竞赛",
+      "field": "literature",
+      "subfield": "multiple",
+      "url": "https://cloudbankbooks.com/contest-rules/",
+      "status": "open",
+      "deadline": "2026-03-15",
+      "entry_fee": {
+        "amount": 15,
+        "currency": "USD",
+        "note": "含两期订阅"
+      },
+      "prize": {
+        "first": 500,
+        "currency": "USD"
+      },
+      "word_limit": {
+        "min": null,
+        "max": 1000,
+        "unit": "words"
+      },
+      "language": "en",
+      "prestige_score": 5,
+      "chinese_creator_fit": {
+        "score": 4,
+        "advantages": [
+          "1000字短",
+          "含订阅有附加价值"
+        ],
+        "disadvantages": [
+          "声望中等"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 6,
+        "competitor_quality": 4,
+        "overall_score": 5
+      }
+    },
+    {
+      "id": 48,
+      "name": "Sand Hills Prose & Poetry Contest",
+      "name_cn": "Sand Hills 散文与诗歌竞赛",
+      "field": "literature",
+      "subfield": "multiple",
+      "url": "https://sandhillsmagazine.com/submit-1",
+      "status": "open",
+      "deadline": "2026-03-08",
+      "entry_fee": {
+        "amount": 12,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 500,
+        "currency": "USD",
+        "details": "各类别$500 + 发表（50周年纪念刊）"
+      },
+      "language": "en",
+      "prestige_score": 5,
+      "chinese_creator_fit": {
+        "score": 3
+      },
+      "win_probability": {
+        "competition_density": 7,
+        "competitor_quality": 3,
+        "overall_score": 6
+      }
+    },
+    {
+      "id": 49,
+      "name": "New American Voices Award",
+      "name_cn": "新美国之声奖",
+      "field": "literature",
+      "subfield": "novel",
+      "url": "https://fallforthebook.org/newamericanvoices/",
+      "status": "open",
+      "deadline": "2026-03-31",
+      "entry_fee": {
+        "amount": 20,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 5000,
+        "currency": "USD",
+        "details": "$5,000 | 两个决赛者各$1,000"
+      },
+      "language": "en",
+      "experience_restriction": "移民作者的已出版散文作品",
+      "prestige_score": 7,
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "专门面向移民作者",
+          "中国移民视角是优势"
+        ],
+        "disadvantages": [
+          "需要已出版图书",
+          "仅限移民"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 6,
+        "overall_score": 4,
+        "notes": "移民限定缩小竞争池"
+      }
+    },
+    {
+      "id": 50,
+      "name": "Dzanc Books Prize for Fiction",
+      "name_cn": "Dzanc Books 小说奖",
+      "field": "literature",
+      "subfield": "novel",
+      "url": "https://dzancbooks.submittable.com/",
+      "status": "upcoming",
+      "entry_fee": {
+        "amount": 25,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 5000,
+        "currency": "USD",
+        "details": "$5,000 + 出版合同"
+      },
+      "language": "en",
+      "prestige_score": 7,
+      "style_profile": {
+        "style_tags": [
+          "literary",
+          "daring",
+          "innovative"
+        ]
+      },
+      "chinese_creator_fit": {
+        "score": 2,
+        "advantages": [
+          "出版合同价值高"
+        ],
+        "disadvantages": [
+          "需要完整长篇书稿",
+          "翻译工作量巨大"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 4,
+        "competitor_quality": 7,
+        "overall_score": 3
+      }
+    },
+    {
+      "id": 51,
+      "name": "Inciting Incident Script Competition",
+      "name_cn": "导火索编剧竞赛",
+      "field": "literature",
+      "subfield": "screenplay",
+      "url": "https://www.incitingincidentcomp.com/",
+      "status": "open",
+      "deadline": "2026-05-25",
+      "entry_fee": {
+        "amount": 47,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 300,
+        "currency": "USD",
+        "details": "第一名$300 | 第二名$50 | 第三名书面反馈"
+      },
+      "language": "en",
+      "prestige_score": 3,
+      "chinese_creator_fit": {
+        "score": 2,
+        "advantages": [
+          "编剧类"
+        ],
+        "disadvantages": [
+          "$47费用高",
+          "奖金低",
+          "声望低"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 7,
+        "competitor_quality": 3,
+        "overall_score": 5
+      }
+    },
+    {
+      "id": 52,
+      "name": "Rose Metal Press Short Short/Flash Fiction Novella Prize",
+      "name_cn": "Rose Metal Press 中篇小说奖",
+      "field": "literature",
+      "subfield": "novella",
+      "url": "https://rosemetalpress.com/",
+      "status": "open",
+      "deadline": "2026-03-31",
+      "entry_fee": {
+        "amount": 20,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 1000,
+        "currency": "USD",
+        "details": "$1,000预付 + 出版 + 10本样书"
+      },
+      "language": "en",
+      "prestige_score": 6,
+      "chinese_creator_fit": {
+        "score": 2,
+        "advantages": [
+          "出版机会"
+        ],
+        "disadvantages": [
+          "中篇翻译量大"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 6,
+        "overall_score": 4
+      }
+    },
+    {
+      "id": 53,
+      "name": "Ann Petry Award",
+      "name_cn": "Ann Petry 文学奖",
+      "field": "literature",
+      "subfield": "novel",
+      "url": "https://redhen.org/ann-petry-award/",
+      "status": "open",
+      "deadline": "2026-03-31",
+      "entry_fee": {
+        "amount": 20,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 3000,
+        "currency": "USD",
+        "details": "$3,000 + Red Hen Press出版"
+      },
+      "language": "en",
+      "experience_restriction": "Black authors",
+      "prestige_score": 7,
+      "chinese_creator_fit": {
+        "score": 1,
+        "advantages": [],
+        "disadvantages": [
+          "仅限Black authors"
+        ]
+      },
+      "win_probability": {
+        "overall_score": 1,
+        "notes": "种族限制"
+      }
+    },
+    {
+      "id": 54,
+      "name": "Reedsy Young Writers Contest",
+      "name_cn": "Reedsy 青年写作竞赛",
+      "field": "literature",
+      "subfield": "short_story",
+      "url": "https://blog.reedsy.com/creative-writing-prompts/contests/young-authors/",
+      "status": "open",
+      "deadline": "2026-06-22",
+      "entry_fee": {
+        "amount": 0,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 100,
+        "currency": "USD",
+        "details": "$100 | 亚军$50 | 最佳同行评审$50"
+      },
+      "language": "en",
+      "age_restriction": "13-19岁",
+      "prestige_score": 3,
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "免费",
+          "面向青少年竞争较小"
+        ],
+        "disadvantages": [
+          "仅限13-19岁",
+          "奖金低"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 6,
+        "competitor_quality": 2,
+        "overall_score": 7
+      }
+    },
+    {
+      "id": 55,
+      "name": "Independent Poetry Book & Pamphlet Prize",
+      "name_cn": "独立诗集奖",
+      "field": "literature",
+      "subfield": "poetry_collection",
+      "url": "https://reedsy.com/resources/writing-contests/",
+      "status": "open",
+      "deadline": "2026-05-31",
+      "entry_fee": {
+        "amount": 40,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 400,
+        "currency": "GBP",
+        "details": "第一名£400 | 第二名£200 | 第三名£100 + 出版"
+      },
+      "language": "en",
+      "prestige_score": 4,
+      "chinese_creator_fit": {
+        "score": 2,
+        "advantages": [],
+        "disadvantages": [
+          "需要已出版诗集",
+          "$40费用高"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 7,
+        "competitor_quality": 5,
+        "overall_score": 5
+      }
+    },
+    {
+      "id": 56,
+      "name": "PING Anthology Short Story Contest",
+      "name_cn": "PING 选集短篇竞赛",
+      "field": "literature",
+      "subfield": "science_fiction_fantasy",
+      "url": "https://the-ping-anthology.com/",
+      "status": "open",
+      "deadline": "2026-03-31",
+      "entry_fee": {
+        "amount": null,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 500,
+        "currency": "USD",
+        "details": "第一名$500 | 第二名$250 | 第三名$150 | 前25名入选选集"
+      },
+      "word_limit": {
+        "min": 1000,
+        "max": 3000,
+        "unit": "words"
+      },
+      "language": "en",
+      "theme": "未来APP 'PING'——实时显示谁在想你",
+      "prestige_score": 3,
+      "chinese_creator_fit": {
+        "score": 4,
+        "advantages": [
+          "科幻主题中国作者有优势",
+          "25个入选名额多",
+          "主题新颖有趣"
+        ],
+        "disadvantages": [
+          "新竞赛声望低"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 7,
+        "competitor_quality": 3,
+        "estimated_entries": "100-300",
+        "shortlist_spots": 25,
+        "overall_score": 7,
+        "notes": "新竞赛+25个名额=高入选率"
+      }
+    },
+    {
+      "id": 57,
+      "name": "Ethos Short Short Story Contest",
+      "name_cn": "Ethos 百字小说竞赛",
+      "field": "literature",
+      "subfield": "flash_fiction",
+      "url": "https://www.ethosliteracy.org/storycontest",
+      "status": "open",
+      "deadline": "2026-03-01",
+      "entry_fee": {
+        "amount": 15,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 200,
+        "currency": "USD",
+        "details": "最佳$200 | 最佳主题奖(4个) | 最佳青年奖"
+      },
+      "word_limit": {
+        "min": null,
+        "max": 100,
+        "unit": "words"
+      },
+      "language": "en",
+      "theme": "四选一: Chicken(s), Detour, Purple, Something Lost",
+      "age_restriction": "14+",
+      "prestige_score": 3,
+      "chinese_creator_fit": {
+        "score": 4,
+        "advantages": [
+          "100字极短翻译极容易",
+          "主题有趣"
+        ],
+        "disadvantages": [
+          "奖金低",
+          "声望低"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 7,
+        "competitor_quality": 2,
+        "estimated_entries": "50-200",
+        "overall_score": 7
+      }
+    },
+    {
+      "id": 58,
+      "name": "Glenville Appalachian Chapbook Contest",
+      "name_cn": "格伦维尔阿巴拉契亚小册子竞赛",
+      "field": "literature",
+      "subfield": "multiple",
+      "url": "https://www.glenville.edu/community/lkrs-chapbook-contest",
+      "status": "open",
+      "deadline": "2026-04-30",
+      "entry_fee": {
+        "amount": 10,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": null,
+        "currency": "USD",
+        "details": "现金奖 + 出版"
+      },
+      "word_limit": {
+        "min": 15,
+        "max": 25,
+        "unit": "pages"
+      },
+      "language": "en",
+      "theme": "阿巴拉契亚文化",
+      "prestige_score": 4,
+      "chinese_creator_fit": {
+        "score": 2,
+        "advantages": [
+          "$10低费用"
+        ],
+        "disadvantages": [
+          "需要了解阿巴拉契亚文化",
+          "地域性强"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 8,
+        "competitor_quality": 3,
+        "estimated_entries": "50-150",
+        "overall_score": 7
+      }
+    },
+    {
+      "id": 59,
+      "name": "National Indie Excellence Awards",
+      "name_cn": "国家独立卓越图书奖",
+      "field": "literature",
+      "subfield": "novel",
+      "url": "https://www.indieexcellence.com/",
+      "status": "open",
+      "deadline": "2026-03-31",
+      "entry_fee": {
+        "amount": null,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": null,
+        "details": "各类别金银铜奖 + 认证标章"
+      },
+      "language": "en",
+      "experience_restriction": "需要已出版英语图书",
+      "prestige_score": 6,
+      "chinese_creator_fit": {
+        "score": 2,
+        "advantages": [
+          "20年历史"
+        ],
+        "disadvantages": [
+          "需要已出版图书"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 5,
+        "overall_score": 5
+      }
+    },
+    {
+      "id": 60,
+      "name": "Jerboa Lit Mini Contest",
+      "name_cn": "Jerboa Lit 迷你竞赛",
+      "field": "literature",
+      "subfield": "flash_fiction",
+      "url": "https://www.jerboalit.com/registration-250",
+      "status": "open",
+      "deadline": "2026-02-27",
+      "entry_fee": {
+        "amount": 15,
+        "currency": "USD",
+        "note": "低收入免费"
+      },
+      "prize": {
+        "first": 500,
+        "currency": "USD"
+      },
+      "word_limit": {
+        "min": null,
+        "max": 250,
+        "unit": "words"
+      },
+      "language": "en",
+      "prestige_score": 4,
+      "style_profile": {
+        "style_tags": [
+          "prompt_based",
+          "timed"
+        ],
+        "keywords": [
+          "周末限时写作",
+          "随机提示"
+        ]
+      },
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "250字极短",
+          "有低收入免费名额"
+        ],
+        "disadvantages": [
+          "限时写作对非母语者不利",
+          "即将截止"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 7,
+        "competitor_quality": 3,
+        "estimated_entries": "50-150",
+        "overall_score": 7
+      }
+    },
+    {
+      "id": 61,
+      "name": "Bill Hickok Humor Award for Poetry",
+      "name_cn": "Bill Hickok 幽默诗歌奖",
+      "field": "literature",
+      "subfield": "poetry",
+      "url": "http://i70review.fieldinfoserv.com/bill-hickok-humor-award-for-poetry.html",
+      "status": "open",
+      "deadline": "2026-02-28",
+      "entry_fee": {
+        "amount": 15,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 1000,
+        "currency": "USD",
+        "details": "$1,000 + 发表于I-70 Review"
+      },
+      "language": "en",
+      "theme": "幽默诗歌",
+      "judge": "Ted Kooser（美国前桂冠诗人）",
+      "prestige_score": 6,
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "评委是前桂冠诗人",
+          "幽默诗歌竞争者少"
+        ],
+        "disadvantages": [
+          "幽默跨文化翻译难",
+          "即将截止"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 7,
+        "competitor_quality": 4,
+        "estimated_entries": "100-300",
+        "overall_score": 6
+      }
+    },
+    {
+      "id": 62,
+      "name": "Jonathan & Barbara Silver Foundation Writing Grant",
+      "name_cn": "Silver基金会写作资助",
+      "field": "literature",
+      "subfield": "nonfiction",
+      "url": "https://jonathanandbarbarasilverfoundation.org/grants/",
+      "status": "open",
+      "deadline": "2026-05-31",
+      "entry_fee": {
+        "amount": 0,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 20000,
+        "currency": "USD"
+      },
+      "language": "en",
+      "theme": "关于雕塑的写作（历史、美学、想象）",
+      "prestige_score": 7,
+      "chinese_creator_fit": {
+        "score": 2,
+        "advantages": [
+          "免费",
+          "$20,000巨额资助"
+        ],
+        "disadvantages": [
+          "极其小众——雕塑评论写作"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 9,
+        "competitor_quality": 6,
+        "estimated_entries": "20-80",
+        "overall_score": 7,
+        "notes": "极小众=极少竞争者"
+      }
+    },
+    {
+      "id": 63,
+      "name": "Alpine Fellowship Poetry Prize",
+      "name_cn": "阿尔卑斯奖学金诗歌奖",
+      "field": "literature",
+      "subfield": "poetry",
+      "url": "https://alpinefellowship.com/poetry-prize",
+      "status": "open",
+      "deadline": "2026-05-01",
+      "entry_fee": {
+        "amount": 10,
+        "currency": "GBP"
+      },
+      "prize": {
+        "first": 3000,
+        "currency": "GBP"
+      },
+      "language": "en",
+      "theme": "JOY",
+      "prestige_score": 6,
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "£10低费用",
+          "主题'JOY'跨文化通用"
+        ],
+        "disadvantages": [
+          "诗歌翻译难"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 6,
+        "competitor_quality": 5,
+        "estimated_entries": "300-800",
+        "overall_score": 5
+      }
+    },
+    {
+      "id": 64,
+      "name": "Writers Online Poetry Contest - To the Sea",
+      "name_cn": "Writers Online 海洋诗歌竞赛",
+      "field": "literature",
+      "subfield": "poetry",
+      "url": "https://www.writers-online.co.uk/writing-competitions/to-the-sea/",
+      "status": "open",
+      "deadline": "2026-03-15",
+      "entry_fee": {
+        "amount": 8.5,
+        "currency": "GBP"
+      },
+      "prize": {
+        "first": 100,
+        "currency": "GBP",
+        "details": "第一名£100 + 发表 | 亚军£50 + 网站发表"
+      },
+      "word_limit": {
+        "min": null,
+        "max": 40,
+        "unit": "lines"
+      },
+      "language": "en",
+      "theme": "To the Sea（海洋主题）",
+      "prestige_score": 4,
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "海洋主题跨文化通用"
+        ],
+        "disadvantages": [
+          "奖金低",
+          "声望低"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 7,
+        "competitor_quality": 3,
+        "overall_score": 6
+      }
+    },
+    {
+      "id": 65,
+      "name": "Writers Online 500-Word Contest",
+      "name_cn": "Writers Online 500字竞赛",
+      "field": "literature",
+      "subfield": "flash_fiction",
+      "url": "https://www.writers-online.co.uk/writing-competitions/500-words-4",
+      "status": "closed",
+      "deadline": "2026-02-15",
+      "entry_fee": {
+        "amount": 8.5,
+        "currency": "GBP"
+      },
+      "prize": {
+        "first": 200,
+        "currency": "GBP",
+        "details": "第一名£200 + 发表 | 亚军£50 + 网站发表"
+      },
+      "word_limit": {
+        "min": null,
+        "max": 500,
+        "unit": "words"
+      },
+      "language": "en",
+      "prestige_score": 4,
+      "chinese_creator_fit": {
+        "score": 3
+      },
+      "win_probability": {
+        "competition_density": 7,
+        "competitor_quality": 3,
+        "overall_score": 6
+      }
+    },
+    {
+      "id": 66,
+      "name": "Writers Online Crime Story Contest",
+      "name_cn": "Writers Online 犯罪小说竞赛",
+      "field": "literature",
+      "subfield": "short_story",
+      "url": "https://www.writers-online.co.uk/writing-competitions/crime-story",
+      "status": "open",
+      "deadline": "2026-03-15",
+      "entry_fee": {
+        "amount": 8.5,
+        "currency": "GBP"
+      },
+      "prize": {
+        "first": 200,
+        "currency": "GBP",
+        "details": "第一名£200 + 发表 | 亚军£50 + 网站发表"
+      },
+      "word_limit": {
+        "min": 1500,
+        "max": 1700,
+        "unit": "words"
+      },
+      "language": "en",
+      "theme": "犯罪小说（纪念阿加莎·克里斯蒂逝世50周年）",
+      "prestige_score": 4,
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "犯罪小说类型明确",
+          "1500-1700字适中"
+        ],
+        "disadvantages": [
+          "需要了解犯罪小说传统"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 7,
+        "competitor_quality": 3,
+        "overall_score": 6
+      }
+    },
+    {
+      "id": 67,
+      "name": "Shady Grove Literary Flash Fiction Contest",
+      "name_cn": "Shady Grove 闪小说竞赛",
+      "field": "literature",
+      "subfield": "flash_fiction",
+      "url": "https://shadygroveliterary.wixsite.com/shadygroveliterary/submissions",
+      "status": "open",
+      "deadline": "2026-10-31",
+      "entry_fee": {
+        "amount": 0,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 100,
+        "currency": "USD",
+        "details": "第一名$100 | 第二/三名发表"
+      },
+      "word_limit": {
+        "min": null,
+        "max": 300,
+        "unit": "words"
+      },
+      "language": "en",
+      "prestige_score": 2,
+      "chinese_creator_fit": {
+        "score": 4,
+        "advantages": [
+          "免费",
+          "300字极短",
+          "全年开放",
+          "任何风格/类型"
+        ],
+        "disadvantages": [
+          "奖金极低",
+          "声望极低"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 8,
+        "competitor_quality": 2,
+        "estimated_entries": "30-100",
+        "overall_score": 8,
+        "notes": "免费+低声望+全年开放=极少竞争"
+      }
+    },
+    {
+      "id": 68,
+      "name": "Furious Flower Poetry Prize",
+      "name_cn": "Furious Flower 诗歌奖",
+      "field": "literature",
+      "subfield": "poetry",
+      "url": "https://furiousflowerpoetry.submittable.com/submit",
+      "status": "closed",
+      "deadline": "2026-02-14",
+      "entry_fee": {
+        "amount": 20,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 1500,
+        "currency": "USD",
+        "details": "$1,500 | 荣誉提名$750 + 发表于Obsidian"
+      },
+      "language": "en",
+      "experience_restriction": "未出版超过一本书",
+      "prestige_score": 6,
+      "chinese_creator_fit": {
+        "score": 2,
+        "advantages": [
+          "新人友好"
+        ],
+        "disadvantages": [
+          "已关闭"
+        ]
+      },
+      "win_probability": {
+        "overall_score": 4
+      }
+    },
+    {
+      "id": 69,
+      "name": "Able Muse Book Award",
+      "name_cn": "Able Muse 诗集奖",
+      "field": "literature",
+      "subfield": "poetry_collection",
+      "url": "https://www.ablemusepress.com/",
+      "status": "open",
+      "deadline": "2026-03-31",
+      "entry_fee": {
+        "amount": 25,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 1000,
+        "currency": "USD",
+        "details": "$1,000 + 出版"
+      },
+      "language": "en",
+      "prestige_score": 6,
+      "judge": "Annie Finch",
+      "chinese_creator_fit": {
+        "score": 2,
+        "advantages": [
+          "出版机会"
+        ],
+        "disadvantages": [
+          "需要完整诗集书稿"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 6,
+        "overall_score": 4
+      }
+    },
+    {
+      "id": 70,
+      "name": "Fiction Potluck",
+      "name_cn": "Fiction Potluck 季度竞赛",
+      "field": "literature",
+      "subfield": "short_story",
+      "url": "https://fictionpotluck.com/",
+      "status": "upcoming",
+      "frequency": "quarterly",
+      "entry_fee": {
+        "amount": 0,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 100,
+        "currency": "USD",
+        "details": "$100 + Duotrope两年订阅($100价值)"
+      },
+      "word_limit": {
+        "min": null,
+        "max": 6000,
+        "unit": "words"
+      },
+      "language": "en",
+      "prestige_score": 3,
+      "chinese_creator_fit": {
+        "score": 4,
+        "advantages": [
+          "免费",
+          "季度赛机会多",
+          "有主题挑战"
+        ],
+        "disadvantages": [
+          "奖金低"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 7,
+        "competitor_quality": 3,
+        "overall_score": 7
+      }
+    },
+    {
+      "id": 71,
+      "name": "Novel Beginnings",
+      "name_cn": "Novel Beginnings 长篇开头奖",
+      "field": "literature",
+      "subfield": "novel",
+      "url": "https://novelbeginnings.com/",
+      "status": "open",
+      "deadline": "2026-03-31",
+      "entry_fee": {
+        "amount": 0,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 50000,
+        "currency": "USD",
+        "details": "$50,000 + 45分钟编辑咨询 + 6个月导师指导 + 有条件代理合同"
+      },
+      "word_limit": {
+        "min": null,
+        "max": 5000,
+        "unit": "words",
+        "note": "进行中长篇的前5000字"
+      },
+      "language": "en",
+      "prestige_score": 7,
+      "chinese_creator_fit": {
+        "score": 4,
+        "advantages": [
+          "免费",
+          "$50,000巨额奖金",
+          "只需前5000字",
+          "有代理合同机会"
+        ],
+        "disadvantages": [
+          "需要进行中的长篇",
+          "5000字翻译量中等"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 3,
+        "competitor_quality": 6,
+        "estimated_entries": "2000-5000",
+        "overall_score": 3,
+        "notes": "免费+$50,000=投稿量会很大，但奖金值得一试"
+      }
+    },
+    {
+      "id": 72,
+      "name": "Elegant Literature Award for New Writers",
+      "name_cn": "优雅文学新人奖",
+      "field": "literature",
+      "subfield": "short_story",
+      "url": "https://www.elegantliterature.com/contest-rules/",
+      "status": "open",
+      "deadline": "2026-02-28",
+      "entry_fee": {
+        "amount": 0,
+        "currency": "USD",
+        "note": "需注册Elegant Literature会员（免费）"
+      },
+      "prize": {
+        "first": 3000,
+        "currency": "USD",
+        "details": "$3,000 + 10美分/字稿费 + 发表 + 新小说家加速器项目免费入学"
+      },
+      "word_limit": {
+        "min": null,
+        "max": 2000,
+        "unit": "words"
+      },
+      "language": "en",
+      "prestige_score": 5,
+      "chinese_creator_fit": {
+        "score": 4,
+        "advantages": [
+          "免费",
+          "2000字适中",
+          "新人友好",
+          "加速器项目有附加价值"
+        ],
+        "disadvantages": [
+          "即将截止"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 4,
+        "overall_score": 6
+      }
+    },
+    {
+      "id": 73,
+      "name": "Limnisa Short Story Competition",
+      "name_cn": "Limnisa 短篇小说竞赛",
+      "field": "literature",
+      "subfield": "short_story",
+      "url": "https://limnisa.com/",
+      "status": "open",
+      "deadline": "2026-02-22",
+      "entry_fee": {
+        "amount": 10,
+        "currency": "EUR"
+      },
+      "prize": {
+        "first": null,
+        "details": "希腊海边一周写作驻留"
+      },
+      "word_limit": {
+        "min": null,
+        "max": 1500,
+        "unit": "words"
+      },
+      "language": "en",
+      "prestige_score": 4,
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "1500字短",
+          "驻留体验独特"
+        ],
+        "disadvantages": [
+          "即将截止",
+          "奖品是驻留非现金"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 7,
+        "competitor_quality": 3,
+        "estimated_entries": "100-300",
+        "overall_score": 6
+      }
+    },
+    {
+      "id": 74,
+      "name": "Next Generation Short Story Awards",
+      "name_cn": "下一代短篇小说奖",
+      "field": "literature",
+      "subfield": "short_story",
+      "url": "https://nextgenerationawards.com/",
+      "status": "open",
+      "deadline": "2026-02-26",
+      "entry_fee": {
+        "amount": 25,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 500,
+        "currency": "USD",
+        "details": "$500 + 奖杯 + 出版"
+      },
+      "word_limit": {
+        "min": null,
+        "max": 5000,
+        "unit": "words"
+      },
+      "language": "en",
+      "prestige_score": 4,
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "多类别"
+        ],
+        "disadvantages": [
+          "$25费用",
+          "即将截止"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 6,
+        "competitor_quality": 4,
+        "overall_score": 5
+      }
+    },
+    {
+      "id": 75,
+      "name": "Emerging Author Dagger",
+      "name_cn": "新锐作家匕首奖（犯罪小说）",
+      "field": "literature",
+      "subfield": "novel",
+      "url": "https://thecwa.co.uk/daggers/emerging-author-dagger/",
+      "status": "open",
+      "deadline": "2026-02-27",
+      "entry_fee": {
+        "amount": 42,
+        "currency": "GBP"
+      },
+      "prize": {
+        "first": 500,
+        "currency": "GBP",
+        "details": "£500 + 入围作品展示给经纪人和出版商"
+      },
+      "word_limit": {
+        "min": null,
+        "max": 3000,
+        "unit": "words",
+        "note": "开头3000字 + 1500字大纲"
+      },
+      "language": "en",
+      "prestige_score": 7,
+      "style_profile": {
+        "style_tags": [
+          "crime",
+          "thriller",
+          "mystery"
+        ]
+      },
+      "chinese_creator_fit": {
+        "score": 2,
+        "advantages": [
+          "CWA品牌声望高",
+          "经纪人曝光"
+        ],
+        "disadvantages": [
+          "£42费用高",
+          "犯罪小说类型限定",
+          "即将截止"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 6,
+        "overall_score": 4
+      }
+    },
+    {
+      "id": 76,
+      "name": "Classical Association Verse and Voice Competition",
+      "name_cn": "古典协会诗歌与声音竞赛",
+      "field": "literature",
+      "subfield": "poetry",
+      "url": "https://classicalassociation.org/verse-and-voice/",
+      "status": "open",
+      "deadline": "2026-02-27",
+      "entry_fee": {
+        "amount": 0,
+        "currency": "GBP"
+      },
+      "prize": {
+        "first": 2000,
+        "currency": "GBP"
+      },
+      "word_limit": {
+        "min": null,
+        "max": 1000,
+        "unit": "words"
+      },
+      "language": "en",
+      "prestige_score": 5,
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "免费",
+          "£2,000奖金不错"
+        ],
+        "disadvantages": [
+          "古典主题可能需要西方古典知识",
+          "即将截止"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 7,
+        "competitor_quality": 4,
+        "estimated_entries": "100-300",
+        "overall_score": 6
+      }
+    },
+    {
+      "id": 77,
+      "name": "Voices of Mixed Heritage",
+      "name_cn": "混血之声文学奖",
+      "field": "literature",
+      "subfield": "multiple",
+      "url": "https://voicesofmixedheritage.com/",
+      "status": "open",
+      "deadline": "2026-02-28",
+      "entry_fee": {
+        "amount": 0,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 500,
+        "currency": "USD",
+        "details": "$500 + 出版"
+      },
+      "word_limit": {
+        "min": null,
+        "max": 2000,
+        "unit": "words",
+        "note": "短篇/非虚构2000字 | 诗歌10页"
+      },
+      "language": "en",
+      "prestige_score": 4,
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "免费",
+          "多元文化背景是优势"
+        ],
+        "disadvantages": [
+          "可能偏好混血/多元文化身份叙事",
+          "即将截止"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 7,
+        "competitor_quality": 3,
+        "overall_score": 6
+      }
+    },
+    {
+      "id": 78,
+      "name": "A Long Winter's Night Contest",
+      "name_cn": "漫漫冬夜50字竞赛",
+      "field": "literature",
+      "subfield": "flash_fiction",
+      "url": "https://www.gothamwriters.com/",
+      "status": "open",
+      "deadline": "2026-02-28",
+      "entry_fee": {
+        "amount": 0,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": null,
+        "details": "发表 + 免费Gotham写作课程"
+      },
+      "word_limit": {
+        "min": null,
+        "max": 50,
+        "unit": "words"
+      },
+      "language": "en",
+      "prestige_score": 3,
+      "chinese_creator_fit": {
+        "score": 5,
+        "advantages": [
+          "免费",
+          "50字极短翻译几乎无难度",
+          "Gotham写作课程有价值"
+        ],
+        "disadvantages": [
+          "无现金奖金",
+          "即将截止"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 6,
+        "competitor_quality": 2,
+        "overall_score": 7,
+        "notes": "50字+免费=门槛极低"
+      }
+    },
+    {
+      "id": 79,
+      "name": "Canterbury Tales Writing Competition",
+      "name_cn": "坎特伯雷故事写作竞赛",
+      "field": "literature",
+      "subfield": "multiple",
+      "url": "https://www.canterbury.ac.uk/canterbury-tales-writing-competition",
+      "status": "open",
+      "deadline": "2026-02-28",
+      "entry_fee": {
+        "amount": 0,
+        "currency": "GBP"
+      },
+      "prize": {
+        "first": 300,
+        "currency": "GBP",
+        "details": "获奖学生£300 + 学校图书馆£1,000"
+      },
+      "word_limit": {
+        "min": null,
+        "max": 500,
+        "unit": "words"
+      },
+      "language": "en",
+      "experience_restriction": "学生",
+      "prestige_score": 4,
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "免费",
+          "500字短"
+        ],
+        "disadvantages": [
+          "仅限学生",
+          "即将截止"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 6,
+        "competitor_quality": 2,
+        "overall_score": 7
+      }
+    },
+    {
+      "id": 80,
+      "name": "Porter Fleming Literary Competition",
+      "name_cn": "Porter Fleming 文学竞赛",
+      "field": "literature",
+      "subfield": "multiple",
+      "url": "https://www.porterfleming.org/",
+      "status": "open",
+      "deadline": "2026-03-01",
+      "entry_fee": {
+        "amount": 15,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 7000,
+        "currency": "USD",
+        "details": "$7,000总奖金分配到各类别"
+      },
+      "categories": [
+        "小说",
+        "非虚构",
+        "戏剧",
+        "诗歌"
+      ],
+      "language": "en",
+      "prestige_score": 5,
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "四个类别",
+          "$7,000总奖金丰厚"
+        ],
+        "disadvantages": [
+          "可能偏好美国作者"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 6,
+        "competitor_quality": 4,
+        "overall_score": 5
+      }
+    },
+    {
+      "id": 81,
+      "name": "Kelpies Prize for Writing",
+      "name_cn": "Kelpies 儿童文学写作奖",
+      "field": "literature",
+      "subfield": "children",
+      "url": "https://discoverkelpies.co.uk/kelpies-prize/",
+      "status": "open",
+      "deadline": "2026-03-01",
+      "entry_fee": {
+        "amount": 0,
+        "currency": "GBP"
+      },
+      "prize": {
+        "first": 500,
+        "currency": "GBP",
+        "details": "£500 + 导师指导 + 编辑反馈 + 出版支持"
+      },
+      "word_limit": {
+        "min": null,
+        "max": 3000,
+        "unit": "words"
+      },
+      "language": "en",
+      "nationality_restriction": "苏格兰",
+      "prestige_score": 5,
+      "chinese_creator_fit": {
+        "score": 1,
+        "advantages": [],
+        "disadvantages": [
+          "仅限苏格兰"
+        ]
+      },
+      "win_probability": {
+        "overall_score": 1
+      }
+    },
+    {
+      "id": 82,
+      "name": "Bridge House Annual Anthology",
+      "name_cn": "Bridge House 年度选集征稿",
+      "field": "literature",
+      "subfield": "short_story",
+      "url": "https://bridgehousepublishing.co.uk/",
+      "status": "open",
+      "deadline": "2026-02-28",
+      "entry_fee": {
+        "amount": 0,
+        "currency": "GBP"
+      },
+      "prize": {
+        "first": null,
+        "details": "入选选集 + 销售利润分成"
+      },
+      "word_limit": {
+        "min": null,
+        "max": 5000,
+        "unit": "words"
+      },
+      "language": "en",
+      "prestige_score": 3,
+      "chinese_creator_fit": {
+        "score": 4,
+        "advantages": [
+          "免费",
+          "出版机会",
+          "利润分成模式"
+        ],
+        "disadvantages": [
+          "无现金奖金",
+          "声望低"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 6,
+        "competitor_quality": 3,
+        "overall_score": 7
+      }
+    },
+    {
+      "id": 83,
+      "name": "Rigel Contest 2026",
+      "name_cn": "Rigel 多类别竞赛",
+      "field": "literature",
+      "subfield": "multiple",
+      "url": "https://rigeljournal.com/",
+      "status": "open",
+      "deadline": "2026-02-28",
+      "entry_fee": {
+        "amount": 5,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 100,
+        "currency": "USD",
+        "details": "$100 + 出版"
+      },
+      "word_limit": {
+        "min": null,
+        "max": 1500,
+        "unit": "words",
+        "note": "短篇1500字 | 诗歌14行 | 图像小说6页"
+      },
+      "categories": [
+        "短篇",
+        "诗歌",
+        "图像小说"
+      ],
+      "language": "en",
+      "prestige_score": 3,
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "$5极低费用",
+          "1500字短",
+          "含图像小说类别"
+        ],
+        "disadvantages": [
+          "奖金低"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 7,
+        "competitor_quality": 2,
+        "overall_score": 7
+      }
+    },
+    {
+      "id": 84,
+      "name": "Never Such Innocence International Competition",
+      "name_cn": "Never Such Innocence 国际竞赛",
+      "field": "literature",
+      "subfield": "poetry",
+      "url": "https://www.neversuchinnocence.com/",
+      "status": "open",
+      "deadline": "2026-02-27",
+      "entry_fee": {
+        "amount": 0,
+        "currency": "GBP"
+      },
+      "prize": {
+        "first": null,
+        "details": "出版及其他奖励"
+      },
+      "language": "en",
+      "prestige_score": 4,
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "免费",
+          "国际竞赛"
+        ],
+        "disadvantages": [
+          "可能偏好战争/和平主题"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 6,
+        "competitor_quality": 3,
+        "overall_score": 6
+      }
+    },
+    {
+      "id": 85,
+      "name": "Story Star Standard Founding Competition",
+      "name_cn": "Story Star 独立图书展示竞赛",
+      "field": "literature",
+      "subfield": "novel",
+      "url": "https://thestorystarstandard.com/",
+      "status": "open",
+      "deadline": "2026-02-27",
+      "entry_fee": {
+        "amount": 0,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": null,
+        "details": "免费专业书评 + 独立图书目录永久收录 + 博客/访谈合作机会"
+      },
+      "word_limit": {
+        "min": null,
+        "max": 10000,
+        "unit": "words",
+        "note": "10000字+大纲"
+      },
+      "language": "en",
+      "prestige_score": 2,
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "免费",
+          "专业书评有价值"
+        ],
+        "disadvantages": [
+          "无现金奖金",
+          "声望极低"
+        ]
+      },
+      "win_probability": {
+        "competition_density": 8,
+        "competitor_quality": 2,
+        "overall_score": 8
+      }
+    },
+    {
+      "id": 86,
+      "name": "Hayden's Ferry Review Contest",
+      "name_cn": "海登渡口评论竞赛",
+      "field": "literature",
+      "subfield": "multiple",
+      "url": "https://haydensferryreview.com/",
+      "submission_url": "https://haydensferryreview.com/",
+      "status": "open",
+      "deadline": "2026-02-28",
+      "result_date": null,
+      "frequency": "annual",
+      "entry_fee": {
+        "amount": 15,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 1000,
+        "currency": "USD",
+        "details": "$1,000 + 发表于 Hayden's Ferry Review"
+      },
+      "publication": null,
+      "word_limit": {
+        "min": null,
+        "max": 10000,
+        "unit": "words"
+      },
+      "language": "en",
+      "nationality_restriction": null,
+      "age_restriction": null,
+      "experience_restriction": null,
+      "theme": null,
+      "simultaneous_ok": null,
+      "previously_published_ok": false,
+      "anonymous_review": true,
+      "ai_policy": null,
+      "submission_method": "online",
+      "submission_platform": "submittable",
+      "judge": null,
+      "prestige_score": 6,
+      "style_profile": {
+        "style_tags": [
+          "open",
+          "literary"
+        ],
+        "judge_preferences": null,
+        "keywords": [],
+        "past_winner_traits": null
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 5,
+        "estimated_submissions": null,
+        "shortlist_rate": null,
+        "overall_score": 5
+      },
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "接受小说和诗歌",
+          "知名文学期刊"
+        ],
+        "disadvantages": [],
+        "recommendation": "适合有一定英文写作基础的作者"
+      }
+    },
+    {
+      "id": 87,
+      "name": "Stella Kupferberg Memorial Short Story Contest",
+      "name_cn": "Stella Kupferberg 短篇小说竞赛",
+      "field": "literature",
+      "subfield": "short_story",
+      "url": "https://www.symphonyspace.org/selected-shorts",
+      "submission_url": "https://www.symphonyspace.org/selected-shorts",
+      "status": "open",
+      "deadline": "2026-03-06",
+      "result_date": null,
+      "frequency": "annual",
+      "entry_fee": {
+        "amount": 25,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 1000,
+        "currency": "USD",
+        "details": "$1,000 + Gotham Writers 写作课程"
+      },
+      "publication": null,
+      "word_limit": {
+        "min": null,
+        "max": 5000,
+        "unit": "words"
+      },
+      "language": "en",
+      "nationality_restriction": null,
+      "age_restriction": null,
+      "experience_restriction": null,
+      "theme": null,
+      "simultaneous_ok": null,
+      "previously_published_ok": false,
+      "anonymous_review": true,
+      "ai_policy": null,
+      "submission_method": "online",
+      "submission_platform": "submittable",
+      "judge": null,
+      "prestige_score": 5,
+      "style_profile": {
+        "style_tags": [
+          "open",
+          "literary"
+        ],
+        "judge_preferences": null,
+        "keywords": [],
+        "past_winner_traits": null
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 5,
+        "estimated_submissions": null,
+        "shortlist_rate": null,
+        "overall_score": 5
+      },
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "获奖作品在 Selected Shorts 朗读"
+        ],
+        "disadvantages": [],
+        "recommendation": "适合文学性强的短篇"
+      }
+    },
+    {
+      "id": 88,
+      "name": "Wild Women Story Contest",
+      "name_cn": "野性女性故事竞赛",
+      "field": "literature",
+      "subfield": "multiple",
+      "url": "https://tuliptreepub.com/",
+      "submission_url": "https://tuliptreepub.com/",
+      "status": "open",
+      "deadline": "2026-03-08",
+      "result_date": null,
+      "frequency": "annual",
+      "entry_fee": {
+        "amount": 20,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 1000,
+        "currency": "USD",
+        "details": "$1,000 + 发表于 TulipTree Review"
+      },
+      "publication": null,
+      "word_limit": {
+        "min": null,
+        "max": 5000,
+        "unit": "words"
+      },
+      "language": "en",
+      "nationality_restriction": null,
+      "age_restriction": null,
+      "experience_restriction": null,
+      "theme": null,
+      "simultaneous_ok": null,
+      "previously_published_ok": false,
+      "anonymous_review": true,
+      "ai_policy": null,
+      "submission_method": "online",
+      "submission_platform": "submittable",
+      "judge": null,
+      "prestige_score": 4,
+      "style_profile": {
+        "style_tags": [
+          "open",
+          "literary"
+        ],
+        "judge_preferences": null,
+        "keywords": [],
+        "past_winner_traits": null
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 5,
+        "estimated_submissions": null,
+        "shortlist_rate": null,
+        "overall_score": 5
+      },
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "接受诗歌/短篇/散文",
+          "主题：Wild Woman 精神"
+        ],
+        "disadvantages": [],
+        "recommendation": "主题开放，适合有力量感的作品"
+      }
+    },
+    {
+      "id": 89,
+      "name": "Robinson Jeffers Tor House Poetry Prize",
+      "name_cn": "Robinson Jeffers 诗歌奖",
+      "field": "literature",
+      "subfield": "poetry",
+      "url": "https://www.torhouse.org/poetry-prize",
+      "submission_url": "https://www.torhouse.org/poetry-prize",
+      "status": "open",
+      "deadline": "2026-03-14",
+      "result_date": null,
+      "frequency": "annual",
+      "entry_fee": {
+        "amount": 10,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 1000,
+        "currency": "USD",
+        "details": "$1,000"
+      },
+      "publication": null,
+      "word_limit": null,
+      "language": "en",
+      "nationality_restriction": null,
+      "age_restriction": null,
+      "experience_restriction": null,
+      "theme": "poetry",
+      "simultaneous_ok": null,
+      "previously_published_ok": false,
+      "anonymous_review": true,
+      "ai_policy": null,
+      "submission_method": "online",
+      "submission_platform": "submittable",
+      "judge": null,
+      "prestige_score": 6,
+      "style_profile": {
+        "style_tags": [
+          "open",
+          "literary"
+        ],
+        "judge_preferences": null,
+        "keywords": [],
+        "past_winner_traits": null
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 5,
+        "estimated_submissions": null,
+        "shortlist_rate": null,
+        "overall_score": 5
+      },
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "低费用",
+          "历史悠久的诗歌奖"
+        ],
+        "disadvantages": [],
+        "recommendation": "适合自然主题诗歌"
+      }
+    },
+    {
+      "id": 90,
+      "name": "Bellingham Review Literary Awards",
+      "name_cn": "贝灵汉评论文学奖",
+      "field": "literature",
+      "subfield": "multiple",
+      "url": "https://bhreview.org/",
+      "submission_url": "https://bhreview.org/",
+      "status": "open",
+      "deadline": "2026-03-15",
+      "result_date": null,
+      "frequency": "annual",
+      "entry_fee": {
+        "amount": 15,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 1000,
+        "currency": "USD",
+        "details": "各类别 $1,000 + 发表"
+      },
+      "publication": null,
+      "word_limit": {
+        "min": null,
+        "max": 10000,
+        "unit": "words"
+      },
+      "language": "en",
+      "nationality_restriction": null,
+      "age_restriction": null,
+      "experience_restriction": null,
+      "theme": null,
+      "simultaneous_ok": null,
+      "previously_published_ok": false,
+      "anonymous_review": true,
+      "ai_policy": null,
+      "submission_method": "online",
+      "submission_platform": "submittable",
+      "judge": null,
+      "prestige_score": 6,
+      "style_profile": {
+        "style_tags": [
+          "open",
+          "literary"
+        ],
+        "judge_preferences": null,
+        "keywords": [],
+        "past_winner_traits": null
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 5,
+        "estimated_submissions": null,
+        "shortlist_rate": null,
+        "overall_score": 5
+      },
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "三个类别：诗歌/小说/非虚构",
+          "知名文学期刊"
+        ],
+        "disadvantages": [],
+        "recommendation": "适合文学性作品"
+      }
+    },
+    {
+      "id": 91,
+      "name": "James Jones First Novel Fellowship",
+      "name_cn": "James Jones 首部长篇小说奖学金",
+      "field": "literature",
+      "subfield": "novel",
+      "url": "https://www.jamesjones.org/",
+      "submission_url": "https://www.jamesjones.org/",
+      "status": "open",
+      "deadline": "2026-03-15",
+      "result_date": null,
+      "frequency": "annual",
+      "entry_fee": {
+        "amount": 33,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 12000,
+        "currency": "USD",
+        "details": "$12,000 奖学金"
+      },
+      "publication": null,
+      "word_limit": null,
+      "language": "en",
+      "nationality_restriction": null,
+      "age_restriction": null,
+      "experience_restriction": null,
+      "theme": null,
+      "simultaneous_ok": null,
+      "previously_published_ok": false,
+      "anonymous_review": true,
+      "ai_policy": null,
+      "submission_method": "online",
+      "submission_platform": "submittable",
+      "judge": null,
+      "prestige_score": 7,
+      "style_profile": {
+        "style_tags": [
+          "open",
+          "literary"
+        ],
+        "judge_preferences": null,
+        "keywords": [],
+        "past_winner_traits": null
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 5,
+        "estimated_submissions": null,
+        "shortlist_rate": null,
+        "overall_score": 4
+      },
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "高额奖金",
+          "鼓励新人长篇"
+        ],
+        "disadvantages": [],
+        "recommendation": "适合有完整长篇手稿的作者"
+      }
+    },
+    {
+      "id": 92,
+      "name": "Prairie Schooner Raz-Shumaker Book Prizes",
+      "name_cn": "Prairie Schooner 图书奖",
+      "field": "literature",
+      "subfield": "multiple",
+      "url": "https://prairieschooner.unl.edu/",
+      "submission_url": "https://prairieschooner.unl.edu/",
+      "status": "open",
+      "deadline": "2026-03-15",
+      "result_date": null,
+      "frequency": "annual",
+      "entry_fee": {
+        "amount": 25,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 3000,
+        "currency": "USD",
+        "details": "各类别 $3,000 + 内布拉斯加大学出版"
+      },
+      "publication": null,
+      "word_limit": null,
+      "language": "en",
+      "nationality_restriction": null,
+      "age_restriction": null,
+      "experience_restriction": null,
+      "theme": null,
+      "simultaneous_ok": null,
+      "previously_published_ok": false,
+      "anonymous_review": true,
+      "ai_policy": null,
+      "submission_method": "online",
+      "submission_platform": "submittable",
+      "judge": null,
+      "prestige_score": 7,
+      "style_profile": {
+        "style_tags": [
+          "open",
+          "literary"
+        ],
+        "judge_preferences": null,
+        "keywords": [],
+        "past_winner_traits": null
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 5,
+        "estimated_submissions": null,
+        "shortlist_rate": null,
+        "overall_score": 4
+      },
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "诗集和短篇集两个类别",
+          "大学出版社出版"
+        ],
+        "disadvantages": [],
+        "recommendation": "适合有完整书稿的作者"
+      }
+    },
+    {
+      "id": 93,
+      "name": "Vanderbilt University Literary Prize",
+      "name_cn": "范德堡大学文学奖",
+      "field": "literature",
+      "subfield": "poetry_collection",
+      "url": "https://www.vanderbiltuniversitypress.com/",
+      "submission_url": "https://www.vanderbiltuniversitypress.com/",
+      "status": "open",
+      "deadline": "2026-03-15",
+      "result_date": null,
+      "frequency": "annual",
+      "entry_fee": {
+        "amount": 25,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 10000,
+        "currency": "USD",
+        "details": "$10,000 + 范德堡大学出版 + 驻留"
+      },
+      "publication": null,
+      "word_limit": null,
+      "language": "en",
+      "nationality_restriction": null,
+      "age_restriction": null,
+      "experience_restriction": null,
+      "theme": null,
+      "simultaneous_ok": null,
+      "previously_published_ok": false,
+      "anonymous_review": true,
+      "ai_policy": null,
+      "submission_method": "online",
+      "submission_platform": "submittable",
+      "judge": null,
+      "prestige_score": 8,
+      "style_profile": {
+        "style_tags": [
+          "open",
+          "literary"
+        ],
+        "judge_preferences": null,
+        "keywords": [],
+        "past_winner_traits": null
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 5,
+        "estimated_submissions": null,
+        "shortlist_rate": null,
+        "overall_score": 3
+      },
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "高额奖金",
+          "顶级大学出版社"
+        ],
+        "disadvantages": [],
+        "recommendation": "适合成熟诗人"
+      }
+    },
+    {
+      "id": 94,
+      "name": "Appalachian Chapbook Contest",
+      "name_cn": "阿巴拉契亚小册子竞赛",
+      "field": "literature",
+      "subfield": "multiple",
+      "url": "https://www.glenville.edu/community/lkrs-chapbook-contest",
+      "submission_url": "https://www.glenville.edu/community/lkrs-chapbook-contest",
+      "status": "open",
+      "deadline": "2026-04-30",
+      "result_date": null,
+      "frequency": "annual",
+      "entry_fee": {
+        "amount": 10,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 500,
+        "currency": "USD",
+        "details": "现金奖 + 出版"
+      },
+      "publication": null,
+      "word_limit": null,
+      "language": "en",
+      "nationality_restriction": null,
+      "age_restriction": null,
+      "experience_restriction": null,
+      "theme": null,
+      "simultaneous_ok": null,
+      "previously_published_ok": false,
+      "anonymous_review": true,
+      "ai_policy": null,
+      "submission_method": "online",
+      "submission_platform": "submittable",
+      "judge": null,
+      "prestige_score": 3,
+      "style_profile": {
+        "style_tags": [
+          "open",
+          "literary"
+        ],
+        "judge_preferences": null,
+        "keywords": [],
+        "past_winner_traits": null
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 5,
+        "estimated_submissions": null,
+        "shortlist_rate": null,
+        "overall_score": 7
+      },
+      "chinese_creator_fit": {
+        "score": 2,
+        "advantages": [
+          "低费用",
+          "竞争较小"
+        ],
+        "disadvantages": [],
+        "recommendation": "需要阿巴拉契亚文化主题，适配度低"
+      }
+    },
+    {
+      "id": 95,
+      "name": "Letter Review Prize for Short Fiction",
+      "name_cn": "Letter Review 短篇小说奖",
+      "field": "literature",
+      "subfield": "short_story",
+      "url": "https://theletterreview.com/",
+      "submission_url": "https://theletterreview.com/",
+      "status": "open",
+      "deadline": "2026-06-30",
+      "result_date": null,
+      "frequency": "annual",
+      "entry_fee": {
+        "amount": 20,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 1000,
+        "currency": "USD",
+        "details": "$1,000 共享 + Pushcart Prize 提名 + 发表"
+      },
+      "publication": null,
+      "word_limit": {
+        "min": null,
+        "max": 5000,
+        "unit": "words"
+      },
+      "language": "en",
+      "nationality_restriction": null,
+      "age_restriction": null,
+      "experience_restriction": null,
+      "theme": null,
+      "simultaneous_ok": null,
+      "previously_published_ok": false,
+      "anonymous_review": true,
+      "ai_policy": null,
+      "submission_method": "online",
+      "submission_platform": "submittable",
+      "judge": null,
+      "prestige_score": 5,
+      "style_profile": {
+        "style_tags": [
+          "open",
+          "literary"
+        ],
+        "judge_preferences": null,
+        "keywords": [],
+        "past_winner_traits": null
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 5,
+        "estimated_submissions": null,
+        "shortlist_rate": null,
+        "overall_score": 6
+      },
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "Pushcart Prize 提名机会",
+          "2-4名获奖者"
+        ],
+        "disadvantages": [],
+        "recommendation": "适合文学短篇"
+      }
+    },
+    {
+      "id": 96,
+      "name": "WOW! Women on Writing Flash Fiction Contest",
+      "name_cn": "WOW! 闪小说竞赛",
+      "field": "literature",
+      "subfield": "flash_fiction",
+      "url": "https://www.wow-womenonwriting.com/contest.php",
+      "submission_url": "https://www.wow-womenonwriting.com/contest.php",
+      "status": "open",
+      "deadline": "2026-02-28",
+      "result_date": null,
+      "frequency": "annual",
+      "entry_fee": {
+        "amount": 10,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 400,
+        "currency": "USD",
+        "details": "第一名 $400 | 第二名 $300 | 第三名 $200"
+      },
+      "publication": null,
+      "word_limit": {
+        "min": null,
+        "max": 3000,
+        "unit": "words"
+      },
+      "language": "en",
+      "nationality_restriction": null,
+      "age_restriction": null,
+      "experience_restriction": null,
+      "theme": null,
+      "simultaneous_ok": null,
+      "previously_published_ok": false,
+      "anonymous_review": true,
+      "ai_policy": null,
+      "submission_method": "online",
+      "submission_platform": "submittable",
+      "judge": null,
+      "prestige_score": 5,
+      "style_profile": {
+        "style_tags": [
+          "open",
+          "literary"
+        ],
+        "judge_preferences": null,
+        "keywords": [],
+        "past_winner_traits": null
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 5,
+        "estimated_submissions": null,
+        "shortlist_rate": null,
+        "overall_score": 6
+      },
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "多个奖项",
+          "季度赛",
+          "所有获奖者发表"
+        ],
+        "disadvantages": [],
+        "recommendation": "适合闪小说和短篇"
+      }
+    },
+    {
+      "id": 97,
+      "name": "Cloudbank Poetry Flash Fiction Contest",
+      "name_cn": "Cloudbank 诗歌/闪小说竞赛",
+      "field": "literature",
+      "subfield": "multiple",
+      "url": "https://cloudbankbooks.com/contest-rules/",
+      "submission_url": "https://cloudbankbooks.com/contest-rules/",
+      "status": "open",
+      "deadline": "2026-03-15",
+      "result_date": null,
+      "frequency": "annual",
+      "entry_fee": {
+        "amount": 15,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 500,
+        "currency": "USD",
+        "details": "$500 + 发表于 Cloudbank | 含两期订阅"
+      },
+      "publication": null,
+      "word_limit": {
+        "min": null,
+        "max": 1000,
+        "unit": "words"
+      },
+      "language": "en",
+      "nationality_restriction": null,
+      "age_restriction": null,
+      "experience_restriction": null,
+      "theme": null,
+      "simultaneous_ok": null,
+      "previously_published_ok": false,
+      "anonymous_review": true,
+      "ai_policy": null,
+      "submission_method": "online",
+      "submission_platform": "submittable",
+      "judge": null,
+      "prestige_score": 4,
+      "style_profile": {
+        "style_tags": [
+          "open",
+          "literary"
+        ],
+        "judge_preferences": null,
+        "keywords": [],
+        "past_winner_traits": null
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 5,
+        "estimated_submissions": null,
+        "shortlist_rate": null,
+        "overall_score": 6
+      },
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "诗歌和闪小说均可",
+          "费用含订阅"
+        ],
+        "disadvantages": [],
+        "recommendation": "适合短作品"
+      }
+    },
+    {
+      "id": 98,
+      "name": "Sand Hills Literary Contest",
+      "name_cn": "Sand Hills 文学竞赛",
+      "field": "literature",
+      "subfield": "multiple",
+      "url": "https://sandhillsmagazine.com/submit-1",
+      "submission_url": "https://sandhillsmagazine.com/submit-1",
+      "status": "open",
+      "deadline": "2026-03-08",
+      "result_date": null,
+      "frequency": "annual",
+      "entry_fee": {
+        "amount": 12,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 500,
+        "currency": "USD",
+        "details": "各类别 $500 + 发表于50周年纪念刊"
+      },
+      "publication": null,
+      "word_limit": null,
+      "language": "en",
+      "nationality_restriction": null,
+      "age_restriction": null,
+      "experience_restriction": null,
+      "theme": null,
+      "simultaneous_ok": null,
+      "previously_published_ok": false,
+      "anonymous_review": true,
+      "ai_policy": null,
+      "submission_method": "online",
+      "submission_platform": "submittable",
+      "judge": null,
+      "prestige_score": 4,
+      "style_profile": {
+        "style_tags": [
+          "open",
+          "literary"
+        ],
+        "judge_preferences": null,
+        "keywords": [],
+        "past_winner_traits": null
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 5,
+        "estimated_submissions": null,
+        "shortlist_rate": null,
+        "overall_score": 6
+      },
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "50周年纪念刊",
+          "散文和诗歌两类"
+        ],
+        "disadvantages": [],
+        "recommendation": "适合文学性作品"
+      }
+    },
+    {
+      "id": 99,
+      "name": "The Moth Short Story Prize",
+      "name_cn": "The Moth 短篇小说奖",
+      "field": "literature",
+      "subfield": "short_story",
+      "url": "https://themothmagazine.com/short-story-prize/",
+      "submission_url": "https://themothmagazine.com/short-story-prize/",
+      "status": "open",
+      "deadline": "2026-06-30",
+      "result_date": null,
+      "frequency": "annual",
+      "entry_fee": {
+        "amount": 12,
+        "currency": "EUR"
+      },
+      "prize": {
+        "first": 3000,
+        "currency": "EUR",
+        "details": "€3,000 + 发表 | 亚军 €1,000 | 三等 €500"
+      },
+      "publication": null,
+      "word_limit": {
+        "min": null,
+        "max": 6000,
+        "unit": "words"
+      },
+      "language": "en",
+      "nationality_restriction": null,
+      "age_restriction": null,
+      "experience_restriction": null,
+      "theme": null,
+      "simultaneous_ok": null,
+      "previously_published_ok": false,
+      "anonymous_review": true,
+      "ai_policy": null,
+      "submission_method": "online",
+      "submission_platform": "submittable",
+      "judge": null,
+      "prestige_score": 7,
+      "style_profile": {
+        "style_tags": [
+          "open",
+          "literary"
+        ],
+        "judge_preferences": null,
+        "keywords": [],
+        "past_winner_traits": null
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 5,
+        "estimated_submissions": null,
+        "shortlist_rate": null,
+        "overall_score": 5
+      },
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "爱尔兰知名文学期刊",
+          "高额奖金",
+          "国际开放"
+        ],
+        "disadvantages": [],
+        "recommendation": "适合文学短篇"
+      }
+    },
+    {
+      "id": 100,
+      "name": "The Moth Poetry Prize",
+      "name_cn": "The Moth 诗歌奖",
+      "field": "literature",
+      "subfield": "poetry",
+      "url": "https://themothmagazine.com/poetry-prize/",
+      "submission_url": "https://themothmagazine.com/poetry-prize/",
+      "status": "open",
+      "deadline": "2026-06-30",
+      "result_date": null,
+      "frequency": "annual",
+      "entry_fee": {
+        "amount": 12,
+        "currency": "EUR"
+      },
+      "prize": {
+        "first": 5000,
+        "currency": "EUR",
+        "details": "€5,000 + 发表 | 亚军 €1,000 | 三等 €500"
+      },
+      "publication": null,
+      "word_limit": null,
+      "language": "en",
+      "nationality_restriction": null,
+      "age_restriction": null,
+      "experience_restriction": null,
+      "theme": null,
+      "simultaneous_ok": null,
+      "previously_published_ok": false,
+      "anonymous_review": true,
+      "ai_policy": null,
+      "submission_method": "online",
+      "submission_platform": "submittable",
+      "judge": null,
+      "prestige_score": 7,
+      "style_profile": {
+        "style_tags": [
+          "open",
+          "literary"
+        ],
+        "judge_preferences": null,
+        "keywords": [],
+        "past_winner_traits": null
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 5,
+        "estimated_submissions": null,
+        "shortlist_rate": null,
+        "overall_score": 5
+      },
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "爱尔兰知名文学期刊",
+          "诗歌类最高奖金之一"
+        ],
+        "disadvantages": [],
+        "recommendation": "适合当代诗歌"
+      }
+    },
+    {
+      "id": 101,
+      "name": "Narrative Magazine Spring Contest",
+      "name_cn": "Narrative 杂志春季竞赛",
+      "field": "literature",
+      "subfield": "multiple",
+      "url": "https://www.narrativemagazine.com/",
+      "submission_url": "https://www.narrativemagazine.com/",
+      "status": "open",
+      "deadline": "2026-03-31",
+      "result_date": null,
+      "frequency": "annual",
+      "entry_fee": {
+        "amount": 27,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 2500,
+        "currency": "USD",
+        "details": "第一名 $2,500 | 第二名 $1,000 | 第三名 $500 + 10个入围各 $150"
+      },
+      "publication": null,
+      "word_limit": {
+        "min": null,
+        "max": 15000,
+        "unit": "words"
+      },
+      "language": "en",
+      "nationality_restriction": null,
+      "age_restriction": null,
+      "experience_restriction": null,
+      "theme": null,
+      "simultaneous_ok": null,
+      "previously_published_ok": false,
+      "anonymous_review": true,
+      "ai_policy": null,
+      "submission_method": "online",
+      "submission_platform": "submittable",
+      "judge": null,
+      "prestige_score": 8,
+      "style_profile": {
+        "style_tags": [
+          "open",
+          "literary"
+        ],
+        "judge_preferences": null,
+        "keywords": [],
+        "past_winner_traits": null
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 5,
+        "estimated_submissions": null,
+        "shortlist_rate": null,
+        "overall_score": 4
+      },
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "顶级在线文学期刊",
+          "多个奖项",
+          "接受各类文学作品"
+        ],
+        "disadvantages": [],
+        "recommendation": "适合高质量文学作品"
+      }
+    },
+    {
+      "id": 102,
+      "name": "SmokeLong Quarterly Flash Fiction Award",
+      "name_cn": "SmokeLong 闪小说奖",
+      "field": "literature",
+      "subfield": "flash_fiction",
+      "url": "https://smokelong.com/",
+      "submission_url": "https://smokelong.com/",
+      "status": "open",
+      "deadline": "2026-06-15",
+      "result_date": null,
+      "frequency": "annual",
+      "entry_fee": {
+        "amount": 18,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 1000,
+        "currency": "USD",
+        "details": "$1,000 + 发表于 SmokeLong Quarterly"
+      },
+      "publication": null,
+      "word_limit": {
+        "min": null,
+        "max": 1000,
+        "unit": "words"
+      },
+      "language": "en",
+      "nationality_restriction": null,
+      "age_restriction": null,
+      "experience_restriction": null,
+      "theme": null,
+      "simultaneous_ok": null,
+      "previously_published_ok": false,
+      "anonymous_review": true,
+      "ai_policy": null,
+      "submission_method": "online",
+      "submission_platform": "submittable",
+      "judge": null,
+      "prestige_score": 7,
+      "style_profile": {
+        "style_tags": [
+          "open",
+          "literary"
+        ],
+        "judge_preferences": null,
+        "keywords": [],
+        "past_winner_traits": null
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 5,
+        "estimated_submissions": null,
+        "shortlist_rate": null,
+        "overall_score": 5
+      },
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "闪小说领域最知名期刊之一",
+          "1000字限制"
+        ],
+        "disadvantages": [],
+        "recommendation": "闪小说作者必投"
+      }
+    },
+    {
+      "id": 103,
+      "name": "Craft Literary Short Fiction Prize",
+      "name_cn": "Craft 短篇小说奖",
+      "field": "literature",
+      "subfield": "short_story",
+      "url": "https://www.craftliterary.com/",
+      "submission_url": "https://www.craftliterary.com/",
+      "status": "open",
+      "deadline": "2026-04-30",
+      "result_date": null,
+      "frequency": "annual",
+      "entry_fee": {
+        "amount": 20,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 5000,
+        "currency": "USD",
+        "details": "$5,000 + 发表于 Craft"
+      },
+      "publication": null,
+      "word_limit": {
+        "min": null,
+        "max": 5000,
+        "unit": "words"
+      },
+      "language": "en",
+      "nationality_restriction": null,
+      "age_restriction": null,
+      "experience_restriction": null,
+      "theme": null,
+      "simultaneous_ok": null,
+      "previously_published_ok": false,
+      "anonymous_review": true,
+      "ai_policy": null,
+      "submission_method": "online",
+      "submission_platform": "submittable",
+      "judge": null,
+      "prestige_score": 6,
+      "style_profile": {
+        "style_tags": [
+          "open",
+          "literary"
+        ],
+        "judge_preferences": null,
+        "keywords": [],
+        "past_winner_traits": null
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 5,
+        "estimated_submissions": null,
+        "shortlist_rate": null,
+        "overall_score": 5
+      },
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "高额奖金",
+          "新兴文学期刊"
+        ],
+        "disadvantages": [],
+        "recommendation": "适合当代文学短篇"
+      }
+    },
+    {
+      "id": 104,
+      "name": "Kenyon Review Short Fiction Contest",
+      "name_cn": "Kenyon Review 短篇竞赛",
+      "field": "literature",
+      "subfield": "short_story",
+      "url": "https://kenyonreview.org/",
+      "submission_url": "https://kenyonreview.org/",
+      "status": "open",
+      "deadline": "2026-05-15",
+      "result_date": null,
+      "frequency": "annual",
+      "entry_fee": {
+        "amount": 20,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 2500,
+        "currency": "USD",
+        "details": "$2,500 + 发表于 Kenyon Review"
+      },
+      "publication": null,
+      "word_limit": {
+        "min": null,
+        "max": 8000,
+        "unit": "words"
+      },
+      "language": "en",
+      "nationality_restriction": null,
+      "age_restriction": null,
+      "experience_restriction": null,
+      "theme": null,
+      "simultaneous_ok": null,
+      "previously_published_ok": false,
+      "anonymous_review": true,
+      "ai_policy": null,
+      "submission_method": "online",
+      "submission_platform": "submittable",
+      "judge": null,
+      "prestige_score": 9,
+      "style_profile": {
+        "style_tags": [
+          "open",
+          "literary"
+        ],
+        "judge_preferences": null,
+        "keywords": [],
+        "past_winner_traits": null
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 5,
+        "estimated_submissions": null,
+        "shortlist_rate": null,
+        "overall_score": 3
+      },
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "美国最顶级文学期刊之一",
+          "极高声望"
+        ],
+        "disadvantages": [],
+        "recommendation": "顶级期刊，竞争激烈但值得一试"
+      }
+    },
+    {
+      "id": 105,
+      "name": "One Story Literary Contest",
+      "name_cn": "One Story 文学竞赛",
+      "field": "literature",
+      "subfield": "short_story",
+      "url": "https://one-story.com/",
+      "submission_url": "https://one-story.com/",
+      "status": "open",
+      "deadline": "2026-04-15",
+      "result_date": null,
+      "frequency": "annual",
+      "entry_fee": {
+        "amount": 25,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 3000,
+        "currency": "USD",
+        "details": "$3,000 + 发表于 One Story"
+      },
+      "publication": null,
+      "word_limit": {
+        "min": null,
+        "max": 8000,
+        "unit": "words"
+      },
+      "language": "en",
+      "nationality_restriction": null,
+      "age_restriction": null,
+      "experience_restriction": null,
+      "theme": null,
+      "simultaneous_ok": null,
+      "previously_published_ok": false,
+      "anonymous_review": true,
+      "ai_policy": null,
+      "submission_method": "online",
+      "submission_platform": "submittable",
+      "judge": null,
+      "prestige_score": 8,
+      "style_profile": {
+        "style_tags": [
+          "open",
+          "literary"
+        ],
+        "judge_preferences": null,
+        "keywords": [],
+        "past_winner_traits": null
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 5,
+        "estimated_submissions": null,
+        "shortlist_rate": null,
+        "overall_score": 4
+      },
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "专注短篇的顶级期刊",
+          "每期只发一篇"
+        ],
+        "disadvantages": [],
+        "recommendation": "适合精品短篇"
+      }
+    },
+    {
+      "id": 106,
+      "name": "Zoetrope All-Story Short Fiction Contest",
+      "name_cn": "Zoetrope 短篇小说竞赛",
+      "field": "literature",
+      "subfield": "short_story",
+      "url": "https://www.all-story.com/",
+      "submission_url": "https://www.all-story.com/",
+      "status": "open",
+      "deadline": "2026-10-01",
+      "result_date": null,
+      "frequency": "annual",
+      "entry_fee": {
+        "amount": 20,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 1000,
+        "currency": "USD",
+        "details": "第一名 $1,000 | 第二名 $500 | 第三名 $250"
+      },
+      "publication": null,
+      "word_limit": {
+        "min": null,
+        "max": 7000,
+        "unit": "words"
+      },
+      "language": "en",
+      "nationality_restriction": null,
+      "age_restriction": null,
+      "experience_restriction": null,
+      "theme": null,
+      "simultaneous_ok": null,
+      "previously_published_ok": false,
+      "anonymous_review": true,
+      "ai_policy": null,
+      "submission_method": "online",
+      "submission_platform": "submittable",
+      "judge": null,
+      "prestige_score": 8,
+      "style_profile": {
+        "style_tags": [
+          "open",
+          "literary"
+        ],
+        "judge_preferences": null,
+        "keywords": [],
+        "past_winner_traits": null
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 5,
+        "estimated_submissions": null,
+        "shortlist_rate": null,
+        "overall_score": 5
+      },
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "Francis Ford Coppola 创办",
+          "好莱坞背景",
+          "获奖者有影视改编机会"
+        ],
+        "disadvantages": [],
+        "recommendation": "适合有画面感的故事"
+      }
+    },
+    {
+      "id": 107,
+      "name": "The Masters Review Short Story Award",
+      "name_cn": "Masters Review 短篇奖",
+      "field": "literature",
+      "subfield": "short_story",
+      "url": "https://mastersreview.com/",
+      "submission_url": "https://mastersreview.com/",
+      "status": "open",
+      "deadline": "2026-05-31",
+      "result_date": null,
+      "frequency": "annual",
+      "entry_fee": {
+        "amount": 20,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 3000,
+        "currency": "USD",
+        "details": "$3,000 + 发表 + 提交给顶级文学经纪人"
+      },
+      "publication": null,
+      "word_limit": {
+        "min": null,
+        "max": 7000,
+        "unit": "words"
+      },
+      "language": "en",
+      "nationality_restriction": null,
+      "age_restriction": null,
+      "experience_restriction": null,
+      "theme": null,
+      "simultaneous_ok": null,
+      "previously_published_ok": false,
+      "anonymous_review": true,
+      "ai_policy": null,
+      "submission_method": "online",
+      "submission_platform": "submittable",
+      "judge": null,
+      "prestige_score": 7,
+      "style_profile": {
+        "style_tags": [
+          "open",
+          "literary"
+        ],
+        "judge_preferences": null,
+        "keywords": [],
+        "past_winner_traits": null
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 5,
+        "estimated_submissions": null,
+        "shortlist_rate": null,
+        "overall_score": 5
+      },
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "提交给文学经纪人",
+          "专注新锐作家"
+        ],
+        "disadvantages": [],
+        "recommendation": "适合寻求出版的新锐作者"
+      }
+    },
+    {
+      "id": 108,
+      "name": "Fractured Lit Flash Fiction Prize",
+      "name_cn": "Fractured Lit 闪小说奖",
+      "field": "literature",
+      "subfield": "flash_fiction",
+      "url": "https://fracturedlit.com/",
+      "submission_url": "https://fracturedlit.com/",
+      "status": "open",
+      "deadline": "2026-05-01",
+      "result_date": null,
+      "frequency": "annual",
+      "entry_fee": {
+        "amount": 15,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 1000,
+        "currency": "USD",
+        "details": "$1,000 + 发表"
+      },
+      "publication": null,
+      "word_limit": {
+        "min": null,
+        "max": 1000,
+        "unit": "words"
+      },
+      "language": "en",
+      "nationality_restriction": null,
+      "age_restriction": null,
+      "experience_restriction": null,
+      "theme": null,
+      "simultaneous_ok": null,
+      "previously_published_ok": false,
+      "anonymous_review": true,
+      "ai_policy": null,
+      "submission_method": "online",
+      "submission_platform": "submittable",
+      "judge": null,
+      "prestige_score": 5,
+      "style_profile": {
+        "style_tags": [
+          "open",
+          "literary"
+        ],
+        "judge_preferences": null,
+        "keywords": [],
+        "past_winner_traits": null
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 5,
+        "estimated_submissions": null,
+        "shortlist_rate": null,
+        "overall_score": 6
+      },
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "闪小说专门期刊",
+          "费用适中"
+        ],
+        "disadvantages": [],
+        "recommendation": "适合闪小说作者"
+      }
+    },
+    {
+      "id": 109,
+      "name": "Tin House Open Bar Contest",
+      "name_cn": "Tin House 文学竞赛",
+      "field": "literature",
+      "subfield": "multiple",
+      "url": "https://tinhouse.com/",
+      "submission_url": "https://tinhouse.com/",
+      "status": "open",
+      "deadline": "2026-04-30",
+      "result_date": null,
+      "frequency": "annual",
+      "entry_fee": {
+        "amount": 20,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 1000,
+        "currency": "USD",
+        "details": "$1,000 + 发表于 Tin House + 参加 Tin House 写作工作坊"
+      },
+      "publication": null,
+      "word_limit": {
+        "min": null,
+        "max": 10000,
+        "unit": "words"
+      },
+      "language": "en",
+      "nationality_restriction": null,
+      "age_restriction": null,
+      "experience_restriction": null,
+      "theme": null,
+      "simultaneous_ok": null,
+      "previously_published_ok": false,
+      "anonymous_review": true,
+      "ai_policy": null,
+      "submission_method": "online",
+      "submission_platform": "submittable",
+      "judge": null,
+      "prestige_score": 9,
+      "style_profile": {
+        "style_tags": [
+          "open",
+          "literary"
+        ],
+        "judge_preferences": null,
+        "keywords": [],
+        "past_winner_traits": null
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 5,
+        "estimated_submissions": null,
+        "shortlist_rate": null,
+        "overall_score": 3
+      },
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "美国顶级文学期刊",
+          "写作工作坊机会"
+        ],
+        "disadvantages": [],
+        "recommendation": "顶级期刊，竞争激烈"
+      }
+    },
+    {
+      "id": 110,
+      "name": "The Iowa Review Awards",
+      "name_cn": "Iowa Review 文学奖",
+      "field": "literature",
+      "subfield": "multiple",
+      "url": "https://iowareview.org/",
+      "submission_url": "https://iowareview.org/",
+      "status": "open",
+      "deadline": "2026-04-30",
+      "result_date": null,
+      "frequency": "annual",
+      "entry_fee": {
+        "amount": 20,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 1500,
+        "currency": "USD",
+        "details": "各类别 $1,500 + 发表于 Iowa Review"
+      },
+      "publication": null,
+      "word_limit": {
+        "min": null,
+        "max": 25,
+        "unit": "words"
+      },
+      "language": "en",
+      "nationality_restriction": null,
+      "age_restriction": null,
+      "experience_restriction": null,
+      "theme": null,
+      "simultaneous_ok": null,
+      "previously_published_ok": false,
+      "anonymous_review": true,
+      "ai_policy": null,
+      "submission_method": "online",
+      "submission_platform": "submittable",
+      "judge": null,
+      "prestige_score": 9,
+      "style_profile": {
+        "style_tags": [
+          "open",
+          "literary"
+        ],
+        "judge_preferences": null,
+        "keywords": [],
+        "past_winner_traits": null
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 5,
+        "estimated_submissions": null,
+        "shortlist_rate": null,
+        "overall_score": 3
+      },
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "美国最顶级文学期刊之一",
+          "三个类别：诗歌/小说/非虚构"
+        ],
+        "disadvantages": [],
+        "recommendation": "顶级期刊，值得一试"
+      }
+    },
+    {
+      "id": 111,
+      "name": "Nimrod International Journal Literary Awards",
+      "name_cn": "Nimrod 国际文学奖",
+      "field": "literature",
+      "subfield": "multiple",
+      "url": "https://nimrod.utulsa.edu/",
+      "submission_url": "https://nimrod.utulsa.edu/",
+      "status": "open",
+      "deadline": "2026-04-30",
+      "result_date": null,
+      "frequency": "annual",
+      "entry_fee": {
+        "amount": 20,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 2000,
+        "currency": "USD",
+        "details": "各类别第一名 $2,000 | 第二名 $1,000 + 发表"
+      },
+      "publication": null,
+      "word_limit": {
+        "min": null,
+        "max": 7500,
+        "unit": "words"
+      },
+      "language": "en",
+      "nationality_restriction": null,
+      "age_restriction": null,
+      "experience_restriction": null,
+      "theme": null,
+      "simultaneous_ok": null,
+      "previously_published_ok": false,
+      "anonymous_review": true,
+      "ai_policy": null,
+      "submission_method": "online",
+      "submission_platform": "submittable",
+      "judge": null,
+      "prestige_score": 7,
+      "style_profile": {
+        "style_tags": [
+          "open",
+          "literary"
+        ],
+        "judge_preferences": null,
+        "keywords": [],
+        "past_winner_traits": null
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 5,
+        "estimated_submissions": null,
+        "shortlist_rate": null,
+        "overall_score": 5
+      },
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "国际性文学期刊",
+          "诗歌和散文两类"
+        ],
+        "disadvantages": [],
+        "recommendation": "适合国际题材作品"
+      }
+    },
+    {
+      "id": 112,
+      "name": "Crazyhorse Prizes",
+      "name_cn": "Crazyhorse 文学奖",
+      "field": "literature",
+      "subfield": "multiple",
+      "url": "https://crazyhorse.cofc.edu/",
+      "submission_url": "https://crazyhorse.cofc.edu/",
+      "status": "open",
+      "deadline": "2026-04-15",
+      "result_date": null,
+      "frequency": "annual",
+      "entry_fee": {
+        "amount": 20,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 2000,
+        "currency": "USD",
+        "details": "各类别 $2,000 + 发表于 Crazyhorse"
+      },
+      "publication": null,
+      "word_limit": null,
+      "language": "en",
+      "nationality_restriction": null,
+      "age_restriction": null,
+      "experience_restriction": null,
+      "theme": null,
+      "simultaneous_ok": null,
+      "previously_published_ok": false,
+      "anonymous_review": true,
+      "ai_policy": null,
+      "submission_method": "online",
+      "submission_platform": "submittable",
+      "judge": null,
+      "prestige_score": 7,
+      "style_profile": {
+        "style_tags": [
+          "open",
+          "literary"
+        ],
+        "judge_preferences": null,
+        "keywords": [],
+        "past_winner_traits": null
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 5,
+        "estimated_submissions": null,
+        "shortlist_rate": null,
+        "overall_score": 4
+      },
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "三个类别",
+          "知名文学期刊"
+        ],
+        "disadvantages": [],
+        "recommendation": "适合文学性作品"
+      }
+    },
+    {
+      "id": 113,
+      "name": "Black Warrior Review Contest",
+      "name_cn": "Black Warrior Review 竞赛",
+      "field": "literature",
+      "subfield": "multiple",
+      "url": "https://bwr.ua.edu/",
+      "submission_url": "https://bwr.ua.edu/",
+      "status": "open",
+      "deadline": "2026-04-01",
+      "result_date": null,
+      "frequency": "annual",
+      "entry_fee": {
+        "amount": 20,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 1500,
+        "currency": "USD",
+        "details": "各类别 $1,500 + 发表"
+      },
+      "publication": null,
+      "word_limit": {
+        "min": null,
+        "max": 7000,
+        "unit": "words"
+      },
+      "language": "en",
+      "nationality_restriction": null,
+      "age_restriction": null,
+      "experience_restriction": null,
+      "theme": null,
+      "simultaneous_ok": null,
+      "previously_published_ok": false,
+      "anonymous_review": true,
+      "ai_policy": null,
+      "submission_method": "online",
+      "submission_platform": "submittable",
+      "judge": null,
+      "prestige_score": 7,
+      "style_profile": {
+        "style_tags": [
+          "open",
+          "literary"
+        ],
+        "judge_preferences": null,
+        "keywords": [],
+        "past_winner_traits": null
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 5,
+        "estimated_submissions": null,
+        "shortlist_rate": null,
+        "overall_score": 5
+      },
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "阿拉巴马大学文学期刊",
+          "四个类别"
+        ],
+        "disadvantages": [],
+        "recommendation": "适合文学性作品"
+      }
+    },
+    {
+      "id": 114,
+      "name": "Rick DeMarinis Short Story Prize",
+      "name_cn": "Rick DeMarinis 短篇小说奖",
+      "field": "literature",
+      "subfield": "short_story",
+      "url": "https://www.cutthroatjournal.com/",
+      "submission_url": "https://www.cutthroatjournal.com/",
+      "status": "open",
+      "deadline": "2026-04-15",
+      "result_date": null,
+      "frequency": "annual",
+      "entry_fee": {
+        "amount": 20,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 1500,
+        "currency": "USD",
+        "details": "$1,500 + 发表于 Cutthroat"
+      },
+      "publication": null,
+      "word_limit": {
+        "min": null,
+        "max": 5000,
+        "unit": "words"
+      },
+      "language": "en",
+      "nationality_restriction": null,
+      "age_restriction": null,
+      "experience_restriction": null,
+      "theme": null,
+      "simultaneous_ok": null,
+      "previously_published_ok": false,
+      "anonymous_review": true,
+      "ai_policy": null,
+      "submission_method": "online",
+      "submission_platform": "submittable",
+      "judge": null,
+      "prestige_score": 5,
+      "style_profile": {
+        "style_tags": [
+          "open",
+          "literary"
+        ],
+        "judge_preferences": null,
+        "keywords": [],
+        "past_winner_traits": null
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 5,
+        "estimated_submissions": null,
+        "shortlist_rate": null,
+        "overall_score": 6
+      },
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "费用适中",
+          "短篇专项"
+        ],
+        "disadvantages": [],
+        "recommendation": "适合文学短篇"
+      }
+    },
+    {
+      "id": 115,
+      "name": "Salamander Fiction Prize",
+      "name_cn": "Salamander 小说奖",
+      "field": "literature",
+      "subfield": "short_story",
+      "url": "https://salamandermag.org/",
+      "submission_url": "https://salamandermag.org/",
+      "status": "open",
+      "deadline": "2026-04-30",
+      "result_date": null,
+      "frequency": "annual",
+      "entry_fee": {
+        "amount": 15,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 1000,
+        "currency": "USD",
+        "details": "$1,000 + 发表于 Salamander"
+      },
+      "publication": null,
+      "word_limit": {
+        "min": null,
+        "max": 7000,
+        "unit": "words"
+      },
+      "language": "en",
+      "nationality_restriction": null,
+      "age_restriction": null,
+      "experience_restriction": null,
+      "theme": null,
+      "simultaneous_ok": null,
+      "previously_published_ok": false,
+      "anonymous_review": true,
+      "ai_policy": null,
+      "submission_method": "online",
+      "submission_platform": "submittable",
+      "judge": null,
+      "prestige_score": 5,
+      "style_profile": {
+        "style_tags": [
+          "open",
+          "literary"
+        ],
+        "judge_preferences": null,
+        "keywords": [],
+        "past_winner_traits": null
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 5,
+        "estimated_submissions": null,
+        "shortlist_rate": null,
+        "overall_score": 6
+      },
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "费用较低",
+          "Suffolk 大学文学期刊"
+        ],
+        "disadvantages": [],
+        "recommendation": "适合文学短篇"
+      }
+    },
+    {
+      "id": 116,
+      "name": "New Ohio Review Contest",
+      "name_cn": "New Ohio Review 竞赛",
+      "field": "literature",
+      "subfield": "multiple",
+      "url": "https://www.newohioreview.org/",
+      "submission_url": "https://www.newohioreview.org/",
+      "status": "open",
+      "deadline": "2026-04-30",
+      "result_date": null,
+      "frequency": "annual",
+      "entry_fee": {
+        "amount": 20,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 1000,
+        "currency": "USD",
+        "details": "各类别 $1,000 + 发表"
+      },
+      "publication": null,
+      "word_limit": {
+        "min": null,
+        "max": 8000,
+        "unit": "words"
+      },
+      "language": "en",
+      "nationality_restriction": null,
+      "age_restriction": null,
+      "experience_restriction": null,
+      "theme": null,
+      "simultaneous_ok": null,
+      "previously_published_ok": false,
+      "anonymous_review": true,
+      "ai_policy": null,
+      "submission_method": "online",
+      "submission_platform": "submittable",
+      "judge": null,
+      "prestige_score": 5,
+      "style_profile": {
+        "style_tags": [
+          "open",
+          "literary"
+        ],
+        "judge_preferences": null,
+        "keywords": [],
+        "past_winner_traits": null
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 5,
+        "estimated_submissions": null,
+        "shortlist_rate": null,
+        "overall_score": 6
+      },
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "三个类别",
+          "俄亥俄大学文学期刊"
+        ],
+        "disadvantages": [],
+        "recommendation": "适合文学性作品"
+      }
+    },
+    {
+      "id": 117,
+      "name": "Fairy Tale Review Prize",
+      "name_cn": "童话评论奖",
+      "field": "literature",
+      "subfield": "short_story",
+      "url": "https://fairytalereview.com/",
+      "submission_url": "https://fairytalereview.com/",
+      "status": "open",
+      "deadline": "2026-05-01",
+      "result_date": null,
+      "frequency": "annual",
+      "entry_fee": {
+        "amount": 18,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 1000,
+        "currency": "USD",
+        "details": "$1,000 + 发表"
+      },
+      "publication": null,
+      "word_limit": {
+        "min": null,
+        "max": 6000,
+        "unit": "words"
+      },
+      "language": "en",
+      "nationality_restriction": null,
+      "age_restriction": null,
+      "experience_restriction": null,
+      "theme": null,
+      "simultaneous_ok": null,
+      "previously_published_ok": false,
+      "anonymous_review": true,
+      "ai_policy": null,
+      "submission_method": "online",
+      "submission_platform": "submittable",
+      "judge": null,
+      "prestige_score": 5,
+      "style_profile": {
+        "style_tags": [
+          "open",
+          "literary"
+        ],
+        "judge_preferences": null,
+        "keywords": [],
+        "past_winner_traits": null
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 5,
+        "estimated_submissions": null,
+        "shortlist_rate": null,
+        "overall_score": 6
+      },
+      "chinese_creator_fit": {
+        "score": 4,
+        "advantages": [
+          "童话/奇幻/魔幻现实主义",
+          "中国民间故事素材丰富"
+        ],
+        "disadvantages": [],
+        "recommendation": "非常适合改编中国民间故事/神话"
+      }
+    },
+    {
+      "id": 118,
+      "name": "Quarterly West Novella Prize",
+      "name_cn": "Quarterly West 中篇小说奖",
+      "field": "literature",
+      "subfield": "novella",
+      "url": "https://quarterlywest.com/",
+      "submission_url": "https://quarterlywest.com/",
+      "status": "open",
+      "deadline": "2026-04-15",
+      "result_date": null,
+      "frequency": "annual",
+      "entry_fee": {
+        "amount": 25,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 2500,
+        "currency": "USD",
+        "details": "$2,500 + 发表"
+      },
+      "publication": null,
+      "word_limit": {
+        "min": null,
+        "max": 50000,
+        "unit": "words"
+      },
+      "language": "en",
+      "nationality_restriction": null,
+      "age_restriction": null,
+      "experience_restriction": null,
+      "theme": null,
+      "simultaneous_ok": null,
+      "previously_published_ok": false,
+      "anonymous_review": true,
+      "ai_policy": null,
+      "submission_method": "online",
+      "submission_platform": "submittable",
+      "judge": null,
+      "prestige_score": 6,
+      "style_profile": {
+        "style_tags": [
+          "open",
+          "literary"
+        ],
+        "judge_preferences": null,
+        "keywords": [],
+        "past_winner_traits": null
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 5,
+        "estimated_submissions": null,
+        "shortlist_rate": null,
+        "overall_score": 5
+      },
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "少有的中篇小说专项奖",
+          "犹他大学文学期刊"
+        ],
+        "disadvantages": [],
+        "recommendation": "适合中篇小说作者"
+      }
+    },
+    {
+      "id": 119,
+      "name": "Shenandoah Literary Prizes",
+      "name_cn": "Shenandoah 文学奖",
+      "field": "literature",
+      "subfield": "multiple",
+      "url": "https://shenandoahliterary.org/",
+      "submission_url": "https://shenandoahliterary.org/",
+      "status": "open",
+      "deadline": "2026-04-15",
+      "result_date": null,
+      "frequency": "annual",
+      "entry_fee": {
+        "amount": 20,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 1000,
+        "currency": "USD",
+        "details": "各类别 $1,000 + 发表于 Shenandoah"
+      },
+      "publication": null,
+      "word_limit": {
+        "min": null,
+        "max": 8000,
+        "unit": "words"
+      },
+      "language": "en",
+      "nationality_restriction": null,
+      "age_restriction": null,
+      "experience_restriction": null,
+      "theme": null,
+      "simultaneous_ok": null,
+      "previously_published_ok": false,
+      "anonymous_review": true,
+      "ai_policy": null,
+      "submission_method": "online",
+      "submission_platform": "submittable",
+      "judge": null,
+      "prestige_score": 7,
+      "style_profile": {
+        "style_tags": [
+          "open",
+          "literary"
+        ],
+        "judge_preferences": null,
+        "keywords": [],
+        "past_winner_traits": null
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 5,
+        "estimated_submissions": null,
+        "shortlist_rate": null,
+        "overall_score": 5
+      },
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "华盛顿与李大学文学期刊",
+          "历史悠久"
+        ],
+        "disadvantages": [],
+        "recommendation": "适合文学性作品"
+      }
+    },
+    {
+      "id": 120,
+      "name": "Witness Literary Awards",
+      "name_cn": "Witness 文学奖",
+      "field": "literature",
+      "subfield": "multiple",
+      "url": "https://witness.blackmountaininstitute.org/",
+      "submission_url": "https://witness.blackmountaininstitute.org/",
+      "status": "open",
+      "deadline": "2026-05-01",
+      "result_date": null,
+      "frequency": "annual",
+      "entry_fee": {
+        "amount": 20,
+        "currency": "USD"
+      },
+      "prize": {
+        "first": 1000,
+        "currency": "USD",
+        "details": "各类别 $1,000 + 发表"
+      },
+      "publication": null,
+      "word_limit": {
+        "min": null,
+        "max": 8000,
+        "unit": "words"
+      },
+      "language": "en",
+      "nationality_restriction": null,
+      "age_restriction": null,
+      "experience_restriction": null,
+      "theme": null,
+      "simultaneous_ok": null,
+      "previously_published_ok": false,
+      "anonymous_review": true,
+      "ai_policy": null,
+      "submission_method": "online",
+      "submission_platform": "submittable",
+      "judge": null,
+      "prestige_score": 6,
+      "style_profile": {
+        "style_tags": [
+          "open",
+          "literary"
+        ],
+        "judge_preferences": null,
+        "keywords": [],
+        "past_winner_traits": null
+      },
+      "win_probability": {
+        "competition_density": 5,
+        "competitor_quality": 5,
+        "estimated_submissions": null,
+        "shortlist_rate": null,
+        "overall_score": 5
+      },
+      "chinese_creator_fit": {
+        "score": 3,
+        "advantages": [
+          "关注社会正义主题",
+          "黑山学院文学期刊"
+        ],
+        "disadvantages": [],
+        "recommendation": "适合有社会关怀的作品"
+      }
+    }
+  ]
+}

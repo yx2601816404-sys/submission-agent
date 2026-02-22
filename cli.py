@@ -8,12 +8,14 @@
 """
 
 import argparse
+import json
 import sys
 import os
+from datetime import datetime, date
 
 # 确保能导入 matcher
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from matcher import recommend, format_results
+from matcher import recommend, format_results, load_db, DB_PATH
 
 # ── 类型映射 ──────────────────────────────────────────────
 TYPE_CHOICES = {
@@ -79,6 +81,33 @@ def red(text):
 
 def dim(text):
     return color(text, "2")
+
+
+def db_stats():
+    """获取数据库实时统计"""
+    comps = load_db()
+    today = date.today()
+    total = len(comps)
+    active = 0
+    expired = 0
+    for c in comps:
+        dl = c.get("deadline", "")
+        if not dl or dl in ("weekly", "quarterly", "rolling"):
+            active += 1
+        else:
+            try:
+                dt = datetime.strptime(dl, "%Y-%m-%d").date()
+                if dt >= today:
+                    active += 1
+                else:
+                    expired += 1
+            except ValueError:
+                active += 1
+    # 获取更新日期
+    with open(DB_PATH, "r") as f:
+        meta = json.load(f)
+    updated = meta.get("updated", "未知")
+    return total, active, expired, updated
 
 
 # ── 交互式输入 ────────────────────────────────────────────
@@ -220,6 +249,21 @@ def format_results_color(results, work):
 
         # 关键信息行
         deadline_str = r.get("deadline") or "见官网"
+        # 截止日期紧急度标记
+        if deadline_str not in ("见官网", "weekly", "quarterly", "rolling"):
+            try:
+                dl = datetime.strptime(deadline_str, "%Y-%m-%d").date()
+                days = (dl - date.today()).days
+                if days <= 7:
+                    deadline_str = red(f"{deadline_str} 🔥 仅剩{days}天!")
+                elif days <= 14:
+                    deadline_str = yellow(f"{deadline_str} ⏰ 剩{days}天")
+                elif days <= 30:
+                    deadline_str = f"{deadline_str} ({days}天)"
+                else:
+                    deadline_str = f"{deadline_str} ({days}天)"
+            except ValueError:
+                pass
         lines.append(f"     📅 截止: {deadline_str}")
         lines.append(f"     🏆 奖金: {r.get('prize', 'N/A')}")
 
@@ -248,8 +292,9 @@ def format_results_color(results, work):
 
     lines.append("")
     lines.append(dim("─" * 55))
-    lines.append(dim(f"共匹配 {len(results)} 个竞赛 | 数据库: 85 条文学类竞赛"))
-    lines.append(dim("数据更新: 2026-02-21 | 投稿前请确认官网最新信息"))
+    total, active, expired, updated = db_stats()
+    lines.append(dim(f"共匹配 {len(results)} 个竞赛 | 数据库: {total} 条 (活跃 {active} / 已过期 {expired})"))
+    lines.append(dim(f"数据更新: {updated} | 投稿前请确认官网最新信息"))
     lines.append("")
     return "\n".join(lines)
 
@@ -258,9 +303,11 @@ def format_results_color(results, work):
 def interactive_mode():
     print("")
     print(bold("╔══════════════════════════════════════════╗"))
-    print(bold("║   📝 投稿代理 — 智能竞赛匹配工具 v1.0    ║"))
+    print(bold("║   📝 投稿代理 — 智能竞赛匹配工具 v1.1    ║"))
     print(bold("╚══════════════════════════════════════════╝"))
-    print(dim("  帮助中国创作者找到最合适的国际文学竞赛"))
+    total, active, expired, updated = db_stats()
+    print(dim(f"  帮助中国创作者找到最合适的国际文学竞赛"))
+    print(dim(f"  数据库: {active} 个活跃竞赛 | 更新: {updated}"))
     print(dim("  Ctrl+C 随时退出"))
 
     try:
@@ -299,8 +346,13 @@ def interactive_mode():
 def cli_mode():
     parser = argparse.ArgumentParser(
         prog="submission-agent",
-        description="投稿代理 — 智能竞赛匹配工具",
-        epilog="示例: python3 cli.py --type flash_fiction --words 300 --budget 20",
+        description="投稿代理 — 智能竞赛匹配工具\n帮助中国创作者找到最合适的国际文学竞赛",
+        epilog="示例:\n"
+               "  python3 cli.py                                    # 交互模式\n"
+               "  python3 cli.py --type flash_fiction --words 300    # 命令行模式\n"
+               "  python3 cli.py --type poetry --budget 0            # 只看免费诗歌竞赛\n"
+               "  python3 cli.py --stats                             # 查看数据库统计",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
     )
     parser.add_argument(
         "-t", "--type",
@@ -348,6 +400,11 @@ def cli_mode():
         action="store_true",
         help="列出所有支持的作品类型",
     )
+    parser.add_argument(
+        "--stats",
+        action="store_true",
+        help="显示数据库统计信息",
+    )
 
     args = parser.parse_args()
 
@@ -356,6 +413,25 @@ def cli_mode():
         print("\n支持的作品类型:")
         for _, (code, label) in TYPE_CHOICES.items():
             print(f"  {code:<25} {label}")
+        sys.exit(0)
+
+    # 数据库统计
+    if args.stats:
+        total, active, expired, updated = db_stats()
+        comps = load_db()
+        sf = {}
+        for c in comps:
+            s = c.get("subfield", "?")
+            sf[s] = sf.get(s, 0) + 1
+        free = sum(1 for c in comps if not (c.get("entry_fee", {}).get("amount") or 0))
+        print(f"\n{bold('📊 竞赛数据库统计')}")
+        print(f"  总条目: {total} | 活跃: {green(str(active))} | 已过期: {red(str(expired))}")
+        print(f"  免费竞赛: {free}")
+        print(f"  更新日期: {updated}")
+        print(f"\n  {bold('类别分布:')}")
+        for k, v in sorted(sf.items(), key=lambda x: -x[1]):
+            print(f"    {k:<25} {v}")
+        print()
         sys.exit(0)
 
     # 交互模式

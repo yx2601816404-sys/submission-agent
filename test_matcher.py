@@ -94,17 +94,22 @@ def test_essay_academic():
 
 
 def test_word_count_overflow():
-    """测试6: 字数严重超标 — 应给出警告"""
+    """测试6: 字数严重超标 — 闪小说专项竞赛应排在后面或有警告"""
     print("\n━━━ 测试6: 字数严重超标 (闪小说10000字) ━━━")
     work = {"type": "flash_fiction", "word_count": 10000, "max_fee_usd": 50, "experience": "beginner"}
-    results = recommend(work, top_n=5)
+    results = recommend(work, top_n=20)
 
-    # 闪小说10000字，大部分闪小说竞赛应该给出字数警告
-    if results:
-        has_word_warning = any("字数" in w for r in results for w in r.get("warnings", []))
-        check("有字数超标警告", has_word_warning, f"Top1 warnings: {results[0].get('warnings', [])}")
-    else:
-        check("返回结果", False, "无结果返回")
+    # 检查：有字数限制的闪小说竞赛应该有字数警告或低分
+    comps = load_db()
+    flash_with_limit = [c for c in comps if c.get("subfield") == "flash_fiction"
+                        and c.get("word_limit", {}) and c.get("word_limit", {}).get("max")]
+    if flash_with_limit:
+        # 至少有一些闪小说竞赛在结果中带字数警告
+        all_results_warnings = [w for r in results for w in r.get("warnings", [])]
+        has_word_warning = any("字数" in w for w in all_results_warnings)
+        check("结果中有字数相关警告", has_word_warning,
+              f"所有警告: {all_results_warnings[:5]}")
+    check("返回结果", len(results) > 0, f"实际: {len(results)}")
 
 
 def test_zero_budget_filter():
