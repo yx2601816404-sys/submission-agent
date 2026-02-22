@@ -1,4 +1,4 @@
-# 投稿代理 — 智能竞赛匹配工具
+# 投稿代理 — 智能竞赛匹配工具 v2.0
 
 帮助中国创作者找到最合适的国际文学竞赛。输入作品信息，获得个性化推荐。
 
@@ -8,84 +8,60 @@
 # 交互模式（推荐）
 python3 cli.py
 
-# 命令行模式
-python3 cli.py --type flash_fiction --words 300 --budget 20
+# 命令行匹配
+python3 cli.py match -t flash_fiction -w 300 -b 20
 
-# 查看帮助
+# 用已保存的档案匹配
+python3 cli.py match --profile 1
+
+# 刷新数据库（从网络拉取最新竞赛）
+python3 cli.py refresh
+python3 cli.py refresh --dry-run    # 预览模式
+
+# 作品档案管理
+python3 cli.py profile list
+python3 cli.py profile save -t poetry -b 15 --title "我的诗"
+python3 cli.py profile match --id 1
+
+# 投稿追踪
+python3 cli.py track list           # 查看所有投稿
+python3 cli.py track add            # 添加投稿记录
+python3 cli.py track update         # 更新状态
+python3 cli.py track remind         # 截止日期提醒
+python3 cli.py track stats          # 投稿统计
+
+# 数据库统计
+python3 cli.py stats
+
+# 帮助
 python3 cli.py --help
-
-# 列出支持的作品类型
-python3 cli.py --list-types
-
-# JSON 输出（方便程序调用）
-python3 cli.py --type poetry --budget 15 --json
 ```
 
-## 支持的作品类型
+## 功能
 
-| 代码 | 类型 |
-|------|------|
-| `flash_fiction` | 闪小说 |
-| `short_story` | 短篇小说 |
-| `poetry` | 诗歌 |
-| `novel` | 长篇小说 |
-| `science_fiction` | 科幻/奇幻 |
-| `essay` | 散文/随笔 |
-| `memoir` | 回忆录 |
-| `nonfiction` | 非虚构 |
-| `screenplay` | 编剧/剧本 |
-| `novella` | 中篇小说 |
-| `children` | 儿童文学 |
-
-## 命令行参数
-
-| 参数 | 说明 | 默认值 |
-|------|------|--------|
-| `-t, --type` | 作品类型 | (交互选择) |
-| `-w, --words` | 字数 | 0 |
-| `-b, --budget` | 预算 (USD) | 50 |
-| `-s, --style` | 风格标签 | [] |
-| `-e, --experience` | 经验等级 | beginner |
-| `-n, --top` | 推荐数量 | 5 |
-| `-i, --interactive` | 强制交互模式 | - |
-| `--json` | JSON 输出 | - |
-| `--list-types` | 列出类型 | - |
-
-## 匹配算法
-
-七维评分体系（满分 100）：
-
-- 类型匹配 (20分) — 作品类型 vs 竞赛类别
-- 字数匹配 (15分) — 是否在竞赛字数限制内
-- 预算匹配 (10分) — 投稿费 vs 预算
-- 获奖概率 (20分) — 基于竞争密度、投稿量等
-- 声望 (10分) — 竞赛知名度和含金量
-- 中国创作者适配度 (15分) — 语言友好度、往届获奖者多样性
-- 时间充裕度 (10分) — 距截止日期的天数
-
-硬性过滤：已关闭/已过期/国籍限制/适配度极低/零预算时排除付费竞赛。
-
-每个推荐附带匹配理由和风险提示，不是黑箱。
+- 智能匹配：七维评分（类型/字数/预算/获奖概率/声望/适配度/时间）
+- 实时刷新：从 pw.org、Reedsy 等源爬取最新竞赛
+- 作品档案：保存作品信息，下次匹配不用重复输入
+- 投稿追踪：记录投稿状态（草稿→已投→审核→入围→录用/拒绝）
+- 截止提醒：自动标记即将到期的竞赛和投稿
+- 中文界面：全中文交互和输出
 
 ## 数据库
 
-- 85 条文学类竞赛（2026-02-21 更新）
+- 146 条文学类竞赛（实时刷新可扩充）
 - 覆盖：闪小说、短篇、诗歌、长篇、科幻、散文、回忆录、编剧等
-- 数据来源：竞赛官网直接爬取 + 人工验证
-
-## 运行测试
-
-```bash
-python3 test_matcher.py
-```
+- 数据来源：竞赛官网 + pw.org + Reedsy + NewPages + InterCompetition
 
 ## 文件结构
 
 ```
-cli.py              — CLI 入口（交互 + 命令行）
+cli.py              — CLI 入口（子命令架构）
 matcher.py          — 匹配引擎核心
-competitions.json   — 竞赛数据库 (85条)
-test_matcher.py     — 测试套件 (14组/26项)
+refresher.py        — 实时爬取模块
+profiles.py         — 作品档案管理
+tracker.py          — 投稿追踪
+competitions.json   — 竞赛数据库
+test_matcher.py     — 测试套件 (14组/27项)
 README.md           — 本文件
 ```
 
