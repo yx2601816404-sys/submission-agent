@@ -244,6 +244,90 @@ def format_results_color(results, work):
     lines.append("")
     return "\n".join(lines)
 
+# ── 新手引导 ──────────────────────────────────────────────
+def is_first_run():
+    """检查是否第一次运行"""
+    return not os.path.exists(os.path.join(os.path.dirname(os.path.abspath(__file__)), "profiles.json"))
+
+
+def onboarding():
+    """第一次使用的新手引导"""
+    print("")
+    print(bold("╔══════════════════════════════════════════════╗"))
+    print(bold("║  👋 欢迎使用投稿代理 — 智能竞赛匹配工具      ║"))
+    print(bold("╚══════════════════════════════════════════════╝"))
+    print()
+    print("  这个工具帮你找到最适合的国际文学竞赛。")
+    print("  只需告诉我你的作品信息，我来推荐。")
+    print()
+    total, active, _, _ = db_stats()
+    print(f"  📊 数据库中有 {green(str(active))} 个活跃竞赛等你探索")
+    print()
+    print(dim("  三步上手:"))
+    print(f"  {cyan('1.')} 告诉我你的作品类型和字数")
+    print(f"  {cyan('2.')} 设定预算（0 = 只看免费竞赛）")
+    print(f"  {cyan('3.')} 获得个性化推荐，保存档案下次直接用")
+    print()
+
+    try:
+        ready = input(f"  准备好了吗？{dim('[回车开始]')} ").strip()
+    except (KeyboardInterrupt, EOFError):
+        print(f"\n{dim('下次见！')}")
+        sys.exit(0)
+
+    # 走正常的交互流程
+    try:
+        work_type = ask_type()
+        word_count = ask_words()
+        budget = ask_budget()
+        style_tags = ask_styles()
+        experience = ask_experience()
+    except (KeyboardInterrupt, EOFError):
+        print(f"\n{dim('已退出。')}")
+        sys.exit(0)
+
+    work = {
+        "type": work_type,
+        "word_count": word_count,
+        "style_tags": style_tags,
+        "max_fee_usd": budget,
+        "experience": experience,
+    }
+
+    print(f"\n{dim('正在匹配...')}")
+    results = recommend(work, top_n=5)
+    print(format_results_color(results, work))
+
+    # 引导保存档案
+    print(bold("💡 小贴士：保存为档案后，下次用 match --profile 1 一键匹配"))
+    interactive_save(work)
+
+    # 引导追踪
+    if results:
+        print(f"\n{bold('💡 小贴士：看到心仪的竞赛？用 track add 记录投稿进度')}")
+        track = input(f"{dim('要追踪某个竞赛吗？输入编号 (或回车跳过): ')}").strip()
+        if track:
+            try:
+                idx = int(track) - 1
+                if 0 <= idx < len(results):
+                    r = results[idx]
+                    interactive_add(
+                        competition=r.get("name_cn") or r["name"],
+                        url=r.get("url", ""),
+                    )
+            except (ValueError, IndexError):
+                pass
+
+    print(f"\n{bold('🎉 设置完成！')}")
+    print(f"  常用命令:")
+    print(f"  {cyan('python3 cli.py')}                  交互匹配")
+    print(f"  {cyan('python3 cli.py match --profile 1')} 用档案匹配")
+    print(f"  {cyan('python3 cli.py refresh')}           刷新数据库")
+    print(f"  {cyan('python3 cli.py track list')}        查看投稿")
+    print(f"  {cyan('python3 cli.py --help')}            完整帮助")
+    print()
+
+
 # ── 交互模式 ──────────────────────────────────────────────
 def interactive_mode():
     print("")
@@ -452,8 +536,11 @@ def main():
             print(format_results_color(results, work))
 
     else:
-        # 默认交互模式
-        interactive_mode()
+        # 默认：第一次运行走引导，否则交互模式
+        if is_first_run():
+            onboarding()
+        else:
+            interactive_mode()
 
 
 def cmd_stats():
