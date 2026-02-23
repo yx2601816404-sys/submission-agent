@@ -59,7 +59,7 @@ def match_competition(comp, work):
     
     # === 软性评分 ===
     
-    # 维度1: 类型匹配 (0-20分)
+    # 维度1: 类型匹配 (0-18分)
     work_type = work.get("type", "")
     comp_subfield = comp.get("subfield", "")
     type_map = {
@@ -74,16 +74,16 @@ def match_competition(comp, work):
     }
     matching_types = type_map.get(work_type, [work_type])
     if comp_subfield in matching_types:
-        score += 20
+        score += 18
         reasons.append(f"类型匹配: {comp_subfield}")
     elif comp_subfield == "multiple":
-        score += 15
+        score += 13
         reasons.append("多类别竞赛，可投")
     else:
         score += 0
         warnings.append(f"类型不匹配: 作品={work_type}, 竞赛={comp_subfield}")
     
-    # 维度2: 字数匹配 (0-15分)
+    # 维度2: 字数匹配 (0-13分)
     work_words = work.get("word_count", 0)
     wl = comp.get("word_limit", {})
     if wl and work_words > 0:
@@ -93,27 +93,25 @@ def match_competition(comp, work):
         
         if unit == "words" and wl_max:
             if work_words <= wl_max:
-                # 在限制内，越接近上限越好（充分利用空间）
                 ratio = work_words / wl_max if wl_max > 0 else 0
                 if ratio >= 0.5:
-                    score += 15
+                    score += 13
                     reasons.append(f"字数合适: {work_words}/{wl_max}字")
                 else:
-                    score += 10
+                    score += 8
                     reasons.append(f"字数偏短: {work_words}/{wl_max}字")
             else:
-                # 超出限制
                 over = work_words - wl_max
                 if over <= 500:
-                    score += 5
+                    score += 4
                     warnings.append(f"字数略超: {work_words}/{wl_max}字，需删减{over}字")
                 else:
                     score += 0
                     warnings.append(f"字数严重超出: {work_words}/{wl_max}字")
         elif unit == "lines":
-            score += 10  # 行数限制难以精确匹配
+            score += 8
     else:
-        score += 8  # 无字数信息，给中间分
+        score += 7
     
     # 维度3: 预算匹配 (0-10分)
     budget = work.get("max_fee_usd", 50)  # 默认$50预算
@@ -142,24 +140,24 @@ def match_competition(comp, work):
         score += 0
         warnings.append(f"费用超出预算: ~${fee_usd:.0f}")
     
-    # 维度4: 获奖概率 (0-20分)
+    # 维度4: 获奖概率 (0-18分)
     wp = comp.get("win_probability", {})
     wp_score = wp.get("overall_score", 5)
-    score += wp_score * 2  # 0-20分
+    score += int(wp_score * 1.8)  # 0-18分
     if wp_score >= 6:
         reasons.append(f"获奖概率较高 ({wp_score}/10)")
     elif wp_score <= 3:
         warnings.append(f"获奖概率较低 ({wp_score}/10)")
     
-    # 维度5: 声望 (0-10分)
+    # 维度5: 声望 (0-8分)
     prestige = comp.get("prestige_score", 5)
-    score += prestige  # 0-10分
+    score += min(8, int(prestige * 0.8))  # 0-8分
     if prestige >= 8:
         reasons.append(f"高声望竞赛 ({prestige}/10)")
     
-    # 维度6: 中国创作者适配度 (0-15分)
+    # 维度6: 中国创作者适配度 (0-13分)
     fit_score = fit.get("score", 3)
-    score += fit_score * 3  # 0-15分
+    score += min(13, int(fit_score * 2.6))  # 0-13分
     if fit.get("advantages"):
         reasons.extend(fit["advantages"][:2])  # 最多取2个优势
     if fit.get("recommendation"):
@@ -185,6 +183,67 @@ def match_competition(comp, work):
         reasons.append("滚动截止，随时可投")
     else:
         score += 5
+    
+    # 维度8: 风格匹配 (0-10分)
+    work_styles = set(work.get("style_tags", []))
+    comp_styles = set(comp.get("style_profile", {}).get("style_tags", []))
+    
+    if work_styles and comp_styles:
+        # 直接交集
+        overlap = work_styles & comp_styles
+        # 相关风格映射（扩展匹配）
+        style_affinity = {
+            "literary": {"contemporary", "experimental", "emotional_tension", "narrative"},
+            "experimental": {"literary", "innovative", "avant_garde"},
+            "contemporary": {"literary", "urban", "modern"},
+            "science_fiction": {"fantasy", "imaginative", "speculative"},
+            "fantasy": {"science_fiction", "imaginative", "speculative", "mythological"},
+            "nature": {"contemplative", "pastoral", "environmental"},
+            "contemplative": {"nature", "philosophical", "meditative"},
+            "personal": {"narrative", "memoir", "confessional"},
+            "narrative": {"personal", "storytelling", "literary"},
+            "political": {"social_justice", "activist", "protest"},
+            "humorous": {"satirical", "witty", "comedic"},
+            "dark": {"gothic", "noir", "horror"},
+            "traditional": {"formal", "classical", "traditional_narrative"},
+            "open": set(),  # "open" matches everything loosely
+        }
+        
+        # Check affinity matches
+        affinity_matches = set()
+        for ws in work_styles:
+            related = style_affinity.get(ws, set())
+            affinity_matches |= (related & comp_styles)
+        
+        # "open" style in competition = accepts all styles
+        comp_is_open = "open" in comp_styles
+        
+        if overlap:
+            match_count = len(overlap)
+            pts = min(10, 6 + match_count * 2)
+            score += pts
+            style_cn = {
+                "literary": "文学性", "experimental": "实验性", "contemporary": "当代",
+                "science_fiction": "科幻", "fantasy": "奇幻", "nature": "自然",
+                "contemplative": "沉思", "personal": "个人", "narrative": "叙事",
+                "open": "开放", "innovative": "创新", "humorous": "幽默",
+                "dark": "暗黑", "traditional": "传统", "political": "政治",
+            }
+            matched_names = [style_cn.get(s, s) for s in list(overlap)[:2]]
+            reasons.append(f"风格匹配: {'/'.join(matched_names)}")
+        elif affinity_matches:
+            score += 5
+            reasons.append("风格相近")
+        elif comp_is_open:
+            score += 4
+            reasons.append("竞赛风格开放")
+        else:
+            score += 1
+            warnings.append("风格不太匹配")
+    elif comp_styles and "open" in comp_styles:
+        score += 4  # 竞赛开放，作品没标风格
+    else:
+        score += 5  # 无风格信息，给中间分
     
     return min(score, 100), reasons, warnings
 
