@@ -919,6 +919,20 @@ def cmd_show(args):
         fee_str = green("免费")
     print(f"  💰 费用: {fee_str}")
 
+    # 性价比 (ROI)
+    prize_first = prize.get("first", 0) or 0
+    if fee_amount > 0 and prize_first > 0:
+        roi = prize_first / fee_amount
+        if roi >= 100:
+            roi_str = green(f"{roi:.0f}x (极高)")
+        elif roi >= 50:
+            roi_str = f"{roi:.0f}x (高)"
+        elif roi >= 20:
+            roi_str = f"{roi:.0f}x (中)"
+        else:
+            roi_str = dim(f"{roi:.0f}x (低)")
+        print(f"  📈 性价比: {roi_str}")
+
     # 字数限制
     wl = comp.get("word_limit")
     if wl and wl.get("max"):
@@ -943,6 +957,22 @@ def cmd_show(args):
             print(f"     优势: {', '.join(fit['advantages'])}")
         if fit.get("recommendation"):
             print(f"     建议: {fit['recommendation']}")
+
+    # 风格标签
+    style_tags = comp.get("style_profile", {}).get("style_tags", [])
+    if style_tags:
+        style_cn = {
+            "literary": "文学性", "experimental": "实验性", "contemporary": "当代",
+            "science_fiction": "科幻", "fantasy": "奇幻", "nature": "自然",
+            "contemplative": "沉思", "personal": "个人", "narrative": "叙事",
+            "open": "开放", "innovative": "创新", "humorous": "幽默",
+            "dark": "暗黑", "traditional": "传统", "political": "政治",
+            "accessible": "易读", "inclusive": "包容", "diverse": "多元",
+            "emotional_tension": "情感张力", "international": "国际",
+            "flash": "闪小说", "everyday_poetics": "日常诗意",
+        }
+        tags_str = ", ".join(style_cn.get(t, t) for t in style_tags)
+        print(f"  🎨 风格: {tags_str}")
 
     # 链接
     print(f"\n  🔗 官网: {comp.get('url', '')}")
