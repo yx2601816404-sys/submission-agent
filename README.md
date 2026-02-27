@@ -2,7 +2,7 @@
 
 帮助中国创作者找到最合适的国际文学竞赛。输入作品信息，获得个性化推荐。
 
-> 196 条竞赛 · 3 个数据源 · 零依赖 · 全中文界面
+> 246 条竞赛 · 3 个数据源 · 零依赖 · 全中文界面
 
 ## 安装
 
@@ -41,7 +41,7 @@ submission-agent show -s moth
 
 | 命令 | 说明 |
 |------|------|
-| `match` | 智能匹配竞赛（七维评分） |
+| `match` | 智能匹配竞赛（八维评分） |
 | `calendar` | 按月显示截止日期，🔥/⏰ 紧急标记 |
 | `show` | 查看竞赛详情 / 按名称搜索 |
 | `refresh` | 从 pw.org / Reedsy / NewPages 刷新数据库 |
@@ -65,7 +65,7 @@ submission-agent show -s moth
 
 ### 数据库
 
-- 196 条文学竞赛，覆盖 13 个类别
+- 246 条文学竞赛，覆盖 13 个类别
 - 实时过期检测，自动标记已过期竞赛
 - 支持增量刷新，每次最多新增 50 条
 - 自动推断竞赛评分（prestige / win_probability / fit）
@@ -88,7 +88,7 @@ refresher.py        实时爬取 + auto_score 评分推断
 translator.py       竞赛名中英翻译
 profiles.py         作品档案管理
 tracker.py          投稿追踪
-competitions.json   竞赛数据库（196条）
+competitions.json   竞赛数据库（246条）
 test_matcher.py     测试套件（27项，100%通过）
 setup.py            打包配置
 ```
